@@ -1,0 +1,119 @@
+%implements s0_b0_ax3ih_Update "C"
+
+%function UpdateForTID(block, system, tid) Output
+%if tid == 0
+%assign ::GlobalCurrentTID = 0
+%assign _modelSS = ""
+
+%assign tlcUpdateFcnOfS0B0 = OpaqueTLCBlockFcn("Update", 0, 0, 0, 6)
+%assign tlcUpdateFcnOfS0B1 = OpaqueTLCBlockFcn("Update", 0, 1, 0, 6)
+%assign tlcUpdateFcnOfS0B2 = OpaqueTLCBlockFcn("Update", 0, 2, 0, 6)
+%assign tlcUpdateFcnOfS0B3 = OpaqueTLCBlockFcn("Update", 0, 3, 0, 6)
+%assign tlcUpdateFcnOfS0B4 = OpaqueTLCBlockFcn("Update", 0, 4, 0, 6)
+%assign tlcUpdateFcnOfS0B8 = OpaqueTLCBlockFcn("Update", 0, 8, 0, 6)
+%assign tlcUpdateFcnOfS0B9 = OpaqueTLCBlockFcn("Update", 0, 9, 0, 6)
+%assign tlcUpdateFcnOfS0B10 = OpaqueTLCBlockFcn("Update", 0, 10, 0, 6)
+%assign tlcUpdateFcnOfS0B11 = OpaqueTLCBlockFcn("Update", 0, 11, 0, 6)
+%assign tlcUpdateFcnOfS0B12 = OpaqueTLCBlockFcn("Update", 0, 12, 0, 6)
+%assign tlcUpdateFcnOfS0B13 = OpaqueTLCBlockFcn("Update", 0, 13, 0, 6)
+%assign tlcUpdateFcnOfS0B20 = OpaqueTLCBlockFcn("Update", 0, 20, 0, 6)
+%assign tlcUpdateFcnOfS0B21 = OpaqueTLCBlockFcn("Update", 0, 21, 0, 6)
+%assign tlcUpdateFcnOfS0B22 = OpaqueTLCBlockFcn("Update", 0, 22, 0, 6)
+%assign tlcUpdateFcnOfS0B23 = OpaqueTLCBlockFcn("Update", 0, 23, 0, 6)
+%<SLibCG_TrackDW(0)>\
+%<SLibCG_TrackParam(0)>\
+%<tlcUpdateFcnOfS0B0>\
+%<tlcUpdateFcnOfS0B1>\
+%<tlcUpdateFcnOfS0B2>\
+%<tlcUpdateFcnOfS0B3>\
+%<tlcUpdateFcnOfS0B4>\
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+    /* Update for RandomNumber: '<S22>/White Noise' */
+%if SLibCG_FcnCallArgAccessed(0,6,0,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+    systema_DW.NextOutput = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed"], 0, 6, 0))> * systema_P.WhiteNoise_StdDev + systema_P.WhiteNoise_Mean;
+}
+%<tlcUpdateFcnOfS0B8>\
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+    /* Update for RandomNumber: '<S19>/White Noise' */
+%if SLibCG_FcnCallArgAccessed(0,6,1,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+    systema_DW.NextOutput_d = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed_l"], 0, 6, 1))> * systema_P.WhiteNoise_StdDev_m + systema_P.WhiteNoise_Mean_o;
+}
+%<tlcUpdateFcnOfS0B9>\
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+    /* Update for RandomNumber: '<S21>/White Noise' */
+%if SLibCG_FcnCallArgAccessed(0,6,2,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+    systema_DW.NextOutput_l = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed_j"], 0, 6, 2))> * systema_P.WhiteNoise_StdDev_p + systema_P.WhiteNoise_Mean_l;
+}
+%<tlcUpdateFcnOfS0B10>\
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+    /* Update for RandomNumber: '<S18>/White Noise' */
+%if SLibCG_FcnCallArgAccessed(0,6,3,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+    systema_DW.NextOutput_c = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed_h"], 0, 6, 3))> * systema_P.WhiteNoise_StdDev_l + systema_P.WhiteNoise_Mean_b;
+}
+%<tlcUpdateFcnOfS0B11>\
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+    /* Update for RandomNumber: '<S23>/White Noise' */
+%if SLibCG_FcnCallArgAccessed(0,6,4,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+    systema_DW.NextOutput_e = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed_n"], 0, 6, 4))> * systema_P.WhiteNoise_StdDev_f + systema_P.WhiteNoise_Mean_l1;
+}
+%<tlcUpdateFcnOfS0B12>\
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+    /* Update for RandomNumber: '<S20>/White Noise' */
+%if SLibCG_FcnCallArgAccessed(0,6,5,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+    systema_DW.NextOutput_n = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed_b"], 0, 6, 5))> * systema_P.WhiteNoise_StdDev_a + systema_P.WhiteNoise_Mean_n;
+}
+%<tlcUpdateFcnOfS0B13>\
+if (%<(SLibCGIRIsSampleHit(1, 0))>) {
+    /* Update for RandomNumber: '<S24>/White Noise' */
+%if SLibCG_FcnCallArgAccessed(0,6,6,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+    systema_DW.NextOutput_f = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed_n4"], 0, 6, 6))> * systema_P.WhiteNoise_StdDev_n + systema_P.WhiteNoise_Mean_j;
+}
+%<tlcUpdateFcnOfS0B20>\
+%<tlcUpdateFcnOfS0B21>\
+%<tlcUpdateFcnOfS0B22>\
+%<tlcUpdateFcnOfS0B23>\
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Update(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 6, fcnProtoType)>
+%assign ::GlobalCurrentTID = []
+%endif
+%if tid == 2
+%assign ::GlobalCurrentTID = 2
+%<SLibCG_TrackDW(0)>\
+%<SLibCG_TrackBlockIO(0)>\
+/* Update for RateTransition: '<S14>/Rate Transition1' */
+systema_DW.RateTransition1_Buffer[systema_DW.RateTransition1_ActiveBufIdx == 0] = systema_B.ALT_CONTROL;
+systema_DW.RateTransition1_ActiveBufIdx = (int8_T)(systema_DW.RateTransition1_ActiveBufIdx == 0);
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Update(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 7, fcnProtoType)>
+%assign ::GlobalCurrentTID = []
+%endif
+%endfunction

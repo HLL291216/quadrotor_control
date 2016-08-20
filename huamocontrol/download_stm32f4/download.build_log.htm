@@ -1,0 +1,1060 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\design eletric\chengxu\Done\download_stm32f4\download.uvproj
+Project File Date:  06/07/2016
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling download.c...
+download.c(190): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        if ((rtu_Guidance_in > 0.3) && ((real32_T)fabs(rtb_Sum_lz_idx_0) < 0.18) &&
+download.c(190): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        if ((rtu_Guidance_in > 0.3) && ((real32_T)fabs(rtb_Sum_lz_idx_0) < 0.18) &&
+download.c(191): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+            ((real32_T)fabs(rtb_Sum_lz_idx_1) < 0.18)) {
+download.c(262): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        if (rtu_Guidance_in > 0.3) {
+download.c(325): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        if ((rtu_Guidance_in > 0.35) && (rtu_Guidance_in < 0.45) &&
+download.c(325): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        if ((rtu_Guidance_in > 0.35) && (rtu_Guidance_in < 0.45) &&
+download.c(333): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        } else if ((rtu_Guidance_in <= 0.35) && (localDW->count == 1.0)) {
+download.c(340): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        } else if ((rtu_Guidance_in >= 0.45) && (localDW->count == 1.0)) {
+download.c(908): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      if ((download_B.Guidance_System.Saturation < 0.1) &&
+download.c(914): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        if ((download_B.Guidance_System.Saturation < 0.1) &&
+download.c: 10 warnings, 0 errors
+compiling download_data.c...
+compiling Guidance_System.c...
+compiling IMU.c...
+compiling main.c...
+compiling misc.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_it.c...
+compiling stm32f4xx_pwr.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_usart.c...
+compiling system_stm32f4xx.c...
+compiling waijung_hwdrvlib.c...
+assembling startup_stm32f4xx.s...
+linking...
+Program Size: Code=40920 RO-data=1432 RW-data=760 ZI-data=21328  
+FromELF: creating hex file...
+".\download.axf" - 0 Error(s), 10 Warning(s).
+Load "E:\\design eletric\\chengxu\\Done\\download_stm32f4\\download.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "E:\\design eletric\\chengxu\\Done\\download_stm32f4\\download.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>
+   */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+download.c: 1 warning, 30 errors
+compiling download_data.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+download_data.c: 1 warning, 30 errors
+compiling Guidance_System.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+Guidance_System.c: 1 warning, 30 errors
+compiling IMU.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+IMU.c: 1 warning, 30 errors
+compiling main.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+main.c: 1 warning, 30 errors
+compiling misc.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+misc.c: 1 warning, 30 errors
+compiling stm32f4xx_dma.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+stm32f4xx_dma.c: 1 warning, 30 errors
+compiling stm32f4xx_gpio.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+stm32f4xx_gpio.c: 1 warning, 30 errors
+compiling stm32f4xx_it.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+stm32f4xx_it.c: 1 warning, 30 errors
+compiling stm32f4xx_pwr.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+stm32f4xx_pwr.c: 1 warning, 30 errors
+compiling stm32f4xx_rcc.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+stm32f4xx_rcc.c: 1 warning, 30 errors
+compiling stm32f4xx_syscfg.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+stm32f4xx_syscfg.c: 1 warning, 30 errors
+compiling stm32f4xx_tim.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+stm32f4xx_tim.c: 1 warning, 30 errors
+compiling stm32f4xx_usart.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+stm32f4xx_usart.c: 1 warning, 30 errors
+compiling system_stm32f4xx.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+system_stm32f4xx.c: 1 warning, 30 errors
+compiling waijung_hwdrvlib.c...
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #101: "uint32_t" has already been declared in the current scope
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+D:\Keil5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include\core_cmInstr.h(129): error:  #65: expected a ";"
+  __attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+core_cm4.h(236): warning:  #12-D: parsing restarts here after previous syntax error
+  } APSR_Type;
+core_cm4.h(245): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(246): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved                           */
+core_cm4.h(248): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(258): error:  #757: variable "uint32_t" is not a type name
+      uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number                   */
+core_cm4.h(262): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved                           */
+core_cm4.h(263): error:  #757: variable "uint32_t" is not a type name
+      uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags        */
+core_cm4.h(264): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved                           */
+core_cm4.h(266): error:  #757: variable "uint32_t" is not a type name
+      uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0)          */
+core_cm4.h(267): error:  #757: variable "uint32_t" is not a type name
+      uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0)          */
+core_cm4.h(268): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag          */
+core_cm4.h(269): error:  #757: variable "uint32_t" is not a type name
+      uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag       */
+core_cm4.h(270): error:  #757: variable "uint32_t" is not a type name
+      uint32_t C:1;                        /*!< bit:     29  Carry condition code flag          */
+core_cm4.h(271): error:  #757: variable "uint32_t" is not a type name
+      uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag           */
+core_cm4.h(272): error:  #757: variable "uint32_t" is not a type name
+      uint32_t N:1;                        /*!< bit:     31  Negative condition code flag       */
+core_cm4.h(274): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(284): error:  #757: variable "uint32_t" is not a type name
+      uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+core_cm4.h(285): error:  #757: variable "uint32_t" is not a type name
+      uint32_t SPSEL:1;                    /*!< bit:      1  Stack to be used                   */
+core_cm4.h(286): error:  #757: variable "uint32_t" is not a type name
+      uint32_t FPCA:1;                     /*!< bit:      2  FP extension active flag           */
+core_cm4.h(287): error:  #757: variable "uint32_t" is not a type name
+      uint32_t _reserved0:29;              /*!< bit:  3..31  Reserved                           */
+core_cm4.h(289): error:  #757: variable "uint32_t" is not a type name
+    uint32_t w;                            /*!< Type      used for word access                  */
+core_cm4.h(305): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISER[8];                 /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register           */
+core_cm4.h(306): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED0[24];
+core_cm4.h(307): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICER[8];                 /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register         */
+core_cm4.h(308): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RSERVED1[24];
+core_cm4.h(309): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ISPR[8];                 /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register          */
+core_cm4.h(310): error:  #757: variable "uint32_t" is not a type name
+         uint32_t RESERVED2[24];
+core_cm4.h(311): error:  #757: variable "uint32_t" is not a type name
+    __IO uint32_t ICPR[8];                 /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register        */
+waijung_hwdrvlib.c: 1 warning, 30 errors
+assembling startup_stm32f4xx.s...
+".\download.axf" - 480 Error(s), 16 Warning(s).
+Target not created

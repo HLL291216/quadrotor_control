@@ -1,0 +1,78 @@
+%implements s0_b0_ax3ih_Functions "C"
+
+%function rt_urand_Upu32_Yd_f_pw_snf_Fcn0(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+/* Uniform random number generator (random number between 0 and 1)
+
+#define IA      16807                      magic multiplier = 7^5
+#define IM      2147483647                 modulus = 2^31-1
+#define IQ      127773                     IM div IA
+#define IR      2836                       IM modulo IA
+#define S       4.656612875245797e-10      reciprocal of 2^31-1
+test = IA * (seed %<"\% IQ) - IR * (seed/IQ)\
+seed = test < 0 ? (test + IM) : test\
+return (seed*S)\
+"> */
+lo = *u % 127773U * 16807U;
+hi = *u / 127773U * 2836U;
+if (lo < hi) {
+    *u = 2147483647U - (hi - lo);
+} else {
+    *u = lo - hi;
+}
+return (real_T)*u * 4.6566128752457969E-10;
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+extern real_T rt_urand_Upu32_Yd_f_pw_snf(\
+%assign comma = ""
+%<comma>uint32_T *u\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 0, fcnProtoType)>
+%openfile localVarsBuf
+uint32_T lo;
+uint32_T hi;
+%closefile localVarsBuf
+%return localVarsBuf + fcnBuff
+%endfunction
+
+%function rt_nrand_Upu32_Yd_f_pw_snf_Fcn1(block) void
+%assign fcnBuff = ""
+%openfile fcnBuff
+%assign _modelSS = ""
+
+/* Normal (Gaussian) random number generator */
+do {
+%if SLibCG_FcnCallArgAccessed(0,1,0,0)
+%<SLibCG_AccessArg(0 ,1, 0)>
+%endif
+
+    sr = 2.0 * %<(SLibCGCallSubFcn("rt_urand_Upu32_Yd_f_pw_snf", ["u"], 0, 1, 0))> - 1.0;
+%if SLibCG_FcnCallArgAccessed(0,1,1,0)
+%<SLibCG_AccessArg(0 ,1, 0)>
+%endif
+
+    si = 2.0 * %<(SLibCGCallSubFcn("rt_urand_Upu32_Yd_f_pw_snf", ["u"], 0, 1, 1))> - 1.0;
+    si = sr * sr + si * si;
+} while (si > 1.0);
+y = sqrt(-2.0 * log(si) / si) * sr;
+return y;
+%closefile fcnBuff
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+extern real_T rt_nrand_Upu32_Yd_f_pw_snf(\
+%assign comma = ""
+%<comma>uint32_T *u\
+%assign comma = ", "
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 1, fcnProtoType)>
+%openfile localVarsBuf
+real_T y;
+real_T sr;
+real_T si;
+%closefile localVarsBuf
+%return localVarsBuf + fcnBuff
+%endfunction
+

@@ -1,0 +1,22 @@
+--cpu Cortex-M4.fp
+".\download.o"
+".\download_data.o"
+".\guidance_system.o"
+".\imu.o"
+".\main.o"
+".\misc.o"
+".\stm32f4xx_dma.o"
+".\stm32f4xx_gpio.o"
+".\stm32f4xx_it.o"
+".\stm32f4xx_pwr.o"
+".\stm32f4xx_rcc.o"
+".\stm32f4xx_syscfg.o"
+".\stm32f4xx_tim.o"
+".\stm32f4xx_usart.o"
+".\system_stm32f4xx.o"
+".\waijung_hwdrvlib.o"
+".\startup_stm32f4xx.o"
+--strict --scatter ".\download.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\download.map" -o .\download.axf

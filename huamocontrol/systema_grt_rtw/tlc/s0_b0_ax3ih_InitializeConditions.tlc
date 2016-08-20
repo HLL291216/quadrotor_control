@@ -1,0 +1,26 @@
+%implements s0_b0_ax3ih_InitializeConditions "C"
+
+%function InitializeConditions(block, system) Output
+%assign tlcInitializeConditionsFcnOfS0B0 = OpaqueTLCBlockFcn("InitializeConditions", 0, 0, 0, 3)
+%assign tlcInitializeConditionsFcnOfS0B20 = OpaqueTLCBlockFcn("InitializeConditions", 0, 20, 0, 3)
+%assign tlcInitializeConditionsFcnOfS0B21 = OpaqueTLCBlockFcn("InitializeConditions", 0, 21, 0, 3)
+%assign tlcInitializeConditionsFcnOfS0B22 = OpaqueTLCBlockFcn("InitializeConditions", 0, 22, 0, 3)
+%assign tlcInitializeConditionsFcnOfS0B23 = OpaqueTLCBlockFcn("InitializeConditions", 0, 23, 0, 3)
+%<SLibCG_TrackDW(0)>\
+%<SLibCG_TrackParam(0)>\
+%<SLibInsertAsyncTaskInitializeCode(system)>
+%<SLibWriteMachineInitialize()>
+%<tlcInitializeConditionsFcnOfS0B0>\
+/* InitializeConditions for RateTransition: '<S14>/Rate Transition1' */
+systema_DW.RateTransition1_Buffer[0] = systema_P.RateTransition1_X0;
+%<tlcInitializeConditionsFcnOfS0B20>\
+%<tlcInitializeConditionsFcnOfS0B21>\
+%<tlcInitializeConditionsFcnOfS0B22>\
+%<tlcInitializeConditionsFcnOfS0B23>\
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void InitializeConditions(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 3, fcnProtoType)>
+%endfunction

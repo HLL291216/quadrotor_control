@@ -1,0 +1,1194 @@
+ huamo_sfun
+
+ Timestamp is 575e8023 (Mon Jun 13 17:42:59 2016)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00052994H .text                   CODE
+ 0002:00000000 0000023cH .idata$5                DATA
+ 0002:0000023c 00000004H .CRT$XCA                DATA
+ 0002:00000240 00000004H .CRT$XCZ                DATA
+ 0002:00000244 00000004H .CRT$XIA                DATA
+ 0002:00000248 00000004H .CRT$XIAA               DATA
+ 0002:0000024c 00000004H .CRT$XIC                DATA
+ 0002:00000250 00000004H .CRT$XIZ                DATA
+ 0002:00000258 00000910H .rdata                  DATA
+ 0002:00000b70 00000004H .rdata$sxdata           DATA
+ 0002:00000b74 00000004H .rtc$IAA                DATA
+ 0002:00000b78 00000004H .rtc$IZZ                DATA
+ 0002:00000b7c 00000004H .rtc$TAA                DATA
+ 0002:00000b80 00000004H .rtc$TZZ                DATA
+ 0002:00000b88 00000064H .xdata$x                DATA
+ 0002:00000bec 0000008cH .idata$2                DATA
+ 0002:00000c78 00000014H .idata$3                DATA
+ 0002:00000c8c 0000023cH .idata$4                DATA
+ 0002:00000ec8 00000c52H .idata$6                DATA
+ 0002:00001b20 00000050H .edata                  DATA
+ 0003:00000000 00025a50H .data                   DATA
+ 0003:00025a50 00000508H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       _huamo_initializer         10001000 f   huamo_sfun.obj
+ 0001:00000010       _huamo_terminator          10001010 f   huamo_sfun.obj
+ 0001:00000020       _sf_huamo_method_dispatcher 10001020 f   huamo_sfun.obj
+ 0001:000001d0       _sf_huamo_process_check_sum_call 100011d0 f   huamo_sfun.obj
+ 0001:00000690       _sf_huamo_autoinheritance_info 10001690 f   huamo_sfun.obj
+ 0001:00000aa0       _sf_huamo_get_eml_resolved_functions_info 10001aa0 f   huamo_sfun.obj
+ 0001:00000de0       _sf_huamo_third_party_uses_info 10001de0 f   huamo_sfun.obj
+ 0001:00001120       _sf_huamo_updateBuildInfo_args_info 10002120 f   huamo_sfun.obj
+ 0001:00001460       _huamo_debug_initialize    10002460 f   huamo_sfun.obj
+ 0001:000014c0       _huamo_register_exported_symbols 100024c0 f   huamo_sfun.obj
+ 0001:000014d0       _load_huamo_optimization_info 100024d0 f   huamo_sfun.obj
+ 0001:00001510       _unload_huamo_optimization_info 10002510 f   huamo_sfun.obj
+ 0001:00001540       _sf_c1_huamo_get_eml_resolved_functions_info 10002540 f   c1_huamo.obj
+ 0001:00002390       _sf_c1_huamo_get_check_sum 10003390 f   c1_huamo.obj
+ 0001:000023f0       _sf_c1_huamo_get_autoinheritance_info 100033f0 f   c1_huamo.obj
+ 0001:00002700       _sf_c1_huamo_third_party_uses_info 10003700 f   c1_huamo.obj
+ 0001:00002720       _sf_c1_huamo_updateBuildInfo_args_info 10003720 f   c1_huamo.obj
+ 0001:00002740       _sf_internal_get_sim_state_c1_huamo 10003740 f   c1_huamo.obj
+ 0001:000029e0       _sf_internal_set_sim_state_c1_huamo 100039e0 f   c1_huamo.obj
+ 0001:00002cd0       _c1_huamo_method_dispatcher 10003cd0 f   c1_huamo.obj
+ 0001:000041a0       _sf_c2_huamo_get_eml_resolved_functions_info 100051a0 f   c2_huamo.obj
+ 0001:00004ff0       _sf_c2_huamo_get_check_sum 10005ff0 f   c2_huamo.obj
+ 0001:00005050       _sf_c2_huamo_get_autoinheritance_info 10006050 f   c2_huamo.obj
+ 0001:00005360       _sf_c2_huamo_third_party_uses_info 10006360 f   c2_huamo.obj
+ 0001:00005380       _sf_c2_huamo_updateBuildInfo_args_info 10006380 f   c2_huamo.obj
+ 0001:000053a0       _sf_internal_get_sim_state_c2_huamo 100063a0 f   c2_huamo.obj
+ 0001:00005640       _sf_internal_set_sim_state_c2_huamo 10006640 f   c2_huamo.obj
+ 0001:00005930       _c2_huamo_method_dispatcher 10006930 f   c2_huamo.obj
+ 0001:00006e10       _sf_c3_huamo_get_eml_resolved_functions_info 10007e10 f   c3_huamo.obj
+ 0001:0001a1f0       _sf_c3_huamo_get_check_sum 1001b1f0 f   c3_huamo.obj
+ 0001:0001a250       _sf_c3_huamo_get_autoinheritance_info 1001b250 f   c3_huamo.obj
+ 0001:0001a570       _sf_c3_huamo_third_party_uses_info 1001b570 f   c3_huamo.obj
+ 0001:0001a590       _sf_c3_huamo_updateBuildInfo_args_info 1001b590 f   c3_huamo.obj
+ 0001:0001a5b0       _sf_internal_get_sim_state_c3_huamo 1001b5b0 f   c3_huamo.obj
+ 0001:0001a880       _sf_internal_set_sim_state_c3_huamo 1001b880 f   c3_huamo.obj
+ 0001:0001abe0       _c3_huamo_method_dispatcher 1001bbe0 f   c3_huamo.obj
+ 0001:0001d2f0       _sf_c4_huamo_get_eml_resolved_functions_info 1001e2f0 f   c4_huamo.obj
+ 0001:0001e140       _sf_c4_huamo_get_check_sum 1001f140 f   c4_huamo.obj
+ 0001:0001e1a0       _sf_c4_huamo_get_autoinheritance_info 1001f1a0 f   c4_huamo.obj
+ 0001:0001e4b0       _sf_c4_huamo_third_party_uses_info 1001f4b0 f   c4_huamo.obj
+ 0001:0001e4d0       _sf_c4_huamo_updateBuildInfo_args_info 1001f4d0 f   c4_huamo.obj
+ 0001:0001e4f0       _sf_internal_get_sim_state_c4_huamo 1001f4f0 f   c4_huamo.obj
+ 0001:0001e790       _sf_internal_set_sim_state_c4_huamo 1001f790 f   c4_huamo.obj
+ 0001:0001ea80       _c4_huamo_method_dispatcher 1001fa80 f   c4_huamo.obj
+ 0001:0001ff50       _sf_c5_huamo_get_eml_resolved_functions_info 10020f50 f   c5_huamo.obj
+ 0001:00021340       _sf_c5_huamo_get_check_sum 10022340 f   c5_huamo.obj
+ 0001:000213a0       _sf_c5_huamo_get_autoinheritance_info 100223a0 f   c5_huamo.obj
+ 0001:000216c0       _sf_c5_huamo_third_party_uses_info 100226c0 f   c5_huamo.obj
+ 0001:000216e0       _sf_c5_huamo_updateBuildInfo_args_info 100226e0 f   c5_huamo.obj
+ 0001:00021700       _sf_internal_get_sim_state_c5_huamo 10022700 f   c5_huamo.obj
+ 0001:000219d0       _sf_internal_set_sim_state_c5_huamo 100229d0 f   c5_huamo.obj
+ 0001:00021d30       _c5_huamo_method_dispatcher 10022d30 f   c5_huamo.obj
+ 0001:000235c0       _sf_c6_huamo_get_eml_resolved_functions_info 100245c0 f   c6_huamo.obj
+ 0001:00023610       _sf_c6_huamo_get_check_sum 10024610 f   c6_huamo.obj
+ 0001:00023670       _sf_c6_huamo_get_autoinheritance_info 10024670 f   c6_huamo.obj
+ 0001:00023a70       _sf_c6_huamo_third_party_uses_info 10024a70 f   c6_huamo.obj
+ 0001:00023a90       _sf_c6_huamo_updateBuildInfo_args_info 10024a90 f   c6_huamo.obj
+ 0001:00023ab0       _sf_internal_get_sim_state_c6_huamo 10024ab0 f   c6_huamo.obj
+ 0001:00023d50       _sf_internal_set_sim_state_c6_huamo 10024d50 f   c6_huamo.obj
+ 0001:00024040       _c6_huamo_method_dispatcher 10025040 f   c6_huamo.obj
+ 0001:00025610       _sf_c7_huamo_get_eml_resolved_functions_info 10026610 f   c7_huamo.obj
+ 0001:00025660       _sf_c7_huamo_get_check_sum 10026660 f   c7_huamo.obj
+ 0001:000256c0       _sf_c7_huamo_get_autoinheritance_info 100266c0 f   c7_huamo.obj
+ 0001:00025bd0       _sf_c7_huamo_third_party_uses_info 10026bd0 f   c7_huamo.obj
+ 0001:00025bf0       _sf_c7_huamo_updateBuildInfo_args_info 10026bf0 f   c7_huamo.obj
+ 0001:00025c10       _sf_internal_get_sim_state_c7_huamo 10026c10 f   c7_huamo.obj
+ 0001:00026050       _sf_internal_set_sim_state_c7_huamo 10027050 f   c7_huamo.obj
+ 0001:00026580       _c7_huamo_method_dispatcher 10027580 f   c7_huamo.obj
+ 0001:00028a60       _sf_c8_huamo_get_eml_resolved_functions_info 10029a60 f   c8_huamo.obj
+ 0001:000298b0       _sf_c8_huamo_get_check_sum 1002a8b0 f   c8_huamo.obj
+ 0001:00029910       _sf_c8_huamo_get_autoinheritance_info 1002a910 f   c8_huamo.obj
+ 0001:00029c20       _sf_c8_huamo_third_party_uses_info 1002ac20 f   c8_huamo.obj
+ 0001:00029c40       _sf_c8_huamo_updateBuildInfo_args_info 1002ac40 f   c8_huamo.obj
+ 0001:00029c60       _sf_internal_get_sim_state_c8_huamo 1002ac60 f   c8_huamo.obj
+ 0001:00029f00       _sf_internal_set_sim_state_c8_huamo 1002af00 f   c8_huamo.obj
+ 0001:0002a1f0       _c8_huamo_method_dispatcher 1002b1f0 f   c8_huamo.obj
+ 0001:0002b6d0       _sf_c9_huamo_get_eml_resolved_functions_info 1002c6d0 f   c9_huamo.obj
+ 0001:0003f0f0       _sf_c9_huamo_get_check_sum 100400f0 f   c9_huamo.obj
+ 0001:0003f150       _sf_c9_huamo_get_autoinheritance_info 10040150 f   c9_huamo.obj
+ 0001:0003f470       _sf_c9_huamo_third_party_uses_info 10040470 f   c9_huamo.obj
+ 0001:0003f490       _sf_c9_huamo_updateBuildInfo_args_info 10040490 f   c9_huamo.obj
+ 0001:0003f4b0       _sf_internal_get_sim_state_c9_huamo 100404b0 f   c9_huamo.obj
+ 0001:0003f780       _sf_internal_set_sim_state_c9_huamo 10040780 f   c9_huamo.obj
+ 0001:0003fae0       _c9_huamo_method_dispatcher 10040ae0 f   c9_huamo.obj
+ 0001:00042260       _sf_c10_huamo_get_eml_resolved_functions_info 10043260 f   c10_huamo.obj
+ 0001:000422b0       _sf_c10_huamo_get_check_sum 100432b0 f   c10_huamo.obj
+ 0001:00042310       _sf_c10_huamo_get_autoinheritance_info 10043310 f   c10_huamo.obj
+ 0001:00042710       _sf_c10_huamo_third_party_uses_info 10043710 f   c10_huamo.obj
+ 0001:00042730       _sf_c10_huamo_updateBuildInfo_args_info 10043730 f   c10_huamo.obj
+ 0001:00042750       _sf_internal_get_sim_state_c10_huamo 10043750 f   c10_huamo.obj
+ 0001:00042a90       _sf_internal_set_sim_state_c10_huamo 10043a90 f   c10_huamo.obj
+ 0001:00042e80       _c10_huamo_method_dispatcher 10043e80 f   c10_huamo.obj
+ 0001:00044a80       _sf_c11_huamo_get_eml_resolved_functions_info 10045a80 f   c11_huamo.obj
+ 0001:000458d0       _sf_c11_huamo_get_check_sum 100468d0 f   c11_huamo.obj
+ 0001:00045930       _sf_c11_huamo_get_autoinheritance_info 10046930 f   c11_huamo.obj
+ 0001:00045c50       _sf_c11_huamo_third_party_uses_info 10046c50 f   c11_huamo.obj
+ 0001:00045c70       _sf_c11_huamo_updateBuildInfo_args_info 10046c70 f   c11_huamo.obj
+ 0001:00045c90       _sf_internal_get_sim_state_c11_huamo 10046c90 f   c11_huamo.obj
+ 0001:00046120       _sf_internal_set_sim_state_c11_huamo 10047120 f   c11_huamo.obj
+ 0001:00046760       _c11_huamo_method_dispatcher 10047760 f   c11_huamo.obj
+ 0001:0004a560       _sf_c24_huamo_get_eml_resolved_functions_info 1004b560 f   c24_huamo.obj
+ 0001:0004a5b0       _sf_c24_huamo_get_check_sum 1004b5b0 f   c24_huamo.obj
+ 0001:0004a610       _sf_c24_huamo_get_autoinheritance_info 1004b610 f   c24_huamo.obj
+ 0001:0004aa10       _sf_c24_huamo_third_party_uses_info 1004ba10 f   c24_huamo.obj
+ 0001:0004aa30       _sf_c24_huamo_updateBuildInfo_args_info 1004ba30 f   c24_huamo.obj
+ 0001:0004aa50       _sf_internal_get_sim_state_c24_huamo 1004ba50 f   c24_huamo.obj
+ 0001:0004ae20       _sf_internal_set_sim_state_c24_huamo 1004be20 f   c24_huamo.obj
+ 0001:0004b310       _c24_huamo_method_dispatcher 1004c310 f   c24_huamo.obj
+ 0001:0004d180       _sf_process_check_sum_call 1004e180 f   huamo_sfun_registry.obj
+ 0001:0004d1b0       _sf_process_autoinheritance_call 1004e1b0 f   huamo_sfun_registry.obj
+ 0001:0004d2f0       _sf_process_get_third_party_uses_info_call 1004e2f0 f   huamo_sfun_registry.obj
+ 0001:0004d430       _sf_process_get_updateBuildInfo_args_info_call 1004e430 f   huamo_sfun_registry.obj
+ 0001:0004d570       _sf_process_get_eml_resolved_functions_info_call 1004e570 f   huamo_sfun_registry.obj
+ 0001:0004d690       _sf_mex_unlock_call        1004e690 f   huamo_sfun_registry.obj
+ 0001:0004d720       _sf_machine_global_initializer_called 1004e720 f   huamo_sfun_registry.obj
+ 0001:0004d740       _sf_machine_global_method_dispatcher 1004e740 f   huamo_sfun_registry.obj
+ 0001:0004d780       _sf_machine_global_terminator 1004e780 f   huamo_sfun_registry.obj
+ 0001:0004d7c0       _sf_register_machine_exported_symbols 1004e7c0 f   huamo_sfun_registry.obj
+ 0001:0004d7e0       _callCustomFcn             1004e7e0 f   huamo_sfun_registry.obj
+ 0001:0004d7f0       _sf_machine_global_initializer 1004e7f0 f   huamo_sfun_registry.obj
+ 0001:0004d860       _mdlGetSimState            1004e860 f   huamo_sfun_registry.obj
+ 0001:0004d8c0       _mdlSetSimState            1004e8c0 f   huamo_sfun_registry.obj
+ 0001:0004d8f0       __ssSetStateAbsTol         1004e8f0 f   huamo_sfun_registry.obj
+ 0001:0004d990       __ssGetAbsTol              1004e990 f   huamo_sfun_registry.obj
+ 0001:0004d9e0       __ssSetInputPortMatrixDimensions 1004e9e0 f   huamo_sfun_registry.obj
+ 0001:0004da90       __ssSetOutputPortMatrixDimensions 1004ea90 f   huamo_sfun_registry.obj
+ 0001:0004db40       __ssSetInputPortVectorDimension 1004eb40 f   huamo_sfun_registry.obj
+ 0001:0004dbc0       __ssSetOutputPortVectorDimension 1004ebc0 f   huamo_sfun_registry.obj
+ 0001:0004dc40       _ssIsRunTimeParamTunable   1004ec40 f   huamo_sfun_registry.obj
+ 0001:0004dca0       _ssGetSFuncBlockHandle     1004eca0 f   huamo_sfun_registry.obj
+ 0001:0004dcf0       __ssGetCurrentInputPortWidth 1004ecf0 f   huamo_sfun_registry.obj
+ 0001:0004ddc0       __ssGetCurrentOutputPortWidth 1004edc0 f   huamo_sfun_registry.obj
+ 0001:0004de90       __ssGetCallSystemNumFcnCallDestinations 1004ee90 f   huamo_sfun_registry.obj
+ 0001:0004def0       _ssWarning                 1004eef0 f   huamo_sfun_registry.obj
+ 0001:0004dfd0       _ssGetIsZeroCrossControlDisabled 1004efd0 f   huamo_sfun_registry.obj
+ 0001:0004e030       _ssSetIsInputPortUsedForContZcSignal 1004f030 f   huamo_sfun_registry.obj
+ 0001:0004e080       _ssSetZcSignalIsZcElementDisc 1004f080 f   huamo_sfun_registry.obj
+ 0001:0004e100       _ssSetZcSignalName         1004f100 f   huamo_sfun_registry.obj
+ 0001:0004e150       _ssSetZcSignalWidth        1004f150 f   huamo_sfun_registry.obj
+ 0001:0004e1a0       _ssSetZcSignalZcEventType  1004f1a0 f   huamo_sfun_registry.obj
+ 0001:0004e1f0       _ssSetZcSignalType         1004f1f0 f   huamo_sfun_registry.obj
+ 0001:0004e240       _ssSetZcSignalZcTol        1004f240 f   huamo_sfun_registry.obj
+ 0001:0004e290       _ssSetZcSignalNeedsEventNotification 1004f290 f   huamo_sfun_registry.obj
+ 0001:0004e2e0       _ssCreateAndAddZcSignalInfo 1004f2e0 f   huamo_sfun_registry.obj
+ 0001:0004e340       _ssCloneAndAddZcSignalInfo 1004f340 f   huamo_sfun_registry.obj
+ 0001:0004e3a0       _ssGetNumZcSignals         1004f3a0 f   huamo_sfun_registry.obj
+ 0001:0004e400       _ssGetZcSignalVector       1004f400 f   huamo_sfun_registry.obj
+ 0001:0004e460       _ssGetZcSignalZcEvents     1004f460 f   huamo_sfun_registry.obj
+ 0001:0004e4c0       _ssGetZcSignalName         1004f4c0 f   huamo_sfun_registry.obj
+ 0001:0004e520       _ssGetZcSignalWidth        1004f520 f   huamo_sfun_registry.obj
+ 0001:0004e580       _ssGetZcSignalZcEventType  1004f580 f   huamo_sfun_registry.obj
+ 0001:0004e5e0       _ssGetZcSignalType         1004f5e0 f   huamo_sfun_registry.obj
+ 0001:0004e640       _ssGetZcSignalZcTol        1004f640 f   huamo_sfun_registry.obj
+ 0001:0004e6a0       _ssGetZcSignalNeedsEventNotification 1004f6a0 f   huamo_sfun_registry.obj
+ 0001:0004e700       _ssGetZcSignalIsZcElementDisc 1004f700 f   huamo_sfun_registry.obj
+ 0001:0004e780       _ssGetIsInputPortElementContinuous 1004f780 f   huamo_sfun_registry.obj
+ 0001:0004e800       __ssGetInputPortSignalPtrsFcn 1004f800 f   huamo_sfun_registry.obj
+ 0001:0004ea00       __ssGetInputPortSignalFcn  1004fa00 f   huamo_sfun_registry.obj
+ 0001:0004eb90       __ssSetInputPortDirectFeedThroughFcn 1004fb90 f   huamo_sfun_registry.obj
+ 0001:0004ecc0       __ssSetInputPortReusableFcn 1004fcc0 f   huamo_sfun_registry.obj
+ 0001:0004ed50       __ssSetOutputPortReusableFcn 1004fd50 f   huamo_sfun_registry.obj
+ 0001:0004ede0       _ssGetDTypeIdFromMxArray   1004fde0 f   huamo_sfun_registry.obj
+ 0001:0004eed0       _ssWriteRTWStr             1004fed0 f   huamo_sfun_registry.obj
+ 0001:0004ef10       _ssWriteRTWMxVectParam     1004ff10 f   huamo_sfun_registry.obj
+ 0001:0004ef50       _ssWriteRTWMx2dMatParam    1004ff50 f   huamo_sfun_registry.obj
+ 0001:0004ef90       _ssWriteRTWNameValuePair   1004ff90 f   huamo_sfun_registry.obj
+ 0001:0004f300       _ssWriteRTWParameters      10050300 f   huamo_sfun_registry.obj
+ 0001:0004f6a0       _ssWriteRTWParamSettings   100506a0 f   huamo_sfun_registry.obj
+ 0001:0004fb50       _ssWriteRTWWorkVect        10050b50 f   huamo_sfun_registry.obj
+ 0001:0004fee0       _mexFunction               10050ee0 f   huamo_sfun_registry.obj
+ 0001:00051c30       _ProcessMexSfunctionEveryCall 10052c30 f   huamo_sfun_registry.obj
+ 0001:00051d4e       _sf_debug_set_machine_data_thresholds 10052d4e f   sf_runtime:sf_runtime.dll
+ 0001:00051d54       _sf_debug_set_machine_event_thresholds 10052d54 f   sf_runtime:sf_runtime.dll
+ 0001:00051d5a       _sf_debug_initialize_machine 10052d5a f   sf_runtime:sf_runtime.dll
+ 0001:00051d60       _sf_load_rtw_optimization_info 10052d60 f   sf_runtime:sf_runtime.dll
+ 0001:00051d66       _sf_mex_emlrtNameCapturePostProcessR2012a 10052d66 f   sf_runtime:sf_runtime.dll
+ 0001:00051d6c       _sf_mex_assign             10052d6c f   sf_runtime:sf_runtime.dll
+ 0001:00051d72       _sf_mex_createstruct       10052d72 f   sf_runtime:sf_runtime.dll
+ 0001:00051d78       _sf_mex_destroy            10052d78 f   sf_runtime:sf_runtime.dll
+ 0001:00051d7e       _sf_mex_duplicatearraysafe 10052d7e f   sf_runtime:sf_runtime.dll
+ 0001:00051d84       _sf_mex_createcellmatrix   10052d84 f   sf_runtime:sf_runtime.dll
+ 0001:00051d8a       _sf_mex_addfield           10052d8a f   sf_runtime:sf_runtime.dll
+ 0001:00051d90       _sf_mex_create             10052d90 f   sf_runtime:sf_runtime.dll
+ 0001:00051d96       _sf_mex_error_message      10052d96 f   sf_runtime:sf_runtime.dll
+ 0001:00051d9c       _sf_mex_call_matlab        10052d9c f   sf_runtime:sf_runtime.dll
+ 0001:00051da2       _sf_mex_setcell            10052da2 f   sf_runtime:sf_runtime.dll
+ 0001:00051da8       _sf_mex_decode_encoded_mx_struct_array 10052da8 f   sf_runtime:sf_runtime.dll
+ 0001:00051dae       _sf_mex_getcell            10052dae f   sf_runtime:sf_runtime.dll
+ 0001:00051db4       _sf_mex_dup                10052db4 f   sf_runtime:sf_runtime.dll
+ 0001:00051dba       _sf_mex_import             10052dba f   sf_runtime:sf_runtime.dll
+ 0001:00051dc0       _sf_set_rtw_dwork_info     10052dc0 f   sf_runtime:sf_runtime.dll
+ 0001:00051dc6       _sf_mark_chart_reusable_outputs 10052dc6 f   sf_runtime:sf_runtime.dll
+ 0001:00051dcc       _sf_mark_chart_expressionable_inputs 10052dcc f   sf_runtime:sf_runtime.dll
+ 0001:00051dd2       _sf_update_buildInfo       10052dd2 f   sf_runtime:sf_runtime.dll
+ 0001:00051dd8       _sf_rtw_info_uint_prop     10052dd8 f   sf_runtime:sf_runtime.dll
+ 0001:00051dde       _sf_is_chart_inlinable     10052dde f   sf_runtime:sf_runtime.dll
+ 0001:00051de4       _sim_mode_is_external      10052de4 f   sf_runtime:sf_runtime.dll
+ 0001:00051dea       _sim_mode_is_rtw_gen       10052dea f   sf_runtime:sf_runtime.dll
+ 0001:00051df0       _sf_debug_reset_current_state_configuration 10052df0 f   sf_runtime:sf_runtime.dll
+ 0001:00051df6       _sf_debug_set_instance_data_value_ptr 10052df6 f   sf_runtime:sf_runtime.dll
+ 0001:00051dfc       _sf_debug_set_chart_data_compiled_props 10052dfc f   sf_runtime:sf_runtime.dll
+ 0001:00051e02       _cv_eml_init_mcdc          10052e02 f   sf_runtime:sf_runtime.dll
+ 0001:00051e08       _cv_eml_init_if            10052e08 f   sf_runtime:sf_runtime.dll
+ 0001:00051e0e       _cv_eml_init_fcn           10052e0e f   sf_runtime:sf_runtime.dll
+ 0001:00051e14       _cv_eml_init_script        10052e14 f   sf_runtime:sf_runtime.dll
+ 0001:00051e1a       _sf_debug_cv_init_trans    10052e1a f   sf_runtime:sf_runtime.dll
+ 0001:00051e20       _sf_debug_cv_init_state    10052e20 f   sf_runtime:sf_runtime.dll
+ 0001:00051e26       _sf_debug_cv_init_chart    10052e26 f   sf_runtime:sf_runtime.dll
+ 0001:00051e2c       _sf_debug_set_chart_decomposition 10052e2c f   sf_runtime:sf_runtime.dll
+ 0001:00051e32       _sf_debug_set_chart_substate_count 10052e32 f   sf_runtime:sf_runtime.dll
+ 0001:00051e38       _sf_debug_set_chart_state_info 10052e38 f   sf_runtime:sf_runtime.dll
+ 0001:00051e3e       _sf_debug_set_chart_data_props 10052e3e f   sf_runtime:sf_runtime.dll
+ 0001:00051e44       _sf_debug_set_chart_event_thresholds 10052e44 f   sf_runtime:sf_runtime.dll
+ 0001:00051e4a       _sf_debug_set_chart_disable_implicit_casting 10052e4a f   sf_runtime:sf_runtime.dll
+ 0001:00051e50       _sf_debug_initialize_chart 10052e50 f   sf_runtime:sf_runtime.dll
+ 0001:00051e56       _sf_get_time               10052e56 f   sf_runtime:sf_runtime.dll
+ 0001:00051e5c       _sf_debug_check_for_state_inconsistency 10052e5c f   sf_runtime:sf_runtime.dll
+ 0001:00051e62       _sf_debug_symbol_scope_pop 10052e62 f   sf_runtime:sf_runtime.dll
+ 0001:00051e68       _eml_debug_line_call       10052e68 f   sf_runtime:sf_runtime.dll
+ 0001:00051e6e       _cv_eml_eval               10052e6e f   sf_runtime:sf_runtime.dll
+ 0001:00051e74       _sf_debug_symbol_scope_add_eml 10052e74 f   sf_runtime:sf_runtime.dll
+ 0001:00051e7a       _sf_debug_symbol_scope_add_eml_importable 10052e7a f   sf_runtime:sf_runtime.dll
+ 0001:00051e80       _sf_debug_symbol_scope_push_eml 10052e80 f   sf_runtime:sf_runtime.dll
+ 0001:00051e86       _sf_debug_data_range_wrapper 10052e86 f   sf_runtime:sf_runtime.dll
+ 0001:00051e8c       _sf_debug_call             10052e8c f   sf_runtime:sf_runtime.dll
+ 0001:00051e92       _sf_debug_symbol_scope_push 10052e92 f   sf_runtime:sf_runtime.dll
+ 0001:00051e98       _sf_clear_rtw_identifier   10052e98 f   sf_runtime:sf_runtime.dll
+ 0001:00051e9e       _sf_mex_call_debug         10052e9e f   sf_runtime:sf_runtime.dll
+ 0001:00051ea4       _sf_debug_eml_data_array_bounds_error_check 10052ea4 f   sf_runtime:sf_runtime.dll
+ 0001:00051eaa       _sf_debug_integer_check    10052eaa f   sf_runtime:sf_runtime.dll
+ 0001:00051eb0       _sf_debug_terminate        10052eb0 f   sf_runtime:sf_runtime.dll
+ 0001:00051eb6       _sf_debug_create_debug_instance_struct 10052eb6 f   sf_runtime:sf_runtime.dll
+ 0001:00051ebc       _sf_debug_api              10052ebc f   sf_runtime:sf_runtime.dll
+ 0001:00051ec2       _callMdlMethodAndReportError 10052ec2 f   sf_runtime:sf_runtime.dll
+ 0001:00051ec8       _call_sf_machine_global_method_dispatcher 10052ec8 f   sf_runtime:sf_runtime.dll
+ 0001:00051ece       _sf_clear_error_manager_info 10052ece f   sf_runtime:sf_runtime.dll
+ 0001:00051ed4       _sf_mex_error_direct_call  10052ed4 f   sf_runtime:sf_runtime.dll
+ 0001:00051eda       _mxGetScalar               10052eda f   libmx:libmx.dll
+ 0001:00051ee0       _mxGetPr                   10052ee0 f   libmx:libmx.dll
+ 0001:00051ee6       _mxCreateDoubleMatrix_730  10052ee6 f   libmx:libmx.dll
+ 0001:00051eec       _mxGetString_730           10052eec f   libmx:libmx.dll
+ 0001:00051ef2       _mxIsChar                  10052ef2 f   libmx:libmx.dll
+ 0001:00051ef8       _mxDestroyArray            10052ef8 f   libmx:libmx.dll
+ 0001:00051efe       _mxDuplicateArray          10052efe f   libmx:libmx.dll
+ 0001:00051f04       _mxCreateDoubleScalar      10052f04 f   libmx:libmx.dll
+ 0001:00051f0a       _mxSetField_730            10052f0a f   libmx:libmx.dll
+ 0001:00051f10       _mxCreateString            10052f10 f   libmx:libmx.dll
+ 0001:00051f16       _mxCreateStructMatrix_730  10052f16 f   libmx:libmx.dll
+ 0001:00051f1c       _mxCreateCellMatrix_730    10052f1c f   libmx:libmx.dll
+ 0001:00051f22       _mxGetNaN                  10052f22 f   libmx:libmx.dll
+ 0001:00051f28       _mxIsEmpty                 10052f28 f   libmx:libmx.dll
+ 0001:00051f2e       _mxGetClassID              10052f2e f   libmx:libmx.dll
+ 0001:00051f34       _mxIsNumeric               10052f34 f   libmx:libmx.dll
+ 0001:00051f3a       _mxIsComplex               10052f3a f   libmx:libmx.dll
+ 0001:00051f40       _mxGetN                    10052f40 f   libmx:libmx.dll
+ 0001:00051f46       _mxGetM                    10052f46 f   libmx:libmx.dll
+ 0001:00051f4c       _mxCalloc                  10052f4c f   libmx:libmx.dll
+ 0001:00051f52       _mexMakeArrayPersistent    10052f52 f   libmex:libmex.dll
+ 0001:00051f58       _mexUnlock                 10052f58 f   libmex:libmex.dll
+ 0001:00051f5e       _mexIsLocked               10052f5e f   libmex:libmex.dll
+ 0001:00051f64       _mexWarnMsgTxt             10052f64 f   libmex:libmex.dll
+ 0001:00051f6a       _mexCallMATLAB             10052f6a f   libmex:libmex.dll
+ 0001:00051f70       _mexErrMsgTxt              10052f70 f   libmex:libmex.dll
+ 0001:00051f76       _mexLock                   10052f76 f   libmex:libmex.dll
+ 0001:00051f7c       _utMalloc                  10052f7c f   libut:libut.dll
+ 0001:00051f82       _utFree                    10052f82 f   libut:libut.dll
+ 0001:00051f88       _muDoubleScalarIsNaN       10052f88 f   libmwmathutil:libmwmathutil.dll
+ 0001:00051f8e       _muDoubleScalarAbs         10052f8e f   libmwmathutil:libmwmathutil.dll
+ 0001:00051f94       _muDoubleScalarSqrt        10052f94 f   libmwmathutil:libmwmathutil.dll
+ 0001:00051f9a       _strcmp                    10052f9a f   MSVCRT:MSVCR100.dll
+ 0001:00051fa0       @__security_check_cookie@4 10052fa0 f   MSVCRT:secchk.obj
+ 0001:00051fb0       _strlen                    10052fb0 f   MSVCRT:MSVCR100.dll
+ 0001:00051fb6       _memset                    10052fb6 f   MSVCRT:MSVCR100.dll
+ 0001:00051fc0       __ftol2_sse                10052fc0 f   MSVCRT:ftol2.obj
+ 0001:00051fc9       __ftol2_pentium4           10052fc9 f   MSVCRT:ftol2.obj
+ 0001:00051fdc       __ftol2_sse_excpt          10052fdc f   MSVCRT:ftol2.obj
+ 0001:00051ff6       __ftol2                    10052ff6 f   MSVCRT:ftol2.obj
+ 0001:0005206c       _free                      1005306c f   MSVCRT:MSVCR100.dll
+ 0001:00052072       _sprintf                   10053072 f   MSVCRT:MSVCR100.dll
+ 0001:00052078       _malloc                    10053078 f   MSVCRT:MSVCR100.dll
+ 0001:0005207e       _strcat                    1005307e f   MSVCRT:MSVCR100.dll
+ 0001:00052084       _memcpy                    10053084 f   MSVCRT:MSVCR100.dll
+ 0001:0005208a       _NtCurrentTeb              1005308a f i MSVCRT:crtdll.obj
+ 0001:000520df       __CRT_INIT@12              100530df f   MSVCRT:crtdll.obj
+ 0001:000523ff       __DllMainCRTStartup@12     100533ff f   MSVCRT:crtdll.obj
+ 0001:00052422       ___report_gsfailure        10053422 f   MSVCRT:gs_report.obj
+ 0001:00052528       ___sse2_available_init     10053528 f   MSVCRT:cpu_disp.obj
+ 0001:00052538       ___clean_type_info_names   10053538 f   MSVCRT:tncleanup.obj
+ 0001:00052544       __onexit                   10053544 f   MSVCRT:atonexit.obj
+ 0001:000525e5       _atexit                    100535e5 f   MSVCRT:atonexit.obj
+ 0001:000525fc       __RTC_Initialize           100535fc f   MSVCRT:_initsect_.obj
+ 0001:00052622       __RTC_Terminate            10053622 f   MSVCRT:_initsect_.obj
+ 0001:00052648       __malloc_crt               10053648 f   MSVCRT:MSVCR100.dll
+ 0001:0005264e       __encoded_null             1005364e f   MSVCRT:MSVCR100.dll
+ 0001:00052660       __ValidateImageBase        10053660 f   MSVCRT:pesect.obj
+ 0001:000526a0       __FindPESection            100536a0 f   MSVCRT:pesect.obj
+ 0001:000526f0       __IsNonwritableInCurrentImage 100536f0 f   MSVCRT:pesect.obj
+ 0001:000527ac       __initterm                 100537ac f   MSVCRT:MSVCR100.dll
+ 0001:000527b2       __initterm_e               100537b2 f   MSVCRT:MSVCR100.dll
+ 0001:000527b8       __amsg_exit                100537b8 f   MSVCRT:MSVCR100.dll
+ 0001:000527be       ___CppXcptFilter           100537be f   MSVCRT:MSVCR100.dll
+ 0001:000527c4       _DllMain@12                100537c4 f   MSVCRT:dllmain.obj
+ 0001:000527f0       __SEH_prolog4              100537f0 f   MSVCRT:sehprolg4.obj
+ 0001:00052835       __SEH_epilog4              10053835 f   MSVCRT:sehprolg4.obj
+ 0001:00052849       __except_handler4          10053849 f   MSVCRT:chandler4gs.obj
+ 0001:0005286e       ___security_init_cookie    1005386e f   MSVCRT:gs_support.obj
+ 0001:0005290a       __crt_debugger_hook        1005390a f   MSVCRT:MSVCR100.dll
+ 0001:00052910       ___clean_type_info_names_internal 10053910 f   MSVCRT:MSVCR100.dll
+ 0001:00052916       __unlock                   10053916 f   MSVCRT:MSVCR100.dll
+ 0001:0005291c       ___dllonexit               1005391c f   MSVCRT:MSVCR100.dll
+ 0001:00052922       __lock                     10053922 f   MSVCRT:MSVCR100.dll
+ 0001:00052928       __except_handler4_common   10053928 f   MSVCRT:MSVCR100.dll
+ 0001:0005292e       _EncodePointer@4           1005392e f   kernel32:KERNEL32.dll
+ 0001:00052934       _DecodePointer@4           10053934 f   kernel32:KERNEL32.dll
+ 0001:0005293a       _InterlockedExchange@8     1005393a f   kernel32:KERNEL32.dll
+ 0001:00052940       _Sleep@4                   10053940 f   kernel32:KERNEL32.dll
+ 0001:00052946       _InterlockedCompareExchange@12 10053946 f   kernel32:KERNEL32.dll
+ 0001:0005294c       _TerminateProcess@8        1005394c f   kernel32:KERNEL32.dll
+ 0001:00052952       _GetCurrentProcess@0       10053952 f   kernel32:KERNEL32.dll
+ 0001:00052958       _UnhandledExceptionFilter@4 10053958 f   kernel32:KERNEL32.dll
+ 0001:0005295e       _SetUnhandledExceptionFilter@4 1005395e f   kernel32:KERNEL32.dll
+ 0001:00052964       _IsDebuggerPresent@0       10053964 f   kernel32:KERNEL32.dll
+ 0001:0005296a       _IsProcessorFeaturePresent@4 1005396a f   kernel32:KERNEL32.dll
+ 0001:00052970       _DisableThreadLibraryCalls@4 10053970 f   kernel32:KERNEL32.dll
+ 0001:00052976       _QueryPerformanceCounter@4 10053976 f   kernel32:KERNEL32.dll
+ 0001:0005297c       _GetTickCount@0            1005397c f   kernel32:KERNEL32.dll
+ 0001:00052982       _GetCurrentThreadId@0      10053982 f   kernel32:KERNEL32.dll
+ 0001:00052988       _GetCurrentProcessId@0     10053988 f   kernel32:KERNEL32.dll
+ 0001:0005298e       _GetSystemTimeAsFileTime@4 1005398e f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp__GetSystemTimeAsFileTime@4 10054000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetCurrentProcessId@0 10054004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetCurrentThreadId@0 10054008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__GetTickCount@0      1005400c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__QueryPerformanceCounter@4 10054010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__DisableThreadLibraryCalls@4 10054014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__IsProcessorFeaturePresent@4 10054018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__IsDebuggerPresent@0 1005401c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__SetUnhandledExceptionFilter@4 10054020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__UnhandledExceptionFilter@4 10054024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetCurrentProcess@0 10054028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__TerminateProcess@8  1005402c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__InterlockedCompareExchange@12 10054030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__Sleep@4             10054034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__InterlockedExchange@8 10054038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__DecodePointer@4     1005403c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__EncodePointer@4     10054040     kernel32:KERNEL32.dll
+ 0002:00000044       \177KERNEL32_NULL_THUNK_DATA 10054044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp___except_handler4_common 10054048     MSVCRT:MSVCR100.dll
+ 0002:0000004c       __imp___onexit             1005404c     MSVCRT:MSVCR100.dll
+ 0002:00000050       __imp___lock               10054050     MSVCRT:MSVCR100.dll
+ 0002:00000054       __imp____dllonexit         10054054     MSVCRT:MSVCR100.dll
+ 0002:00000058       __imp___unlock             10054058     MSVCRT:MSVCR100.dll
+ 0002:0000005c       __imp____clean_type_info_names_internal 1005405c     MSVCRT:MSVCR100.dll
+ 0002:00000060       __imp___crt_debugger_hook  10054060     MSVCRT:MSVCR100.dll
+ 0002:00000064       __imp____CppXcptFilter     10054064     MSVCRT:MSVCR100.dll
+ 0002:00000068       __imp___amsg_exit          10054068     MSVCRT:MSVCR100.dll
+ 0002:0000006c       __imp___initterm_e         1005406c     MSVCRT:MSVCR100.dll
+ 0002:00000070       __imp___initterm           10054070     MSVCRT:MSVCR100.dll
+ 0002:00000074       __imp___encoded_null       10054074     MSVCRT:MSVCR100.dll
+ 0002:00000078       __imp___malloc_crt         10054078     MSVCRT:MSVCR100.dll
+ 0002:0000007c       __imp__memcpy              1005407c     MSVCRT:MSVCR100.dll
+ 0002:00000080       __imp__strcat              10054080     MSVCRT:MSVCR100.dll
+ 0002:00000084       __imp__malloc              10054084     MSVCRT:MSVCR100.dll
+ 0002:00000088       __imp__sprintf             10054088     MSVCRT:MSVCR100.dll
+ 0002:0000008c       __imp__free                1005408c     MSVCRT:MSVCR100.dll
+ 0002:00000090       __imp__memset              10054090     MSVCRT:MSVCR100.dll
+ 0002:00000094       __imp__strlen              10054094     MSVCRT:MSVCR100.dll
+ 0002:00000098       __imp__strcmp              10054098     MSVCRT:MSVCR100.dll
+ 0002:0000009c       \177MSVCR100_NULL_THUNK_DATA 1005409c     MSVCRT:MSVCR100.dll
+ 0002:000000a0       __imp__mexErrMsgTxt        100540a0     libmex:libmex.dll
+ 0002:000000a4       __imp__mexUnlock           100540a4     libmex:libmex.dll
+ 0002:000000a8       __imp__mexIsLocked         100540a8     libmex:libmex.dll
+ 0002:000000ac       __imp__mexWarnMsgTxt       100540ac     libmex:libmex.dll
+ 0002:000000b0       __imp__mexLock             100540b0     libmex:libmex.dll
+ 0002:000000b4       __imp__mexMakeArrayPersistent 100540b4     libmex:libmex.dll
+ 0002:000000b8       __imp__mexCallMATLAB       100540b8     libmex:libmex.dll
+ 0002:000000bc       \177libmex_NULL_THUNK_DATA 100540bc     libmex:libmex.dll
+ 0002:000000c0       __imp__muDoubleScalarAbs   100540c0     libmwmathutil:libmwmathutil.dll
+ 0002:000000c4       __imp__muDoubleScalarSqrt  100540c4     libmwmathutil:libmwmathutil.dll
+ 0002:000000c8       __imp__muDoubleScalarIsNaN 100540c8     libmwmathutil:libmwmathutil.dll
+ 0002:000000cc       \177libmwmathutil_NULL_THUNK_DATA 100540cc     libmwmathutil:libmwmathutil.dll
+ 0002:000000d0       __imp__mxCalloc            100540d0     libmx:libmx.dll
+ 0002:000000d4       __imp__mxGetM              100540d4     libmx:libmx.dll
+ 0002:000000d8       __imp__mxGetN              100540d8     libmx:libmx.dll
+ 0002:000000dc       __imp__mxIsComplex         100540dc     libmx:libmx.dll
+ 0002:000000e0       __imp__mxIsNumeric         100540e0     libmx:libmx.dll
+ 0002:000000e4       __imp__mxGetClassID        100540e4     libmx:libmx.dll
+ 0002:000000e8       __imp__mxIsEmpty           100540e8     libmx:libmx.dll
+ 0002:000000ec       __imp__mxGetNaN            100540ec     libmx:libmx.dll
+ 0002:000000f0       __imp__mxCreateCellMatrix_730 100540f0     libmx:libmx.dll
+ 0002:000000f4       __imp__mxCreateStructMatrix_730 100540f4     libmx:libmx.dll
+ 0002:000000f8       __imp__mxCreateString      100540f8     libmx:libmx.dll
+ 0002:000000fc       __imp__mxSetField_730      100540fc     libmx:libmx.dll
+ 0002:00000100       __imp__mxCreateDoubleScalar 10054100     libmx:libmx.dll
+ 0002:00000104       __imp__mxDuplicateArray    10054104     libmx:libmx.dll
+ 0002:00000108       __imp__mxGetScalar         10054108     libmx:libmx.dll
+ 0002:0000010c       __imp__mxGetPr             1005410c     libmx:libmx.dll
+ 0002:00000110       __imp__mxCreateDoubleMatrix_730 10054110     libmx:libmx.dll
+ 0002:00000114       __imp__mxGetString_730     10054114     libmx:libmx.dll
+ 0002:00000118       __imp__mxIsChar            10054118     libmx:libmx.dll
+ 0002:0000011c       __imp__mxDestroyArray      1005411c     libmx:libmx.dll
+ 0002:00000120       \177libmx_NULL_THUNK_DATA  10054120     libmx:libmx.dll
+ 0002:00000124       __imp__utMalloc            10054124     libut:libut.dll
+ 0002:00000128       __imp__utFree              10054128     libut:libut.dll
+ 0002:0000012c       \177libut_NULL_THUNK_DATA  1005412c     libut:libut.dll
+ 0002:00000130       __imp__call_sf_machine_global_method_dispatcher 10054130     sf_runtime:sf_runtime.dll
+ 0002:00000134       __imp__callMdlMethodAndReportError 10054134     sf_runtime:sf_runtime.dll
+ 0002:00000138       __imp__sf_debug_api        10054138     sf_runtime:sf_runtime.dll
+ 0002:0000013c       __imp__sf_debug_create_debug_instance_struct 1005413c     sf_runtime:sf_runtime.dll
+ 0002:00000140       __imp__sf_debug_terminate  10054140     sf_runtime:sf_runtime.dll
+ 0002:00000144       __imp__sf_debug_integer_check 10054144     sf_runtime:sf_runtime.dll
+ 0002:00000148       __imp__sf_debug_eml_data_array_bounds_error_check 10054148     sf_runtime:sf_runtime.dll
+ 0002:0000014c       __imp__sf_mex_call_debug   1005414c     sf_runtime:sf_runtime.dll
+ 0002:00000150       __imp__sf_clear_rtw_identifier 10054150     sf_runtime:sf_runtime.dll
+ 0002:00000154       __imp__sf_clear_error_manager_info 10054154     sf_runtime:sf_runtime.dll
+ 0002:00000158       __imp__sf_debug_call       10054158     sf_runtime:sf_runtime.dll
+ 0002:0000015c       __imp__sf_debug_data_range_wrapper 1005415c     sf_runtime:sf_runtime.dll
+ 0002:00000160       __imp__sf_debug_symbol_scope_push_eml 10054160     sf_runtime:sf_runtime.dll
+ 0002:00000164       __imp__sf_debug_symbol_scope_add_eml_importable 10054164     sf_runtime:sf_runtime.dll
+ 0002:00000168       __imp__sf_debug_symbol_scope_add_eml 10054168     sf_runtime:sf_runtime.dll
+ 0002:0000016c       __imp__cv_eml_eval         1005416c     sf_runtime:sf_runtime.dll
+ 0002:00000170       __imp__eml_debug_line_call 10054170     sf_runtime:sf_runtime.dll
+ 0002:00000174       __imp__sf_debug_symbol_scope_pop 10054174     sf_runtime:sf_runtime.dll
+ 0002:00000178       __imp__sf_debug_check_for_state_inconsistency 10054178     sf_runtime:sf_runtime.dll
+ 0002:0000017c       __imp__sf_get_time         1005417c     sf_runtime:sf_runtime.dll
+ 0002:00000180       __imp__sf_mex_error_direct_call 10054180     sf_runtime:sf_runtime.dll
+ 0002:00000184       __imp__sf_debug_symbol_scope_push 10054184     sf_runtime:sf_runtime.dll
+ 0002:00000188       __imp__sf_debug_initialize_chart 10054188     sf_runtime:sf_runtime.dll
+ 0002:0000018c       __imp__sf_debug_set_chart_disable_implicit_casting 1005418c     sf_runtime:sf_runtime.dll
+ 0002:00000190       __imp__sf_debug_set_chart_event_thresholds 10054190     sf_runtime:sf_runtime.dll
+ 0002:00000194       __imp__sf_debug_set_chart_data_props 10054194     sf_runtime:sf_runtime.dll
+ 0002:00000198       __imp__sf_debug_set_chart_state_info 10054198     sf_runtime:sf_runtime.dll
+ 0002:0000019c       __imp__sf_debug_set_chart_substate_count 1005419c     sf_runtime:sf_runtime.dll
+ 0002:000001a0       __imp__sf_debug_set_chart_decomposition 100541a0     sf_runtime:sf_runtime.dll
+ 0002:000001a4       __imp__sf_debug_cv_init_chart 100541a4     sf_runtime:sf_runtime.dll
+ 0002:000001a8       __imp__sf_debug_cv_init_state 100541a8     sf_runtime:sf_runtime.dll
+ 0002:000001ac       __imp__sf_debug_cv_init_trans 100541ac     sf_runtime:sf_runtime.dll
+ 0002:000001b0       __imp__cv_eml_init_script  100541b0     sf_runtime:sf_runtime.dll
+ 0002:000001b4       __imp__cv_eml_init_fcn     100541b4     sf_runtime:sf_runtime.dll
+ 0002:000001b8       __imp__cv_eml_init_if      100541b8     sf_runtime:sf_runtime.dll
+ 0002:000001bc       __imp__cv_eml_init_mcdc    100541bc     sf_runtime:sf_runtime.dll
+ 0002:000001c0       __imp__sf_debug_set_chart_data_compiled_props 100541c0     sf_runtime:sf_runtime.dll
+ 0002:000001c4       __imp__sf_debug_set_instance_data_value_ptr 100541c4     sf_runtime:sf_runtime.dll
+ 0002:000001c8       __imp__sf_debug_reset_current_state_configuration 100541c8     sf_runtime:sf_runtime.dll
+ 0002:000001cc       __imp__sim_mode_is_rtw_gen 100541cc     sf_runtime:sf_runtime.dll
+ 0002:000001d0       __imp__sim_mode_is_external 100541d0     sf_runtime:sf_runtime.dll
+ 0002:000001d4       __imp__sf_is_chart_inlinable 100541d4     sf_runtime:sf_runtime.dll
+ 0002:000001d8       __imp__sf_rtw_info_uint_prop 100541d8     sf_runtime:sf_runtime.dll
+ 0002:000001dc       __imp__sf_update_buildInfo 100541dc     sf_runtime:sf_runtime.dll
+ 0002:000001e0       __imp__sf_mark_chart_expressionable_inputs 100541e0     sf_runtime:sf_runtime.dll
+ 0002:000001e4       __imp__sf_mark_chart_reusable_outputs 100541e4     sf_runtime:sf_runtime.dll
+ 0002:000001e8       __imp__sf_set_rtw_dwork_info 100541e8     sf_runtime:sf_runtime.dll
+ 0002:000001ec       __imp__sf_mex_import       100541ec     sf_runtime:sf_runtime.dll
+ 0002:000001f0       __imp__sf_mex_dup          100541f0     sf_runtime:sf_runtime.dll
+ 0002:000001f4       __imp__sf_mex_getcell      100541f4     sf_runtime:sf_runtime.dll
+ 0002:000001f8       __imp__sf_mex_decode_encoded_mx_struct_array 100541f8     sf_runtime:sf_runtime.dll
+ 0002:000001fc       __imp__sf_mex_setcell      100541fc     sf_runtime:sf_runtime.dll
+ 0002:00000200       __imp__sf_mex_call_matlab  10054200     sf_runtime:sf_runtime.dll
+ 0002:00000204       __imp__sf_mex_error_message 10054204     sf_runtime:sf_runtime.dll
+ 0002:00000208       __imp__sf_mex_create       10054208     sf_runtime:sf_runtime.dll
+ 0002:0000020c       __imp__sf_mex_addfield     1005420c     sf_runtime:sf_runtime.dll
+ 0002:00000210       __imp__sf_mex_createcellmatrix 10054210     sf_runtime:sf_runtime.dll
+ 0002:00000214       __imp__sf_mex_duplicatearraysafe 10054214     sf_runtime:sf_runtime.dll
+ 0002:00000218       __imp__sf_mex_destroy      10054218     sf_runtime:sf_runtime.dll
+ 0002:0000021c       __imp__sf_mex_createstruct 1005421c     sf_runtime:sf_runtime.dll
+ 0002:00000220       __imp__sf_mex_assign       10054220     sf_runtime:sf_runtime.dll
+ 0002:00000224       __imp__sf_mex_emlrtNameCapturePostProcessR2012a 10054224     sf_runtime:sf_runtime.dll
+ 0002:00000228       __imp__sf_load_rtw_optimization_info 10054228     sf_runtime:sf_runtime.dll
+ 0002:0000022c       __imp__sf_debug_initialize_machine 1005422c     sf_runtime:sf_runtime.dll
+ 0002:00000230       __imp__sf_debug_set_machine_event_thresholds 10054230     sf_runtime:sf_runtime.dll
+ 0002:00000234       __imp__sf_debug_set_machine_data_thresholds 10054234     sf_runtime:sf_runtime.dll
+ 0002:00000238       \177sf_runtime_NULL_THUNK_DATA 10054238     sf_runtime:sf_runtime.dll
+ 0002:0000023c       ___xc_a                    1005423c     MSVCRT:cinitexe.obj
+ 0002:00000240       ___xc_z                    10054240     MSVCRT:cinitexe.obj
+ 0002:00000244       ___xi_a                    10054244     MSVCRT:cinitexe.obj
+ 0002:00000250       ___xi_z                    10054250     MSVCRT:cinitexe.obj
+ 0002:00000258       __real@41d4738723800000    10054258     huamo_sfun.obj
+ 0002:00000260       __real@41eb03e218e00000    10054260     huamo_sfun.obj
+ 0002:00000268       __real@41d25b053d000000    10054268     huamo_sfun.obj
+ 0002:00000270       __real@41a6c76472000000    10054270     huamo_sfun.obj
+ 0002:00000278       __real@41d187d0c8400000    10054278     huamo_sfun.obj
+ 0002:00000280       __real@41cff744e8000000    10054280     huamo_sfun.obj
+ 0002:00000288       __real@41b7e1066f000000    10054288     huamo_sfun.obj
+ 0002:00000290       __real@41c845d7be800000    10054290     huamo_sfun.obj
+ 0002:00000298       __real@41ed297753400000    10054298     huamo_sfun.obj
+ 0002:000002a0       __real@41effaa308600000    100542a0     huamo_sfun.obj
+ 0002:000002a8       __real@41ea8d13f8200000    100542a8     huamo_sfun.obj
+ 0002:000002b0       __real@41e6989b10e00000    100542b0     huamo_sfun.obj
+ 0002:000002b8       __real@0000000000000000    100542b8     huamo_sfun.obj
+ 0002:000002c0       __real@41cf5d7bb6000000    100542c0     huamo_sfun.obj
+ 0002:000002c8       __real@41e9c48957a00000    100542c8     huamo_sfun.obj
+ 0002:000002d0       __real@417f30c600000000    100542d0     huamo_sfun.obj
+ 0002:000002d8       __real@41ebb0881de00000    100542d8     huamo_sfun.obj
+ 0002:000002e0       __real@41eb415d32c00000    100542e0     c1_huamo.obj
+ 0002:000002e8       __real@41cdecf1e2800000    100542e8     c1_huamo.obj
+ 0002:000002f0       __real@41e7914b2a000000    100542f0     c1_huamo.obj
+ 0002:000002f8       __real@41eb829b11400000    100542f8     c1_huamo.obj
+ 0002:00000300       __real@4024000000000000    10054300     c1_huamo.obj
+ 0002:00000308       __real@3ff0000000000000    10054308     c1_huamo.obj
+ 0002:00000310       __real@3ff8000000000000    10054310     c1_huamo.obj
+ 0002:00000318       __real@4000cccccccccccd    10054318     c1_huamo.obj
+ 0002:00000320       __real@3fe999999999999a    10054320     c1_huamo.obj
+ 0002:00000328       __real@3fe851eb851eb852    10054328     c1_huamo.obj
+ 0002:00000330       __real@3ff6000000000000    10054330     c1_huamo.obj
+ 0002:00000338       __real@41e1de5f78c00000    10054338     c3_huamo.obj
+ 0002:00000340       __real@41d59336f7800000    10054340     c3_huamo.obj
+ 0002:00000348       __real@41eec119c8c00000    10054348     c3_huamo.obj
+ 0002:00000350       __real@41ef8d49a9400000    10054350     c3_huamo.obj
+ 0002:00000358       __real@4010000000000000    10054358     c3_huamo.obj
+ 0002:00000360       __real@4018000000000000    10054360     c3_huamo.obj
+ 0002:00000368       __real@402c000000000000    10054368     c3_huamo.obj
+ 0002:00000370       __real@3cb0000000000000    10054370     c3_huamo.obj
+ 0002:00000378       __real@3ea92a737110e454    10054378     c3_huamo.obj
+ 0002:00000380       __real@3ee26bc4478dcb3f    10054380     c3_huamo.obj
+ 0002:00000388       __real@41ea1c2c7bc00000    10054388     c4_huamo.obj
+ 0002:00000390       __real@41ec3d6139800000    10054390     c4_huamo.obj
+ 0002:00000398       __real@41e3be07dea00000    10054398     c4_huamo.obj
+ 0002:000003a0       __real@41812abde0000000    100543a0     c4_huamo.obj
+ 0002:000003a8       __real@41dea79db2c00000    100543a8     c5_huamo.obj
+ 0002:000003b0       __real@41d948a15a400000    100543b0     c5_huamo.obj
+ 0002:000003b8       __real@41c65f4f86800000    100543b8     c5_huamo.obj
+ 0002:000003c0       __real@41e9e02144a00000    100543c0     c5_huamo.obj
+ 0002:000003c8       __real@408c0ccccccccccc    100543c8     c5_huamo.obj
+ 0002:000003d0       __real@41ba8531ac000000    100543d0     c6_huamo.obj
+ 0002:000003d8       __real@41b5716e88000000    100543d8     c6_huamo.obj
+ 0002:000003e0       __real@41dfe45f06000000    100543e0     c6_huamo.obj
+ 0002:000003e8       __real@41e06c896d600000    100543e8     c6_huamo.obj
+ 0002:000003f0       __real@4022000000000000    100543f0     c6_huamo.obj
+ 0002:000003f8       __real@4014000000000000    100543f8     c6_huamo.obj
+ 0002:00000400       __real@3fd3333333333333    10054400     c6_huamo.obj
+ 0002:00000408       __real@4000000000000000    10054408     c6_huamo.obj
+ 0002:00000410       __real@41d021101f800000    10054410     c7_huamo.obj
+ 0002:00000418       __real@41de58afc5800000    10054418     c7_huamo.obj
+ 0002:00000420       __real@41da2bcc92400000    10054420     c7_huamo.obj
+ 0002:00000428       __real@41edb4f80a400000    10054428     c7_huamo.obj
+ 0002:00000430       __real@3fdccccccccccccd    10054430     c7_huamo.obj
+ 0002:00000438       __real@3fd6666666666666    10054438     c7_huamo.obj
+ 0002:00000440       __real@41d5c10e84c00000    10054440     c8_huamo.obj
+ 0002:00000448       __real@41efe3c988800000    10054448     c8_huamo.obj
+ 0002:00000450       __real@41d333034b800000    10054450     c8_huamo.obj
+ 0002:00000458       __real@41e541ab56e00000    10054458     c8_huamo.obj
+ 0002:00000460       __real@3fe8000000000000    10054460     c8_huamo.obj
+ 0002:00000468       __real@41e98c358b400000    10054468     c9_huamo.obj
+ 0002:00000470       __real@41eb9a1992600000    10054470     c9_huamo.obj
+ 0002:00000478       __real@41b1b30a7c000000    10054478     c9_huamo.obj
+ 0002:00000480       __real@41b881d69f000000    10054480     c9_huamo.obj
+ 0002:00000488       __real@41e1db1395000000    10054488     c10_huamo.obj
+ 0002:00000490       __real@41e5cf423a800000    10054490     c10_huamo.obj
+ 0002:00000498       __real@41de9e4c34000000    10054498     c10_huamo.obj
+ 0002:000004a0       __real@41eb824e13a00000    100544a0     c10_huamo.obj
+ 0002:000004a8       __real@4064000000000000    100544a8     c10_huamo.obj
+ 0002:000004b0       __real@c064000000000000    100544b0     c10_huamo.obj
+ 0002:000004b8       __real@3fb999999999999a    100544b8     c10_huamo.obj
+ 0002:000004c0       __real@41ddd71d04c00000    100544c0     c11_huamo.obj
+ 0002:000004c8       __real@41c5dad7c6800000    100544c8     c11_huamo.obj
+ 0002:000004d0       __real@41d1b22073c00000    100544d0     c11_huamo.obj
+ 0002:000004d8       __real@41dc0c11ba800000    100544d8     c11_huamo.obj
+ 0002:000004e0       __real@402a000000000000    100544e0     c11_huamo.obj
+ 0002:000004e8       __real@3ff1c6a4459f8a65    100544e8     c11_huamo.obj
+ 0002:000004f0       __real@3fb852b4d8ba40d9    100544f0     c11_huamo.obj
+ 0002:000004f8       __real@3fa4f7d9b201aaa9    100544f8     c11_huamo.obj
+ 0002:00000500       __real@bff1c6a4459f8a65    10054500     c11_huamo.obj
+ 0002:00000508       __real@bfa999999999999a    10054508     c11_huamo.obj
+ 0002:00000510       __real@4041000000000000    10054510     c11_huamo.obj
+ 0002:00000518       __real@3fa999999999999a    10054518     c11_huamo.obj
+ 0002:00000520       __real@4031000000000000    10054520     c11_huamo.obj
+ 0002:00000528       __real@401a000000000000    10054528     c11_huamo.obj
+ 0002:00000530       __real@3fc999999999999a    10054530     c11_huamo.obj
+ 0002:00000538       __real@3feb333333333333    10054538     c11_huamo.obj
+ 0002:00000540       __real@3fcdb22d0e560419    10054540     c11_huamo.obj
+ 0002:00000548       __real@3f847ae147ae147b    10054548     c11_huamo.obj
+ 0002:00000550       __real@3f9489d27c393682    10054550     c11_huamo.obj
+ 0002:00000558       __real@3f83755d7a2e9a47    10054558     c11_huamo.obj
+ 0002:00000560       __real@41809f0e98000000    10054560     c24_huamo.obj
+ 0002:00000568       __real@41e2185642200000    10054568     c24_huamo.obj
+ 0002:00000570       __real@41e584e061600000    10054570     c24_huamo.obj
+ 0002:00000578       __real@41e0077287800000    10054578     c24_huamo.obj
+ 0002:00000580       _DYNAMIC_DIMENSION_DEF     10054580     huamo_sfun_registry.obj
+ 0002:00000590       __ssBadLevel2InputAccessMsg 10054590     huamo_sfun_registry.obj
+ 0002:00000718       __ssBadLevel2DirectFeedMsg 10054718     huamo_sfun_registry.obj
+ 0002:00000858       __ssBadLevel2DirectFeedSolutionMsg 10054858     huamo_sfun_registry.obj
+ 0002:000008c8       __ssBadLevel2ZeroDirectFeedMsg 100548c8     huamo_sfun_registry.obj
+ 0002:00000a08       __ssBadLevel2ZeroDirectFeedMsg2 10054a08     huamo_sfun_registry.obj
+ 0002:00000af0       __real@bff0000000000000    10054af0     huamo_sfun_registry.obj
+ 0002:00000af8       __real@4153d65940000000    10054af8     huamo_sfun_registry.obj
+ 0002:00000b00       __pRawDllMain              10054b00     MSVCRT:crtdll.obj
+ 0002:00000b00       __pDefaultRawDllMain       10054b00     MSVCRT:crtdll.obj
+ 0002:00000b0c       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 10054b0c     MSVCRT:tncleanup.obj
+ 0002:00000b10       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 10054b10     MSVCRT:tncleanup.obj
+ 0002:00000b14       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 10054b14     MSVCRT:tncleanup.obj
+ 0002:00000b18       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 10054b18     MSVCRT:tncleanup.obj
+ 0002:00000b1c       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 10054b1c     MSVCRT:tncleanup.obj
+ 0002:00000b20       __load_config_used         10054b20     MSVCRT:loadcfg.obj
+ 0002:00000b70       ___safe_se_handler_table   10054b70     <linker-defined>
+ 0002:00000b74       ___rtc_iaa                 10054b74     MSVCRT:_initsect_.obj
+ 0002:00000b78       ___rtc_izz                 10054b78     MSVCRT:_initsect_.obj
+ 0002:00000b7c       ___rtc_taa                 10054b7c     MSVCRT:_initsect_.obj
+ 0002:00000b80       ___rtc_tzz                 10054b80     MSVCRT:_initsect_.obj
+ 0002:00000bec       __IMPORT_DESCRIPTOR_sf_runtime 10054bec     sf_runtime:sf_runtime.dll
+ 0002:00000c00       __IMPORT_DESCRIPTOR_libmx  10054c00     libmx:libmx.dll
+ 0002:00000c14       __IMPORT_DESCRIPTOR_libmex 10054c14     libmex:libmex.dll
+ 0002:00000c28       __IMPORT_DESCRIPTOR_libut  10054c28     libut:libut.dll
+ 0002:00000c3c       __IMPORT_DESCRIPTOR_libmwmathutil 10054c3c     libmwmathutil:libmwmathutil.dll
+ 0002:00000c50       __IMPORT_DESCRIPTOR_MSVCR100 10054c50     MSVCRT:MSVCR100.dll
+ 0002:00000c64       __IMPORT_DESCRIPTOR_KERNEL32 10054c64     kernel32:KERNEL32.dll
+ 0002:00000c78       __NULL_IMPORT_DESCRIPTOR   10054c78     sf_runtime:sf_runtime.dll
+ 0003:00024ea4       _DYNAMIC_DIMENSION         1007aea4     huamo_sfun_registry.obj
+ 0003:00025a30       ___security_cookie         1007ba30     MSVCRT:gs_cookie.obj
+ 0003:00025a34       ___security_cookie_complement 1007ba34     MSVCRT:gs_cookie.obj
+ 0003:00025a40       ___native_dllmain_reason   1007ba40     MSVCRT:natstart.obj
+ 0003:00025a44       ___native_vcclrit_reason   1007ba44     MSVCRT:natstart.obj
+ 0003:00025c00       _sfGlobalDebugInstanceStruct 1007bc00     huamo_sfun_registry.obj
+ 0003:00025f34       ?__type_info_root_node@@3U__type_info_node@@A 1007bf34     MSVCRT:tncleanup.obj
+ 0003:00025f3c       __huamoMachineNumber_      1007bf3c     <common>
+ 0003:00025f40       ___native_startup_state    1007bf40     <common>
+ 0003:00025f44       ___native_startup_lock     1007bf44     <common>
+ 0003:00025f48       ___onexitend               1007bf48     <common>
+ 0003:00025f4c       ___onexitbegin             1007bf4c     <common>
+ 0003:00025f50       ___sse2_available          1007bf50     <common>
+ 0003:00025f54       ___dyn_tls_init_callback   1007bf54     <common>
+
+ entry point at        0001:000523ff
+
+ Static symbols
+
+ 0001:000015a0       _c1_info_helper            100025a0 f   c1_huamo.obj
+ 0001:000022e0       _c1_emlrt_marshallOut      100032e0 f   c1_huamo.obj
+ 0001:00002340       _c1_b_emlrt_marshallOut    10003340 f   c1_huamo.obj
+ 0001:00002820       _get_sim_state_c1_huamo    10003820 f   c1_huamo.obj
+ 0001:00002940       _sf_get_sim_state_info_c1_huamo 10003940 f   c1_huamo.obj
+ 0001:00002ac0       _set_sim_state_c1_huamo    10003ac0 f   c1_huamo.obj
+ 0001:00002b80       _c1_update_debugger_state_c1_huamo 10003b80 f   c1_huamo.obj
+ 0001:00002b90       _c1_emlrt_marshallIn       10003b90 f   c1_huamo.obj
+ 0001:00002be0       _c1_b_emlrt_marshallIn     10003be0 f   c1_huamo.obj
+ 0001:00002c30       _c1_d_emlrt_marshallIn     10003c30 f   c1_huamo.obj
+ 0001:00002c80       _c1_e_emlrt_marshallIn     10003c80 f   c1_huamo.obj
+ 0001:00002d30       _mdlProcessParameters_c1_huamo 10003d30 f   c1_huamo.obj
+ 0001:00002de0       _initialize_params_c1_huamo 10003de0 f   c1_huamo.obj
+ 0001:00002df0       _mdlSetWorkWidths_c1_huamo 10003df0 f   c1_huamo.obj
+ 0001:00003170       _sf_get_instance_specialization 10004170 f   c1_huamo.obj
+ 0001:00003180       _mdlStart_c1_huamo         10004180 f   c1_huamo.obj
+ 0001:00003320       _init_dsm_address_info     10004320 f   c1_huamo.obj
+ 0001:00003330       _chart_debug_initialization 10004330 f   c1_huamo.obj
+ 0001:00003800       _init_script_number_translation 10004800 f   c1_huamo.obj
+ 0001:00003810       _c1_sf_marshallOut         10004810 f   c1_huamo.obj
+ 0001:00003890       _c1_sf_marshallIn          10004890 f   c1_huamo.obj
+ 0001:00003910       _sf_opaque_initialize_c1_huamo 10004910 f   c1_huamo.obj
+ 0001:00003940       _initialize_c1_huamo       10004940 f   c1_huamo.obj
+ 0001:00003970       _sf_opaque_enable_c1_huamo 10004970 f   c1_huamo.obj
+ 0001:00003990       _enable_c1_huamo           10004990 f   c1_huamo.obj
+ 0001:000039b0       _sf_opaque_disable_c1_huamo 100049b0 f   c1_huamo.obj
+ 0001:000039d0       _disable_c1_huamo          100049d0 f   c1_huamo.obj
+ 0001:000039f0       _sf_opaque_gateway_c1_huamo 100049f0 f   c1_huamo.obj
+ 0001:00003a10       _sf_gateway_c1_huamo       10004a10 f   c1_huamo.obj
+ 0001:00004060       _sf_opaque_get_sim_state_c1_huamo 10005060 f   c1_huamo.obj
+ 0001:00004080       _sf_opaque_set_sim_state_c1_huamo 10005080 f   c1_huamo.obj
+ 0001:000040a0       _sf_opaque_terminate_c1_huamo 100050a0 f   c1_huamo.obj
+ 0001:00004130       _finalize_c1_huamo         10005130 f   c1_huamo.obj
+ 0001:00004140       _sf_opaque_init_subchart_simstructs 10005140 f   c1_huamo.obj
+ 0001:00004160       _initSimStructsc1_huamo    10005160 f   c1_huamo.obj
+ 0001:00004170       _mdlRTW_c1_huamo           10005170 f   c1_huamo.obj
+ 0001:00004200       _c2_info_helper            10005200 f   c2_huamo.obj
+ 0001:00004f40       _c2_emlrt_marshallOut      10005f40 f   c2_huamo.obj
+ 0001:00004fa0       _c2_b_emlrt_marshallOut    10005fa0 f   c2_huamo.obj
+ 0001:00005480       _get_sim_state_c2_huamo    10006480 f   c2_huamo.obj
+ 0001:000055a0       _sf_get_sim_state_info_c2_huamo 100065a0 f   c2_huamo.obj
+ 0001:00005720       _set_sim_state_c2_huamo    10006720 f   c2_huamo.obj
+ 0001:000057e0       _c2_update_debugger_state_c2_huamo 100067e0 f   c2_huamo.obj
+ 0001:000057f0       _c2_emlrt_marshallIn       100067f0 f   c2_huamo.obj
+ 0001:00005840       _c2_b_emlrt_marshallIn     10006840 f   c2_huamo.obj
+ 0001:00005890       _c2_d_emlrt_marshallIn     10006890 f   c2_huamo.obj
+ 0001:000058e0       _c2_e_emlrt_marshallIn     100068e0 f   c2_huamo.obj
+ 0001:00005990       _mdlProcessParameters_c2_huamo 10006990 f   c2_huamo.obj
+ 0001:00005a40       _initialize_params_c2_huamo 10006a40 f   c2_huamo.obj
+ 0001:00005a50       _mdlSetWorkWidths_c2_huamo 10006a50 f   c2_huamo.obj
+ 0001:00005dd0       _sf_get_instance_specialization 10006dd0 f   c2_huamo.obj
+ 0001:00005de0       _mdlStart_c2_huamo         10006de0 f   c2_huamo.obj
+ 0001:00005f80       _init_dsm_address_info     10006f80 f   c2_huamo.obj
+ 0001:00005f90       _chart_debug_initialization 10006f90 f   c2_huamo.obj
+ 0001:00006460       _init_script_number_translation 10007460 f   c2_huamo.obj
+ 0001:00006470       _c2_sf_marshallOut         10007470 f   c2_huamo.obj
+ 0001:000064f0       _c2_sf_marshallIn          100074f0 f   c2_huamo.obj
+ 0001:00006570       _sf_opaque_initialize_c2_huamo 10007570 f   c2_huamo.obj
+ 0001:000065a0       _initialize_c2_huamo       100075a0 f   c2_huamo.obj
+ 0001:000065d0       _sf_opaque_enable_c2_huamo 100075d0 f   c2_huamo.obj
+ 0001:000065f0       _enable_c2_huamo           100075f0 f   c2_huamo.obj
+ 0001:00006610       _sf_opaque_disable_c2_huamo 10007610 f   c2_huamo.obj
+ 0001:00006630       _disable_c2_huamo          10007630 f   c2_huamo.obj
+ 0001:00006650       _sf_opaque_gateway_c2_huamo 10007650 f   c2_huamo.obj
+ 0001:00006670       _sf_gateway_c2_huamo       10007670 f   c2_huamo.obj
+ 0001:00006cc0       _sf_opaque_get_sim_state_c2_huamo 10007cc0 f   c2_huamo.obj
+ 0001:00006ce0       _sf_opaque_set_sim_state_c2_huamo 10007ce0 f   c2_huamo.obj
+ 0001:00006d00       _sf_opaque_terminate_c2_huamo 10007d00 f   c2_huamo.obj
+ 0001:00006d90       _finalize_c2_huamo         10007d90 f   c2_huamo.obj
+ 0001:00006da0       _sf_opaque_init_subchart_simstructs 10007da0 f   c2_huamo.obj
+ 0001:00006dc0       _initSimStructsc2_huamo    10007dc0 f   c2_huamo.obj
+ 0001:00006dd0       _mdlRTW_c2_huamo           10007dd0 f   c2_huamo.obj
+ 0001:00006e80       _c3_info_helper            10007e80 f   c3_huamo.obj
+ 0001:0000eb50       _c3_emlrt_marshallOut      1000fb50 f   c3_huamo.obj
+ 0001:0000ebb0       _c3_b_emlrt_marshallOut    1000fbb0 f   c3_huamo.obj
+ 0001:0000ec00       _c3_b_info_helper          1000fc00 f   c3_huamo.obj
+ 0001:000168d0       _c3_c_info_helper          100178d0 f   c3_huamo.obj
+ 0001:0001a690       _get_sim_state_c3_huamo    1001b690 f   c3_huamo.obj
+ 0001:0001a7e0       _sf_get_sim_state_info_c3_huamo 1001b7e0 f   c3_huamo.obj
+ 0001:0001a960       _set_sim_state_c3_huamo    1001b960 f   c3_huamo.obj
+ 0001:0001aa60       _c3_update_debugger_state_c3_huamo 1001ba60 f   c3_huamo.obj
+ 0001:0001aa70       _c3_emlrt_marshallIn       1001ba70 f   c3_huamo.obj
+ 0001:0001aac0       _c3_b_emlrt_marshallIn     1001bac0 f   c3_huamo.obj
+ 0001:0001ab40       _c3_h_emlrt_marshallIn     1001bb40 f   c3_huamo.obj
+ 0001:0001ab90       _c3_i_emlrt_marshallIn     1001bb90 f   c3_huamo.obj
+ 0001:0001ac40       _mdlProcessParameters_c3_huamo 1001bc40 f   c3_huamo.obj
+ 0001:0001acf0       _initialize_params_c3_huamo 1001bcf0 f   c3_huamo.obj
+ 0001:0001ad00       _mdlSetWorkWidths_c3_huamo 1001bd00 f   c3_huamo.obj
+ 0001:0001b080       _sf_get_instance_specialization 1001c080 f   c3_huamo.obj
+ 0001:0001b090       _mdlStart_c3_huamo         1001c090 f   c3_huamo.obj
+ 0001:0001b230       _init_dsm_address_info     1001c230 f   c3_huamo.obj
+ 0001:0001b240       _chart_debug_initialization 1001c240 f   c3_huamo.obj
+ 0001:0001b6a0       _init_script_number_translation 1001c6a0 f   c3_huamo.obj
+ 0001:0001b6b0       _c3_sf_marshallOut         1001c6b0 f   c3_huamo.obj
+ 0001:0001b790       _c3_sf_marshallIn          1001c790 f   c3_huamo.obj
+ 0001:0001b840       _sf_opaque_initialize_c3_huamo 1001c840 f   c3_huamo.obj
+ 0001:0001b870       _initialize_c3_huamo       1001c870 f   c3_huamo.obj
+ 0001:0001b8a0       _sf_opaque_enable_c3_huamo 1001c8a0 f   c3_huamo.obj
+ 0001:0001b8c0       _enable_c3_huamo           1001c8c0 f   c3_huamo.obj
+ 0001:0001b8e0       _sf_opaque_disable_c3_huamo 1001c8e0 f   c3_huamo.obj
+ 0001:0001b900       _disable_c3_huamo          1001c900 f   c3_huamo.obj
+ 0001:0001b920       _sf_opaque_gateway_c3_huamo 1001c920 f   c3_huamo.obj
+ 0001:0001b940       _sf_gateway_c3_huamo       1001c940 f   c3_huamo.obj
+ 0001:0001c760       _c3_b_sf_marshallOut       1001d760 f   c3_huamo.obj
+ 0001:0001c7e0       _c3_b_sf_marshallIn        1001d7e0 f   c3_huamo.obj
+ 0001:0001c860       _c3_c_emlrt_marshallIn     1001d860 f   c3_huamo.obj
+ 0001:0001c8b0       _c3_c_sf_marshallOut       1001d8b0 f   c3_huamo.obj
+ 0001:0001ca40       _c3_d_sf_marshallOut       1001da40 f   c3_huamo.obj
+ 0001:0001cb20       _c3_c_sf_marshallIn        1001db20 f   c3_huamo.obj
+ 0001:0001cbd0       _c3_d_emlrt_marshallIn     1001dbd0 f   c3_huamo.obj
+ 0001:0001cc60       _c3_eps                    1001dc60 f   c3_huamo.obj
+ 0001:0001cc70       _c3_norm                   1001dc70 f   c3_huamo.obj
+ 0001:0001ce50       _c3_eml_warning            1001de50 f   c3_huamo.obj
+ 0001:0001cf10       _c3_b_eml_warning          1001df10 f   c3_huamo.obj
+ 0001:0001d040       _c3_eml_scalar_eg          1001e040 f   c3_huamo.obj
+ 0001:0001d050       _c3_e_emlrt_marshallIn     1001e050 f   c3_huamo.obj
+ 0001:0001d0a0       _c3_f_emlrt_marshallIn     1001e0a0 f   c3_huamo.obj
+ 0001:0001d120       _c3_b_eml_xgemm            1001e120 f   c3_huamo.obj
+ 0001:0001d1b0       _sf_opaque_get_sim_state_c3_huamo 1001e1b0 f   c3_huamo.obj
+ 0001:0001d1d0       _sf_opaque_set_sim_state_c3_huamo 1001e1d0 f   c3_huamo.obj
+ 0001:0001d1f0       _sf_opaque_terminate_c3_huamo 1001e1f0 f   c3_huamo.obj
+ 0001:0001d280       _finalize_c3_huamo         1001e280 f   c3_huamo.obj
+ 0001:0001d290       _sf_opaque_init_subchart_simstructs 1001e290 f   c3_huamo.obj
+ 0001:0001d2b0       _initSimStructsc3_huamo    1001e2b0 f   c3_huamo.obj
+ 0001:0001d2c0       _mdlRTW_c3_huamo           1001e2c0 f   c3_huamo.obj
+ 0001:0001d350       _c4_info_helper            1001e350 f   c4_huamo.obj
+ 0001:0001e090       _c4_emlrt_marshallOut      1001f090 f   c4_huamo.obj
+ 0001:0001e0f0       _c4_b_emlrt_marshallOut    1001f0f0 f   c4_huamo.obj
+ 0001:0001e5d0       _get_sim_state_c4_huamo    1001f5d0 f   c4_huamo.obj
+ 0001:0001e6f0       _sf_get_sim_state_info_c4_huamo 1001f6f0 f   c4_huamo.obj
+ 0001:0001e870       _set_sim_state_c4_huamo    1001f870 f   c4_huamo.obj
+ 0001:0001e930       _c4_update_debugger_state_c4_huamo 1001f930 f   c4_huamo.obj
+ 0001:0001e940       _c4_emlrt_marshallIn       1001f940 f   c4_huamo.obj
+ 0001:0001e990       _c4_b_emlrt_marshallIn     1001f990 f   c4_huamo.obj
+ 0001:0001e9e0       _c4_d_emlrt_marshallIn     1001f9e0 f   c4_huamo.obj
+ 0001:0001ea30       _c4_e_emlrt_marshallIn     1001fa30 f   c4_huamo.obj
+ 0001:0001eae0       _mdlProcessParameters_c4_huamo 1001fae0 f   c4_huamo.obj
+ 0001:0001eb90       _initialize_params_c4_huamo 1001fb90 f   c4_huamo.obj
+ 0001:0001eba0       _mdlSetWorkWidths_c4_huamo 1001fba0 f   c4_huamo.obj
+ 0001:0001ef20       _sf_get_instance_specialization 1001ff20 f   c4_huamo.obj
+ 0001:0001ef30       _mdlStart_c4_huamo         1001ff30 f   c4_huamo.obj
+ 0001:0001f0d0       _init_dsm_address_info     100200d0 f   c4_huamo.obj
+ 0001:0001f0e0       _chart_debug_initialization 100200e0 f   c4_huamo.obj
+ 0001:0001f5b0       _init_script_number_translation 100205b0 f   c4_huamo.obj
+ 0001:0001f5c0       _c4_sf_marshallOut         100205c0 f   c4_huamo.obj
+ 0001:0001f640       _c4_sf_marshallIn          10020640 f   c4_huamo.obj
+ 0001:0001f6c0       _sf_opaque_initialize_c4_huamo 100206c0 f   c4_huamo.obj
+ 0001:0001f6f0       _initialize_c4_huamo       100206f0 f   c4_huamo.obj
+ 0001:0001f720       _sf_opaque_enable_c4_huamo 10020720 f   c4_huamo.obj
+ 0001:0001f740       _enable_c4_huamo           10020740 f   c4_huamo.obj
+ 0001:0001f760       _sf_opaque_disable_c4_huamo 10020760 f   c4_huamo.obj
+ 0001:0001f780       _disable_c4_huamo          10020780 f   c4_huamo.obj
+ 0001:0001f7a0       _sf_opaque_gateway_c4_huamo 100207a0 f   c4_huamo.obj
+ 0001:0001f7c0       _sf_gateway_c4_huamo       100207c0 f   c4_huamo.obj
+ 0001:0001fe10       _sf_opaque_get_sim_state_c4_huamo 10020e10 f   c4_huamo.obj
+ 0001:0001fe30       _sf_opaque_set_sim_state_c4_huamo 10020e30 f   c4_huamo.obj
+ 0001:0001fe50       _sf_opaque_terminate_c4_huamo 10020e50 f   c4_huamo.obj
+ 0001:0001fee0       _finalize_c4_huamo         10020ee0 f   c4_huamo.obj
+ 0001:0001fef0       _sf_opaque_init_subchart_simstructs 10020ef0 f   c4_huamo.obj
+ 0001:0001ff10       _initSimStructsc4_huamo    10020f10 f   c4_huamo.obj
+ 0001:0001ff20       _mdlRTW_c4_huamo           10020f20 f   c4_huamo.obj
+ 0001:0001ffb0       _c5_info_helper            10020fb0 f   c5_huamo.obj
+ 0001:00021290       _c5_emlrt_marshallOut      10022290 f   c5_huamo.obj
+ 0001:000212f0       _c5_b_emlrt_marshallOut    100222f0 f   c5_huamo.obj
+ 0001:000217e0       _get_sim_state_c5_huamo    100227e0 f   c5_huamo.obj
+ 0001:00021930       _sf_get_sim_state_info_c5_huamo 10022930 f   c5_huamo.obj
+ 0001:00021ab0       _set_sim_state_c5_huamo    10022ab0 f   c5_huamo.obj
+ 0001:00021bb0       _c5_update_debugger_state_c5_huamo 10022bb0 f   c5_huamo.obj
+ 0001:00021bc0       _c5_emlrt_marshallIn       10022bc0 f   c5_huamo.obj
+ 0001:00021c10       _c5_b_emlrt_marshallIn     10022c10 f   c5_huamo.obj
+ 0001:00021c90       _c5_e_emlrt_marshallIn     10022c90 f   c5_huamo.obj
+ 0001:00021ce0       _c5_f_emlrt_marshallIn     10022ce0 f   c5_huamo.obj
+ 0001:00021d90       _mdlProcessParameters_c5_huamo 10022d90 f   c5_huamo.obj
+ 0001:00021e40       _initialize_params_c5_huamo 10022e40 f   c5_huamo.obj
+ 0001:00021e50       _mdlSetWorkWidths_c5_huamo 10022e50 f   c5_huamo.obj
+ 0001:000221d0       _sf_get_instance_specialization 100231d0 f   c5_huamo.obj
+ 0001:000221e0       _mdlStart_c5_huamo         100231e0 f   c5_huamo.obj
+ 0001:00022380       _init_dsm_address_info     10023380 f   c5_huamo.obj
+ 0001:00022390       _chart_debug_initialization 10023390 f   c5_huamo.obj
+ 0001:000227f0       _init_script_number_translation 100237f0 f   c5_huamo.obj
+ 0001:00022800       _c5_sf_marshallOut         10023800 f   c5_huamo.obj
+ 0001:000228e0       _c5_sf_marshallIn          100238e0 f   c5_huamo.obj
+ 0001:00022990       _sf_opaque_initialize_c5_huamo 10023990 f   c5_huamo.obj
+ 0001:000229c0       _initialize_c5_huamo       100239c0 f   c5_huamo.obj
+ 0001:000229f0       _sf_opaque_enable_c5_huamo 100239f0 f   c5_huamo.obj
+ 0001:00022a10       _enable_c5_huamo           10023a10 f   c5_huamo.obj
+ 0001:00022a30       _sf_opaque_disable_c5_huamo 10023a30 f   c5_huamo.obj
+ 0001:00022a50       _disable_c5_huamo          10023a50 f   c5_huamo.obj
+ 0001:00022a70       _sf_opaque_gateway_c5_huamo 10023a70 f   c5_huamo.obj
+ 0001:00022a90       _sf_gateway_c5_huamo       10023a90 f   c5_huamo.obj
+ 0001:00023200       _c5_b_sf_marshallOut       10024200 f   c5_huamo.obj
+ 0001:00023280       _c5_b_sf_marshallIn        10024280 f   c5_huamo.obj
+ 0001:00023300       _c5_c_emlrt_marshallIn     10024300 f   c5_huamo.obj
+ 0001:00023350       _c5_eml_error              10024350 f   c5_huamo.obj
+ 0001:00023480       _sf_opaque_get_sim_state_c5_huamo 10024480 f   c5_huamo.obj
+ 0001:000234a0       _sf_opaque_set_sim_state_c5_huamo 100244a0 f   c5_huamo.obj
+ 0001:000234c0       _sf_opaque_terminate_c5_huamo 100244c0 f   c5_huamo.obj
+ 0001:00023550       _finalize_c5_huamo         10024550 f   c5_huamo.obj
+ 0001:00023560       _sf_opaque_init_subchart_simstructs 10024560 f   c5_huamo.obj
+ 0001:00023580       _initSimStructsc5_huamo    10024580 f   c5_huamo.obj
+ 0001:00023590       _mdlRTW_c5_huamo           10024590 f   c5_huamo.obj
+ 0001:00023b90       _get_sim_state_c6_huamo    10024b90 f   c6_huamo.obj
+ 0001:00023cb0       _sf_get_sim_state_info_c6_huamo 10024cb0 f   c6_huamo.obj
+ 0001:00023e30       _set_sim_state_c6_huamo    10024e30 f   c6_huamo.obj
+ 0001:00023ef0       _c6_update_debugger_state_c6_huamo 10024ef0 f   c6_huamo.obj
+ 0001:00023f00       _c6_emlrt_marshallIn       10024f00 f   c6_huamo.obj
+ 0001:00023f50       _c6_b_emlrt_marshallIn     10024f50 f   c6_huamo.obj
+ 0001:00023fa0       _c6_d_emlrt_marshallIn     10024fa0 f   c6_huamo.obj
+ 0001:00023ff0       _c6_e_emlrt_marshallIn     10024ff0 f   c6_huamo.obj
+ 0001:000240a0       _mdlProcessParameters_c6_huamo 100250a0 f   c6_huamo.obj
+ 0001:00024150       _initialize_params_c6_huamo 10025150 f   c6_huamo.obj
+ 0001:00024160       _mdlSetWorkWidths_c6_huamo 10025160 f   c6_huamo.obj
+ 0001:00024500       _sf_get_instance_specialization 10025500 f   c6_huamo.obj
+ 0001:00024510       _mdlStart_c6_huamo         10025510 f   c6_huamo.obj
+ 0001:000246b0       _init_dsm_address_info     100256b0 f   c6_huamo.obj
+ 0001:000246c0       _chart_debug_initialization 100256c0 f   c6_huamo.obj
+ 0001:00024c50       _init_script_number_translation 10025c50 f   c6_huamo.obj
+ 0001:00024c60       _c6_sf_marshallOut         10025c60 f   c6_huamo.obj
+ 0001:00024ce0       _c6_sf_marshallIn          10025ce0 f   c6_huamo.obj
+ 0001:00024d60       _c6_b_sf_marshallOut       10025d60 f   c6_huamo.obj
+ 0001:00024de0       _sf_opaque_initialize_c6_huamo 10025de0 f   c6_huamo.obj
+ 0001:00024e10       _initialize_c6_huamo       10025e10 f   c6_huamo.obj
+ 0001:00024e40       _sf_opaque_enable_c6_huamo 10025e40 f   c6_huamo.obj
+ 0001:00024e60       _enable_c6_huamo           10025e60 f   c6_huamo.obj
+ 0001:00024e80       _sf_opaque_disable_c6_huamo 10025e80 f   c6_huamo.obj
+ 0001:00024ea0       _disable_c6_huamo          10025ea0 f   c6_huamo.obj
+ 0001:00024ec0       _sf_opaque_gateway_c6_huamo 10025ec0 f   c6_huamo.obj
+ 0001:00024ee0       _sf_gateway_c6_huamo       10025ee0 f   c6_huamo.obj
+ 0001:000254d0       _sf_opaque_get_sim_state_c6_huamo 100264d0 f   c6_huamo.obj
+ 0001:000254f0       _sf_opaque_set_sim_state_c6_huamo 100264f0 f   c6_huamo.obj
+ 0001:00025510       _sf_opaque_terminate_c6_huamo 10026510 f   c6_huamo.obj
+ 0001:000255a0       _finalize_c6_huamo         100265a0 f   c6_huamo.obj
+ 0001:000255b0       _sf_opaque_init_subchart_simstructs 100265b0 f   c6_huamo.obj
+ 0001:000255d0       _initSimStructsc6_huamo    100265d0 f   c6_huamo.obj
+ 0001:000255e0       _mdlRTW_c6_huamo           100265e0 f   c6_huamo.obj
+ 0001:00025cf0       _get_sim_state_c7_huamo    10026cf0 f   c7_huamo.obj
+ 0001:00025fb0       _sf_get_sim_state_info_c7_huamo 10026fb0 f   c7_huamo.obj
+ 0001:00026130       _set_sim_state_c7_huamo    10027130 f   c7_huamo.obj
+ 0001:00026290       _c7_update_debugger_state_c7_huamo 10027290 f   c7_huamo.obj
+ 0001:000262a0       _c7_emlrt_marshallIn       100272a0 f   c7_huamo.obj
+ 0001:000262f0       _c7_b_emlrt_marshallIn     100272f0 f   c7_huamo.obj
+ 0001:00026370       _c7_c_emlrt_marshallIn     10027370 f   c7_huamo.obj
+ 0001:000263c0       _c7_d_emlrt_marshallIn     100273c0 f   c7_huamo.obj
+ 0001:00026440       _c7_e_emlrt_marshallIn     10027440 f   c7_huamo.obj
+ 0001:00026490       _c7_f_emlrt_marshallIn     10027490 f   c7_huamo.obj
+ 0001:000264e0       _c7_h_emlrt_marshallIn     100274e0 f   c7_huamo.obj
+ 0001:00026530       _c7_i_emlrt_marshallIn     10027530 f   c7_huamo.obj
+ 0001:000265e0       _mdlProcessParameters_c7_huamo 100275e0 f   c7_huamo.obj
+ 0001:00026690       _initialize_params_c7_huamo 10027690 f   c7_huamo.obj
+ 0001:000266a0       _mdlSetWorkWidths_c7_huamo 100276a0 f   c7_huamo.obj
+ 0001:00026a40       _sf_get_instance_specialization 10027a40 f   c7_huamo.obj
+ 0001:00026a50       _mdlStart_c7_huamo         10027a50 f   c7_huamo.obj
+ 0001:00026bf0       _init_dsm_address_info     10027bf0 f   c7_huamo.obj
+ 0001:00026c00       _chart_debug_initialization 10027c00 f   c7_huamo.obj
+ 0001:00027410       _init_script_number_translation 10028410 f   c7_huamo.obj
+ 0001:00027420       _c7_c_sf_marshallOut       10028420 f   c7_huamo.obj
+ 0001:000274a0       _c7_c_sf_marshallIn        100284a0 f   c7_huamo.obj
+ 0001:00027520       _sf_opaque_initialize_c7_huamo 10028520 f   c7_huamo.obj
+ 0001:00027550       _initialize_c7_huamo       10028550 f   c7_huamo.obj
+ 0001:000275a0       _sf_opaque_enable_c7_huamo 100285a0 f   c7_huamo.obj
+ 0001:000275c0       _enable_c7_huamo           100285c0 f   c7_huamo.obj
+ 0001:000275e0       _sf_opaque_disable_c7_huamo 100285e0 f   c7_huamo.obj
+ 0001:00027600       _disable_c7_huamo          10028600 f   c7_huamo.obj
+ 0001:00027620       _sf_opaque_gateway_c7_huamo 10028620 f   c7_huamo.obj
+ 0001:00027640       _sf_gateway_c7_huamo       10028640 f   c7_huamo.obj
+ 0001:000286c0       _c7_sf_marshallOut         100296c0 f   c7_huamo.obj
+ 0001:00028770       _c7_sf_marshallIn          10029770 f   c7_huamo.obj
+ 0001:000287f0       _c7_b_sf_marshallOut       100297f0 f   c7_huamo.obj
+ 0001:000288a0       _c7_b_sf_marshallIn        100298a0 f   c7_huamo.obj
+ 0001:00028920       _sf_opaque_get_sim_state_c7_huamo 10029920 f   c7_huamo.obj
+ 0001:00028940       _sf_opaque_set_sim_state_c7_huamo 10029940 f   c7_huamo.obj
+ 0001:00028960       _sf_opaque_terminate_c7_huamo 10029960 f   c7_huamo.obj
+ 0001:000289f0       _finalize_c7_huamo         100299f0 f   c7_huamo.obj
+ 0001:00028a00       _sf_opaque_init_subchart_simstructs 10029a00 f   c7_huamo.obj
+ 0001:00028a20       _initSimStructsc7_huamo    10029a20 f   c7_huamo.obj
+ 0001:00028a30       _mdlRTW_c7_huamo           10029a30 f   c7_huamo.obj
+ 0001:00028ac0       _c8_info_helper            10029ac0 f   c8_huamo.obj
+ 0001:00029800       _c8_emlrt_marshallOut      1002a800 f   c8_huamo.obj
+ 0001:00029860       _c8_b_emlrt_marshallOut    1002a860 f   c8_huamo.obj
+ 0001:00029d40       _get_sim_state_c8_huamo    1002ad40 f   c8_huamo.obj
+ 0001:00029e60       _sf_get_sim_state_info_c8_huamo 1002ae60 f   c8_huamo.obj
+ 0001:00029fe0       _set_sim_state_c8_huamo    1002afe0 f   c8_huamo.obj
+ 0001:0002a0a0       _c8_update_debugger_state_c8_huamo 1002b0a0 f   c8_huamo.obj
+ 0001:0002a0b0       _c8_emlrt_marshallIn       1002b0b0 f   c8_huamo.obj
+ 0001:0002a100       _c8_b_emlrt_marshallIn     1002b100 f   c8_huamo.obj
+ 0001:0002a150       _c8_d_emlrt_marshallIn     1002b150 f   c8_huamo.obj
+ 0001:0002a1a0       _c8_e_emlrt_marshallIn     1002b1a0 f   c8_huamo.obj
+ 0001:0002a250       _mdlProcessParameters_c8_huamo 1002b250 f   c8_huamo.obj
+ 0001:0002a300       _initialize_params_c8_huamo 1002b300 f   c8_huamo.obj
+ 0001:0002a310       _mdlSetWorkWidths_c8_huamo 1002b310 f   c8_huamo.obj
+ 0001:0002a690       _sf_get_instance_specialization 1002b690 f   c8_huamo.obj
+ 0001:0002a6a0       _mdlStart_c8_huamo         1002b6a0 f   c8_huamo.obj
+ 0001:0002a840       _init_dsm_address_info     1002b840 f   c8_huamo.obj
+ 0001:0002a850       _chart_debug_initialization 1002b850 f   c8_huamo.obj
+ 0001:0002ad20       _init_script_number_translation 1002bd20 f   c8_huamo.obj
+ 0001:0002ad30       _c8_sf_marshallOut         1002bd30 f   c8_huamo.obj
+ 0001:0002adb0       _c8_sf_marshallIn          1002bdb0 f   c8_huamo.obj
+ 0001:0002ae30       _sf_opaque_initialize_c8_huamo 1002be30 f   c8_huamo.obj
+ 0001:0002ae60       _initialize_c8_huamo       1002be60 f   c8_huamo.obj
+ 0001:0002ae90       _sf_opaque_enable_c8_huamo 1002be90 f   c8_huamo.obj
+ 0001:0002aeb0       _enable_c8_huamo           1002beb0 f   c8_huamo.obj
+ 0001:0002aed0       _sf_opaque_disable_c8_huamo 1002bed0 f   c8_huamo.obj
+ 0001:0002aef0       _disable_c8_huamo          1002bef0 f   c8_huamo.obj
+ 0001:0002af10       _sf_opaque_gateway_c8_huamo 1002bf10 f   c8_huamo.obj
+ 0001:0002af30       _sf_gateway_c8_huamo       1002bf30 f   c8_huamo.obj
+ 0001:0002b590       _sf_opaque_get_sim_state_c8_huamo 1002c590 f   c8_huamo.obj
+ 0001:0002b5b0       _sf_opaque_set_sim_state_c8_huamo 1002c5b0 f   c8_huamo.obj
+ 0001:0002b5d0       _sf_opaque_terminate_c8_huamo 1002c5d0 f   c8_huamo.obj
+ 0001:0002b660       _finalize_c8_huamo         1002c660 f   c8_huamo.obj
+ 0001:0002b670       _sf_opaque_init_subchart_simstructs 1002c670 f   c8_huamo.obj
+ 0001:0002b690       _initSimStructsc8_huamo    1002c690 f   c8_huamo.obj
+ 0001:0002b6a0       _mdlRTW_c8_huamo           1002c6a0 f   c8_huamo.obj
+ 0001:0002b740       _c9_info_helper            1002c740 f   c9_huamo.obj
+ 0001:00033410       _c9_emlrt_marshallOut      10034410 f   c9_huamo.obj
+ 0001:00033470       _c9_b_emlrt_marshallOut    10034470 f   c9_huamo.obj
+ 0001:000334c0       _c9_b_info_helper          100344c0 f   c9_huamo.obj
+ 0001:0003b190       _c9_c_info_helper          1003c190 f   c9_huamo.obj
+ 0001:0003f590       _get_sim_state_c9_huamo    10040590 f   c9_huamo.obj
+ 0001:0003f6e0       _sf_get_sim_state_info_c9_huamo 100406e0 f   c9_huamo.obj
+ 0001:0003f860       _set_sim_state_c9_huamo    10040860 f   c9_huamo.obj
+ 0001:0003f960       _c9_update_debugger_state_c9_huamo 10040960 f   c9_huamo.obj
+ 0001:0003f970       _c9_emlrt_marshallIn       10040970 f   c9_huamo.obj
+ 0001:0003f9c0       _c9_b_emlrt_marshallIn     100409c0 f   c9_huamo.obj
+ 0001:0003fa40       _c9_h_emlrt_marshallIn     10040a40 f   c9_huamo.obj
+ 0001:0003fa90       _c9_i_emlrt_marshallIn     10040a90 f   c9_huamo.obj
+ 0001:0003fb40       _mdlProcessParameters_c9_huamo 10040b40 f   c9_huamo.obj
+ 0001:0003fbf0       _initialize_params_c9_huamo 10040bf0 f   c9_huamo.obj
+ 0001:0003fc00       _mdlSetWorkWidths_c9_huamo 10040c00 f   c9_huamo.obj
+ 0001:0003ff80       _sf_get_instance_specialization 10040f80 f   c9_huamo.obj
+ 0001:0003ff90       _mdlStart_c9_huamo         10040f90 f   c9_huamo.obj
+ 0001:00040130       _init_dsm_address_info     10041130 f   c9_huamo.obj
+ 0001:00040140       _chart_debug_initialization 10041140 f   c9_huamo.obj
+ 0001:000405a0       _init_script_number_translation 100415a0 f   c9_huamo.obj
+ 0001:000405b0       _c9_sf_marshallOut         100415b0 f   c9_huamo.obj
+ 0001:00040690       _c9_sf_marshallIn          10041690 f   c9_huamo.obj
+ 0001:00040740       _sf_opaque_initialize_c9_huamo 10041740 f   c9_huamo.obj
+ 0001:00040770       _initialize_c9_huamo       10041770 f   c9_huamo.obj
+ 0001:000407a0       _sf_opaque_enable_c9_huamo 100417a0 f   c9_huamo.obj
+ 0001:000407c0       _enable_c9_huamo           100417c0 f   c9_huamo.obj
+ 0001:000407e0       _sf_opaque_disable_c9_huamo 100417e0 f   c9_huamo.obj
+ 0001:00040800       _disable_c9_huamo          10041800 f   c9_huamo.obj
+ 0001:00040820       _sf_opaque_gateway_c9_huamo 10041820 f   c9_huamo.obj
+ 0001:00040840       _sf_gateway_c9_huamo       10041840 f   c9_huamo.obj
+ 0001:000416b0       _c9_b_sf_marshallOut       100426b0 f   c9_huamo.obj
+ 0001:00041730       _c9_b_sf_marshallIn        10042730 f   c9_huamo.obj
+ 0001:000417b0       _c9_c_emlrt_marshallIn     100427b0 f   c9_huamo.obj
+ 0001:00041800       _c9_c_sf_marshallOut       10042800 f   c9_huamo.obj
+ 0001:000419b0       _c9_d_sf_marshallOut       100429b0 f   c9_huamo.obj
+ 0001:00041a90       _c9_c_sf_marshallIn        10042a90 f   c9_huamo.obj
+ 0001:00041b40       _c9_d_emlrt_marshallIn     10042b40 f   c9_huamo.obj
+ 0001:00041bd0       _c9_eps                    10042bd0 f   c9_huamo.obj
+ 0001:00041be0       _c9_norm                   10042be0 f   c9_huamo.obj
+ 0001:00041dc0       _c9_eml_warning            10042dc0 f   c9_huamo.obj
+ 0001:00041e80       _c9_b_eml_warning          10042e80 f   c9_huamo.obj
+ 0001:00041fb0       _c9_eml_scalar_eg          10042fb0 f   c9_huamo.obj
+ 0001:00041fc0       _c9_e_emlrt_marshallIn     10042fc0 f   c9_huamo.obj
+ 0001:00042010       _c9_f_emlrt_marshallIn     10043010 f   c9_huamo.obj
+ 0001:00042090       _c9_b_eml_xgemm            10043090 f   c9_huamo.obj
+ 0001:00042120       _sf_opaque_get_sim_state_c9_huamo 10043120 f   c9_huamo.obj
+ 0001:00042140       _sf_opaque_set_sim_state_c9_huamo 10043140 f   c9_huamo.obj
+ 0001:00042160       _sf_opaque_terminate_c9_huamo 10043160 f   c9_huamo.obj
+ 0001:000421f0       _finalize_c9_huamo         100431f0 f   c9_huamo.obj
+ 0001:00042200       _sf_opaque_init_subchart_simstructs 10043200 f   c9_huamo.obj
+ 0001:00042220       _initSimStructsc9_huamo    10043220 f   c9_huamo.obj
+ 0001:00042230       _mdlRTW_c9_huamo           10043230 f   c9_huamo.obj
+ 0001:00042830       _get_sim_state_c10_huamo   10043830 f   c10_huamo.obj
+ 0001:000429f0       _sf_get_sim_state_info_c10_huamo 100439f0 f   c10_huamo.obj
+ 0001:00042b70       _set_sim_state_c10_huamo   10043b70 f   c10_huamo.obj
+ 0001:00042c60       _c10_update_debugger_state_c10_huamo 10043c60 f   c10_huamo.obj
+ 0001:00042c70       _c10_emlrt_marshallIn      10043c70 f   c10_huamo.obj
+ 0001:00042cc0       _c10_b_emlrt_marshallIn    10043cc0 f   c10_huamo.obj
+ 0001:00042d40       _c10_c_emlrt_marshallIn    10043d40 f   c10_huamo.obj
+ 0001:00042d90       _c10_d_emlrt_marshallIn    10043d90 f   c10_huamo.obj
+ 0001:00042de0       _c10_f_emlrt_marshallIn    10043de0 f   c10_huamo.obj
+ 0001:00042e30       _c10_g_emlrt_marshallIn    10043e30 f   c10_huamo.obj
+ 0001:00042ee0       _mdlProcessParameters_c10_huamo 10043ee0 f   c10_huamo.obj
+ 0001:00042f90       _initialize_params_c10_huamo 10043f90 f   c10_huamo.obj
+ 0001:00042fa0       _mdlSetWorkWidths_c10_huamo 10043fa0 f   c10_huamo.obj
+ 0001:00043340       _sf_get_instance_specialization 10044340 f   c10_huamo.obj
+ 0001:00043350       _mdlStart_c10_huamo        10044350 f   c10_huamo.obj
+ 0001:000434f0       _init_dsm_address_info     100444f0 f   c10_huamo.obj
+ 0001:00043500       _chart_debug_initialization 10044500 f   c10_huamo.obj
+ 0001:00043b60       _init_script_number_translation 10044b60 f   c10_huamo.obj
+ 0001:00043b70       _c10_b_sf_marshallOut      10044b70 f   c10_huamo.obj
+ 0001:00043bf0       _c10_b_sf_marshallIn       10044bf0 f   c10_huamo.obj
+ 0001:00043c70       _c10_c_sf_marshallOut      10044c70 f   c10_huamo.obj
+ 0001:00043cf0       _sf_opaque_initialize_c10_huamo 10044cf0 f   c10_huamo.obj
+ 0001:00043d20       _initialize_c10_huamo      10044d20 f   c10_huamo.obj
+ 0001:00043d60       _sf_opaque_enable_c10_huamo 10044d60 f   c10_huamo.obj
+ 0001:00043d80       _enable_c10_huamo          10044d80 f   c10_huamo.obj
+ 0001:00043da0       _sf_opaque_disable_c10_huamo 10044da0 f   c10_huamo.obj
+ 0001:00043dc0       _disable_c10_huamo         10044dc0 f   c10_huamo.obj
+ 0001:00043de0       _sf_opaque_gateway_c10_huamo 10044de0 f   c10_huamo.obj
+ 0001:00043e00       _sf_gateway_c10_huamo      10044e00 f   c10_huamo.obj
+ 0001:00044800       _c10_sf_marshallOut        10045800 f   c10_huamo.obj
+ 0001:000448b0       _c10_sf_marshallIn         100458b0 f   c10_huamo.obj
+ 0001:00044930       _sf_opaque_get_sim_state_c10_huamo 10045930 f   c10_huamo.obj
+ 0001:00044950       _sf_opaque_set_sim_state_c10_huamo 10045950 f   c10_huamo.obj
+ 0001:00044970       _sf_opaque_terminate_c10_huamo 10045970 f   c10_huamo.obj
+ 0001:00044a00       _finalize_c10_huamo        10045a00 f   c10_huamo.obj
+ 0001:00044a10       _sf_opaque_init_subchart_simstructs 10045a10 f   c10_huamo.obj
+ 0001:00044a30       _initSimStructsc10_huamo   10045a30 f   c10_huamo.obj
+ 0001:00044a40       _mdlRTW_c10_huamo          10045a40 f   c10_huamo.obj
+ 0001:00044ae0       _c11_info_helper           10045ae0 f   c11_huamo.obj
+ 0001:00045820       _c11_emlrt_marshallOut     10046820 f   c11_huamo.obj
+ 0001:00045880       _c11_b_emlrt_marshallOut   10046880 f   c11_huamo.obj
+ 0001:00045d70       _get_sim_state_c11_huamo   10046d70 f   c11_huamo.obj
+ 0001:00046080       _sf_get_sim_state_info_c11_huamo 10047080 f   c11_huamo.obj
+ 0001:00046200       _set_sim_state_c11_huamo   10047200 f   c11_huamo.obj
+ 0001:00046380       _c11_update_debugger_state_c11_huamo 10047380 f   c11_huamo.obj
+ 0001:00046390       _c11_emlrt_marshallIn      10047390 f   c11_huamo.obj
+ 0001:000463e0       _c11_b_emlrt_marshallIn    100473e0 f   c11_huamo.obj
+ 0001:00046460       _c11_c_emlrt_marshallIn    10047460 f   c11_huamo.obj
+ 0001:000464b0       _c11_d_emlrt_marshallIn    100474b0 f   c11_huamo.obj
+ 0001:00046530       _c11_e_emlrt_marshallIn    10047530 f   c11_huamo.obj
+ 0001:00046580       _c11_f_emlrt_marshallIn    10047580 f   c11_huamo.obj
+ 0001:00046600       _c11_g_emlrt_marshallIn    10047600 f   c11_huamo.obj
+ 0001:00046650       _c11_h_emlrt_marshallIn    10047650 f   c11_huamo.obj
+ 0001:000466c0       _c11_k_emlrt_marshallIn    100476c0 f   c11_huamo.obj
+ 0001:00046710       _c11_l_emlrt_marshallIn    10047710 f   c11_huamo.obj
+ 0001:000467c0       _mdlProcessParameters_c11_huamo 100477c0 f   c11_huamo.obj
+ 0001:00046870       _initialize_params_c11_huamo 10047870 f   c11_huamo.obj
+ 0001:00046880       _mdlSetWorkWidths_c11_huamo 10047880 f   c11_huamo.obj
+ 0001:00046c00       _sf_get_instance_specialization 10047c00 f   c11_huamo.obj
+ 0001:00046c10       _mdlStart_c11_huamo        10047c10 f   c11_huamo.obj
+ 0001:00046db0       _init_dsm_address_info     10047db0 f   c11_huamo.obj
+ 0001:00046dc0       _chart_debug_initialization 10047dc0 f   c11_huamo.obj
+ 0001:00047540       _init_script_number_translation 10048540 f   c11_huamo.obj
+ 0001:00047550       _c11_d_sf_marshallOut      10048550 f   c11_huamo.obj
+ 0001:00047610       _c11_d_sf_marshallIn       10048610 f   c11_huamo.obj
+ 0001:000476b0       _c11_e_sf_marshallOut      100486b0 f   c11_huamo.obj
+ 0001:000477a0       _sf_opaque_initialize_c11_huamo 100487a0 f   c11_huamo.obj
+ 0001:000477d0       _initialize_c11_huamo      100487d0 f   c11_huamo.obj
+ 0001:00047820       _sf_opaque_enable_c11_huamo 10048820 f   c11_huamo.obj
+ 0001:00047840       _enable_c11_huamo          10048840 f   c11_huamo.obj
+ 0001:00047860       _sf_opaque_disable_c11_huamo 10048860 f   c11_huamo.obj
+ 0001:00047880       _disable_c11_huamo         10048880 f   c11_huamo.obj
+ 0001:000478a0       _sf_opaque_gateway_c11_huamo 100488a0 f   c11_huamo.obj
+ 0001:000478c0       _sf_gateway_c11_huamo      100488c0 f   c11_huamo.obj
+ 0001:00047a60       _c11_chartstep_c11_huamo   10048a60 f   c11_huamo.obj
+ 0001:00049f40       _c11_sf_marshallOut        1004af40 f   c11_huamo.obj
+ 0001:00049ff0       _c11_sf_marshallIn         1004aff0 f   c11_huamo.obj
+ 0001:0004a070       _c11_b_sf_marshallOut      1004b070 f   c11_huamo.obj
+ 0001:0004a120       _c11_b_sf_marshallIn       1004b120 f   c11_huamo.obj
+ 0001:0004a1a0       _c11_c_sf_marshallOut      1004b1a0 f   c11_huamo.obj
+ 0001:0004a250       _c11_c_sf_marshallIn       1004b250 f   c11_huamo.obj
+ 0001:0004a2d0       _c11_f_sf_marshallOut      1004b2d0 f   c11_huamo.obj
+ 0001:0004a350       _c11_e_sf_marshallIn       1004b350 f   c11_huamo.obj
+ 0001:0004a3d0       _c11_i_emlrt_marshallIn    1004b3d0 f   c11_huamo.obj
+ 0001:0004a420       _sf_opaque_get_sim_state_c11_huamo 1004b420 f   c11_huamo.obj
+ 0001:0004a440       _sf_opaque_set_sim_state_c11_huamo 1004b440 f   c11_huamo.obj
+ 0001:0004a460       _sf_opaque_terminate_c11_huamo 1004b460 f   c11_huamo.obj
+ 0001:0004a4f0       _finalize_c11_huamo        1004b4f0 f   c11_huamo.obj
+ 0001:0004a500       _sf_opaque_init_subchart_simstructs 1004b500 f   c11_huamo.obj
+ 0001:0004a520       _initSimStructsc11_huamo   1004b520 f   c11_huamo.obj
+ 0001:0004a530       _mdlRTW_c11_huamo          1004b530 f   c11_huamo.obj
+ 0001:0004ab30       _get_sim_state_c24_huamo   1004bb30 f   c24_huamo.obj
+ 0001:0004ad80       _sf_get_sim_state_info_c24_huamo 1004bd80 f   c24_huamo.obj
+ 0001:0004af00       _set_sim_state_c24_huamo   1004bf00 f   c24_huamo.obj
+ 0001:0004b020       _c24_update_debugger_state_c24_huamo 1004c020 f   c24_huamo.obj
+ 0001:0004b030       _c24_emlrt_marshallIn      1004c030 f   c24_huamo.obj
+ 0001:0004b080       _c24_b_emlrt_marshallIn    1004c080 f   c24_huamo.obj
+ 0001:0004b100       _c24_c_emlrt_marshallIn    1004c100 f   c24_huamo.obj
+ 0001:0004b150       _c24_d_emlrt_marshallIn    1004c150 f   c24_huamo.obj
+ 0001:0004b1d0       _c24_e_emlrt_marshallIn    1004c1d0 f   c24_huamo.obj
+ 0001:0004b220       _c24_f_emlrt_marshallIn    1004c220 f   c24_huamo.obj
+ 0001:0004b270       _c24_h_emlrt_marshallIn    1004c270 f   c24_huamo.obj
+ 0001:0004b2c0       _c24_i_emlrt_marshallIn    1004c2c0 f   c24_huamo.obj
+ 0001:0004b370       _mdlProcessParameters_c24_huamo 1004c370 f   c24_huamo.obj
+ 0001:0004b420       _initialize_params_c24_huamo 1004c420 f   c24_huamo.obj
+ 0001:0004b430       _mdlSetWorkWidths_c24_huamo 1004c430 f   c24_huamo.obj
+ 0001:0004b7d0       _sf_get_instance_specialization 1004c7d0 f   c24_huamo.obj
+ 0001:0004b7e0       _mdlStart_c24_huamo        1004c7e0 f   c24_huamo.obj
+ 0001:0004b980       _init_dsm_address_info     1004c980 f   c24_huamo.obj
+ 0001:0004b990       _chart_debug_initialization 1004c990 f   c24_huamo.obj
+ 0001:0004c040       _init_script_number_translation 1004d040 f   c24_huamo.obj
+ 0001:0004c050       _c24_c_sf_marshallOut      1004d050 f   c24_huamo.obj
+ 0001:0004c0d0       _c24_c_sf_marshallIn       1004d0d0 f   c24_huamo.obj
+ 0001:0004c150       _sf_opaque_initialize_c24_huamo 1004d150 f   c24_huamo.obj
+ 0001:0004c180       _initialize_c24_huamo      1004d180 f   c24_huamo.obj
+ 0001:0004c1d0       _sf_opaque_enable_c24_huamo 1004d1d0 f   c24_huamo.obj
+ 0001:0004c1f0       _enable_c24_huamo          1004d1f0 f   c24_huamo.obj
+ 0001:0004c210       _sf_opaque_disable_c24_huamo 1004d210 f   c24_huamo.obj
+ 0001:0004c230       _disable_c24_huamo         1004d230 f   c24_huamo.obj
+ 0001:0004c250       _sf_opaque_gateway_c24_huamo 1004d250 f   c24_huamo.obj
+ 0001:0004c270       _sf_gateway_c24_huamo      1004d270 f   c24_huamo.obj
+ 0001:0004cde0       _c24_sf_marshallOut        1004dde0 f   c24_huamo.obj
+ 0001:0004ce90       _c24_sf_marshallIn         1004de90 f   c24_huamo.obj
+ 0001:0004cf10       _c24_b_sf_marshallOut      1004df10 f   c24_huamo.obj
+ 0001:0004cfc0       _c24_b_sf_marshallIn       1004dfc0 f   c24_huamo.obj
+ 0001:0004d040       _sf_opaque_get_sim_state_c24_huamo 1004e040 f   c24_huamo.obj
+ 0001:0004d060       _sf_opaque_set_sim_state_c24_huamo 1004e060 f   c24_huamo.obj
+ 0001:0004d080       _sf_opaque_terminate_c24_huamo 1004e080 f   c24_huamo.obj
+ 0001:0004d110       _finalize_c24_huamo        1004e110 f   c24_huamo.obj
+ 0001:0004d120       _sf_opaque_init_subchart_simstructs 1004e120 f   c24_huamo.obj
+ 0001:0004d140       _initSimStructsc24_huamo   1004e140 f   c24_huamo.obj
+ 0001:0004d150       _mdlRTW_c24_huamo          1004e150 f   c24_huamo.obj
+ 0001:0004d890       _getChartInfoFromSimStruct 1004e890 f   huamo_sfun_registry.obj
+ 0001:0004e990       __ssFatalError             1004f990 f   huamo_sfun_registry.obj
+ 0001:00050cf0       _ProcessMexSfunctionCmdLineCall 10051cf0 f   huamo_sfun_registry.obj
+ 0001:00050e10       _sf_debug_api_wrapper      10051e10 f   huamo_sfun_registry.obj
+ 0001:00050e40       _mdlStart                  10051e40 f   huamo_sfun_registry.obj
+ 0001:00050e60       _mdl_start_processing      10051e60 f   huamo_sfun_registry.obj
+ 0001:00050ed0       _mdlTerminate              10051ed0 f   huamo_sfun_registry.obj
+ 0001:00050ef0       _mdl_terminate_processing  10051ef0 f   huamo_sfun_registry.obj
+ 0001:00050f60       _mdlInitializeSampleTimes  10051f60 f   huamo_sfun_registry.obj
+ 0001:00050f80       _mdlZeroCrossings          10051f80 f   huamo_sfun_registry.obj
+ 0001:00050fa0       _mdl_zeroCrossings_processing 10051fa0 f   huamo_sfun_registry.obj
+ 0001:00050fd0       _mdlDerivatives            10051fd0 f   huamo_sfun_registry.obj
+ 0001:00050ff0       _mdl_derivatives_processing 10051ff0 f   huamo_sfun_registry.obj
+ 0001:00051030       _mdlInitializeConditions   10052030 f   huamo_sfun_registry.obj
+ 0001:00051050       _mdl_initialize_conditions_processing 10052050 f   huamo_sfun_registry.obj
+ 0001:00051090       _mdlEnable                 10052090 f   huamo_sfun_registry.obj
+ 0001:000510b0       _mdl_enable_processing     100520b0 f   huamo_sfun_registry.obj
+ 0001:000510e0       _mdlDisable                100520e0 f   huamo_sfun_registry.obj
+ 0001:00051100       _mdl_disable_processing    10052100 f   huamo_sfun_registry.obj
+ 0001:00051130       _mdlOutputs                10052130 f   huamo_sfun_registry.obj
+ 0001:00051150       _mdl_outputs_processing    10052150 f   huamo_sfun_registry.obj
+ 0001:00051220       _mdl_outputs_continuous_legacy 10052220 f   huamo_sfun_registry.obj
+ 0001:000512f0       _mdlGetTimeOfNextVarHit    100522f0 f   huamo_sfun_registry.obj
+ 0001:00051330       __ProcessMexSfunctionCmdLineCall 10052330 f   huamo_sfun_registry.obj
+ 0001:00051950       _mdlSetWorkWidths          10052950 f   huamo_sfun_registry.obj
+ 0001:00051970       _mdlProcessParameters      10052970 f   huamo_sfun_registry.obj
+ 0001:00051990       _mdlInitializeSizes        10052990 f   huamo_sfun_registry.obj
+ 0001:000519b0       _mdlExtModeExec            100529b0 f   huamo_sfun_registry.obj
+ 0001:000519d0       _mdl_ext_mode_exec_processing 100529d0 f   huamo_sfun_registry.obj
+ 0001:00051a10       _mdlRTW                    10052a10 f   huamo_sfun_registry.obj
+ 0001:00051a40       __CreateSimStruct          10052a40 f   huamo_sfun_registry.obj
+ 0001:00051b70       __RegNumInputPortsCB       10052b70 f   huamo_sfun_registry.obj
+ 0001:00051bd0       __RegNumOutputPortsCB      10052bd0 f   huamo_sfun_registry.obj
+ 0001:00052091       _pre_c_init                10053091 f   MSVCRT:crtdll.obj
+ 0001:000522e9       ___DllMainCRTStartup       100532e9 f   MSVCRT:crtdll.obj

@@ -1,0 +1,247 @@
+%implements s0_b0_ax3ih_Start "C"
+
+%function Start(block, system) Output
+%assign _modelSS = ""
+
+%assign tlcStartFcnOfS0B1 = OpaqueTLCBlockFcn("Start", 0, 1, 0, 2)
+%assign tlcStartFcnOfS0B2 = OpaqueTLCBlockFcn("Start", 0, 2, 0, 2)
+%assign tlcStartFcnOfS0B3 = OpaqueTLCBlockFcn("Start", 0, 3, 0, 2)
+%assign tlcStartFcnOfS0B4 = OpaqueTLCBlockFcn("Start", 0, 4, 0, 2)
+%assign tlcStartFcnOfS0B8 = OpaqueTLCBlockFcn("Start", 0, 8, 0, 2)
+%assign tlcStartFcnOfS0B9 = OpaqueTLCBlockFcn("Start", 0, 9, 0, 2)
+%assign tlcStartFcnOfS0B10 = OpaqueTLCBlockFcn("Start", 0, 10, 0, 2)
+%assign tlcStartFcnOfS0B11 = OpaqueTLCBlockFcn("Start", 0, 11, 0, 2)
+%assign tlcStartFcnOfS0B12 = OpaqueTLCBlockFcn("Start", 0, 12, 0, 2)
+%assign tlcStartFcnOfS0B13 = OpaqueTLCBlockFcn("Start", 0, 13, 0, 2)
+%<SLibCG_TrackDW(0)>\
+%<SLibCG_TrackParam(0)>\
+%<SLibCG_TrackBlockIO(0)>\
+/* Start for Constant: '<S7>/roll [rad]' */
+systema_B.rollrad = systema_P.rollrad_Value;
+/* Start for Constant: '<S7>/dot roll [rad//s]' */
+systema_B.dotrollrads = systema_P.dotrollrads_Value;
+/* Start for Constant: '<S7>/pitch [rad]' */
+systema_B.pitchrad = systema_P.pitchrad_Value;
+/* Start for Constant: '<S7>/dot pitch [rad//s]' */
+systema_B.dotpitchrads = systema_P.dotpitchrads_Value;
+/* Start for Constant: '<S7>/yaw [rad]' */
+systema_B.yawrad = systema_P.yawrad_Value;
+/* Start for Constant: '<S7>/dot yaw [rad//s]' */
+systema_B.dotyawrads = systema_P.dotyawrads_Value;
+/* Start for Constant: '<S7>/z [m]' */
+systema_B.zm = systema_P.zm_Value;
+/* Start for Constant: '<S7>/dot z  [m//s]' */
+systema_B.dotzms = systema_P.dotzms_Value;
+/* Start for Constant: '<S7>/x [m]' */
+systema_B.xm = systema_P.xm_Value;
+/* Start for Constant: '<S7>/dot x [m//s]' */
+systema_B.dotxms = systema_P.dotxms_Value;
+/* Start for Constant: '<S7>/y [m]' */
+systema_B.ym = systema_P.ym_Value;
+/* Start for Constant: '<S7>/dot y [m//s]' */
+systema_B.dotyms = systema_P.dotyms_Value;
+%<tlcStartFcnOfS0B1>\
+%<tlcStartFcnOfS0B2>\
+%<tlcStartFcnOfS0B3>\
+%<tlcStartFcnOfS0B4>\
+/* Start for RandomNumber: '<S22>/White Noise' */
+tmp = floor(systema_P.WhiteNoise_Seed);
+if (rtIsNaN(tmp) || rtIsInf(tmp)) {
+    tmp = 0.0;
+} else {
+    tmp = fmod(tmp, 4.294967296E+9);
+}
+tseed = tmp < 0.0 ? (uint32_T)-(int32_T)(uint32_T)-tmp : (uint32_T)tmp;
+r = (int32_T)(tseed >> 16U);
+t = (int32_T)(tseed & 32768U);
+tseed = ((((tseed - ((uint32_T)r << 16U)) + t) << 16U) + t) + r;
+if (tseed < 1U) {
+    tseed = 1144108930U;
+} else {
+    if (tseed > 2147483646U) {
+        tseed = 2147483646U;
+    }
+}
+systema_DW.RandSeed = tseed;
+%if SLibCG_FcnCallArgAccessed(0,2,0,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+systema_DW.NextOutput = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed"], 0, 2, 0))> * systema_P.WhiteNoise_StdDev + systema_P.WhiteNoise_Mean;
+/* End of Start for RandomNumber: '<S22>/White Noise' */
+%<tlcStartFcnOfS0B8>\
+/* Start for RandomNumber: '<S19>/White Noise' */
+tmp = floor(systema_P.WhiteNoise_Seed_g);
+if (rtIsNaN(tmp) || rtIsInf(tmp)) {
+    tmp = 0.0;
+} else {
+    tmp = fmod(tmp, 4.294967296E+9);
+}
+tseed = tmp < 0.0 ? (uint32_T)-(int32_T)(uint32_T)-tmp : (uint32_T)tmp;
+r = (int32_T)(tseed >> 16U);
+t = (int32_T)(tseed & 32768U);
+tseed = ((((tseed - ((uint32_T)r << 16U)) + t) << 16U) + t) + r;
+if (tseed < 1U) {
+    tseed = 1144108930U;
+} else {
+    if (tseed > 2147483646U) {
+        tseed = 2147483646U;
+    }
+}
+systema_DW.RandSeed_l = tseed;
+%if SLibCG_FcnCallArgAccessed(0,2,1,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+systema_DW.NextOutput_d = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed_l"], 0, 2, 1))> * systema_P.WhiteNoise_StdDev_m + systema_P.WhiteNoise_Mean_o;
+/* End of Start for RandomNumber: '<S19>/White Noise' */
+%<tlcStartFcnOfS0B9>\
+/* Start for RandomNumber: '<S21>/White Noise' */
+tmp = floor(systema_P.WhiteNoise_Seed_c);
+if (rtIsNaN(tmp) || rtIsInf(tmp)) {
+    tmp = 0.0;
+} else {
+    tmp = fmod(tmp, 4.294967296E+9);
+}
+tseed = tmp < 0.0 ? (uint32_T)-(int32_T)(uint32_T)-tmp : (uint32_T)tmp;
+r = (int32_T)(tseed >> 16U);
+t = (int32_T)(tseed & 32768U);
+tseed = ((((tseed - ((uint32_T)r << 16U)) + t) << 16U) + t) + r;
+if (tseed < 1U) {
+    tseed = 1144108930U;
+} else {
+    if (tseed > 2147483646U) {
+        tseed = 2147483646U;
+    }
+}
+systema_DW.RandSeed_j = tseed;
+%if SLibCG_FcnCallArgAccessed(0,2,2,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+systema_DW.NextOutput_l = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed_j"], 0, 2, 2))> * systema_P.WhiteNoise_StdDev_p + systema_P.WhiteNoise_Mean_l;
+/* End of Start for RandomNumber: '<S21>/White Noise' */
+%<tlcStartFcnOfS0B10>\
+/* Start for RandomNumber: '<S18>/White Noise' */
+tmp = floor(systema_P.WhiteNoise_Seed_j);
+if (rtIsNaN(tmp) || rtIsInf(tmp)) {
+    tmp = 0.0;
+} else {
+    tmp = fmod(tmp, 4.294967296E+9);
+}
+tseed = tmp < 0.0 ? (uint32_T)-(int32_T)(uint32_T)-tmp : (uint32_T)tmp;
+r = (int32_T)(tseed >> 16U);
+t = (int32_T)(tseed & 32768U);
+tseed = ((((tseed - ((uint32_T)r << 16U)) + t) << 16U) + t) + r;
+if (tseed < 1U) {
+    tseed = 1144108930U;
+} else {
+    if (tseed > 2147483646U) {
+        tseed = 2147483646U;
+    }
+}
+systema_DW.RandSeed_h = tseed;
+%if SLibCG_FcnCallArgAccessed(0,2,3,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+systema_DW.NextOutput_c = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed_h"], 0, 2, 3))> * systema_P.WhiteNoise_StdDev_l + systema_P.WhiteNoise_Mean_b;
+/* End of Start for RandomNumber: '<S18>/White Noise' */
+%<tlcStartFcnOfS0B11>\
+/* Start for RandomNumber: '<S23>/White Noise' */
+tmp = floor(systema_P.WhiteNoise_Seed_h);
+if (rtIsNaN(tmp) || rtIsInf(tmp)) {
+    tmp = 0.0;
+} else {
+    tmp = fmod(tmp, 4.294967296E+9);
+}
+tseed = tmp < 0.0 ? (uint32_T)-(int32_T)(uint32_T)-tmp : (uint32_T)tmp;
+r = (int32_T)(tseed >> 16U);
+t = (int32_T)(tseed & 32768U);
+tseed = ((((tseed - ((uint32_T)r << 16U)) + t) << 16U) + t) + r;
+if (tseed < 1U) {
+    tseed = 1144108930U;
+} else {
+    if (tseed > 2147483646U) {
+        tseed = 2147483646U;
+    }
+}
+systema_DW.RandSeed_n = tseed;
+%if SLibCG_FcnCallArgAccessed(0,2,4,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+systema_DW.NextOutput_e = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed_n"], 0, 2, 4))> * systema_P.WhiteNoise_StdDev_f + systema_P.WhiteNoise_Mean_l1;
+/* End of Start for RandomNumber: '<S23>/White Noise' */
+%<tlcStartFcnOfS0B12>\
+/* Start for RandomNumber: '<S20>/White Noise' */
+tmp = floor(systema_P.WhiteNoise_Seed_f);
+if (rtIsNaN(tmp) || rtIsInf(tmp)) {
+    tmp = 0.0;
+} else {
+    tmp = fmod(tmp, 4.294967296E+9);
+}
+tseed = tmp < 0.0 ? (uint32_T)-(int32_T)(uint32_T)-tmp : (uint32_T)tmp;
+r = (int32_T)(tseed >> 16U);
+t = (int32_T)(tseed & 32768U);
+tseed = ((((tseed - ((uint32_T)r << 16U)) + t) << 16U) + t) + r;
+if (tseed < 1U) {
+    tseed = 1144108930U;
+} else {
+    if (tseed > 2147483646U) {
+        tseed = 2147483646U;
+    }
+}
+systema_DW.RandSeed_b = tseed;
+%if SLibCG_FcnCallArgAccessed(0,2,5,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+systema_DW.NextOutput_n = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed_b"], 0, 2, 5))> * systema_P.WhiteNoise_StdDev_a + systema_P.WhiteNoise_Mean_n;
+/* End of Start for RandomNumber: '<S20>/White Noise' */
+%<tlcStartFcnOfS0B13>\
+/* Start for RandomNumber: '<S24>/White Noise' */
+tmp = floor(systema_P.WhiteNoise_Seed_i);
+if (rtIsNaN(tmp) || rtIsInf(tmp)) {
+    tmp = 0.0;
+} else {
+    tmp = fmod(tmp, 4.294967296E+9);
+}
+tseed = tmp < 0.0 ? (uint32_T)-(int32_T)(uint32_T)-tmp : (uint32_T)tmp;
+r = (int32_T)(tseed >> 16U);
+t = (int32_T)(tseed & 32768U);
+tseed = ((((tseed - ((uint32_T)r << 16U)) + t) << 16U) + t) + r;
+if (tseed < 1U) {
+    tseed = 1144108930U;
+} else {
+    if (tseed > 2147483646U) {
+        tseed = 2147483646U;
+    }
+}
+systema_DW.RandSeed_n4 = tseed;
+%if SLibCG_FcnCallArgAccessed(0,2,6,0)
+%<SLibCG_TrackDW(0)>
+%endif
+
+systema_DW.NextOutput_f = %<(SLibCGCallSubFcn("rt_nrand_Upu32_Yd_f_pw_snf", ["&systema_DW.RandSeed_n4"], 0, 2, 6))> * systema_P.WhiteNoise_StdDev_n + systema_P.WhiteNoise_Mean_j;
+/* End of Start for RandomNumber: '<S24>/White Noise' */
+
+/* Start for RateTransition: '<S14>/Rate Transition1' */
+systema_B.RateTransition1 = systema_P.RateTransition1_X0;
+%assign fcnProtoType = ""
+%openfile fcnProtoType
+static void Start(\
+%assign comma = ""
+%closefile fcnProtoType
+%<SLibCG_SetFcnProtoType(0, 2, fcnProtoType)>
+
+%assign localVarDecl = ""
+%openfile localVarDecl
+uint32_T tseed;
+int32_T r;
+int32_T t;
+real_T tmp;
+
+%closefile localVarDecl
+%<LibSetSystemField(system, "CachedStartLocalVars", localVarDecl)>
+%endfunction

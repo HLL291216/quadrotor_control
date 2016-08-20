@@ -1,0 +1,5726 @@
+%implements s0_b0_ax3ih_TLCInterface "C"
+
+%function getInputAddr_0_1_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor1"
+%endfunction
+
+%function getInput_0_1_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor1"
+%endfunction
+
+%function getOutputAddr_0_1_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay1"
+%endfunction
+
+%function getOutput_0_1_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay1"
+%endfunction
+
+%function getDWorkAddr_0_1_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay1_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_1_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay1_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_1_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay1_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_1_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay1_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_1_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay1_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_1_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay1_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_1_0_2_1_12(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay1_Delay"
+%endfunction
+
+%function getParam_0_1_0_2_1_12(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay1_Delay"
+%endfunction
+
+%function getParamAddr_0_1_0_2_1_13(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay1_InitOutput"
+%endfunction
+
+%function getParam_0_1_0_2_1_13(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay1_InitOutput"
+%endfunction
+
+%function getInputAddr_0_2_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor2"
+%endfunction
+
+%function getInput_0_2_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor2"
+%endfunction
+
+%function getOutputAddr_0_2_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay2"
+%endfunction
+
+%function getOutput_0_2_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay2"
+%endfunction
+
+%function getDWorkAddr_0_2_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay2_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_2_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay2_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_2_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay2_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_2_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay2_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_2_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_2_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_2_0_2_1_14(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay2_Delay"
+%endfunction
+
+%function getParam_0_2_0_2_1_14(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay2_Delay"
+%endfunction
+
+%function getParamAddr_0_2_0_2_1_15(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay2_InitOutput"
+%endfunction
+
+%function getParam_0_2_0_2_1_15(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay2_InitOutput"
+%endfunction
+
+%function getInputAddr_0_3_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor3"
+%endfunction
+
+%function getInput_0_3_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor3"
+%endfunction
+
+%function getOutputAddr_0_3_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay3"
+%endfunction
+
+%function getOutput_0_3_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay3"
+%endfunction
+
+%function getDWorkAddr_0_3_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay3_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_3_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay3_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_3_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay3_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_3_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay3_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_3_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay3_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_3_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay3_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_3_0_2_1_16(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay3_Delay"
+%endfunction
+
+%function getParam_0_3_0_2_1_16(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay3_Delay"
+%endfunction
+
+%function getParamAddr_0_3_0_2_1_17(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay3_InitOutput"
+%endfunction
+
+%function getParam_0_3_0_2_1_17(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay3_InitOutput"
+%endfunction
+
+%function getInputAddr_0_4_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor4"
+%endfunction
+
+%function getInput_0_4_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor4"
+%endfunction
+
+%function getOutputAddr_0_4_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay4"
+%endfunction
+
+%function getOutput_0_4_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay4"
+%endfunction
+
+%function getDWorkAddr_0_4_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_4_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_4_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_4_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_4_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay4_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_4_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay4_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_4_0_2_1_18(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay4_Delay"
+%endfunction
+
+%function getParam_0_4_0_2_1_18(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay4_Delay"
+%endfunction
+
+%function getParamAddr_0_4_0_2_1_19(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay4_InitOutput"
+%endfunction
+
+%function getParam_0_4_0_2_1_19(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay4_InitOutput"
+%endfunction
+
+%function getInputAddr_0_8_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_8_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_8_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.ROLLTransportDelay"
+%endfunction
+
+%function getOutput_0_8_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.ROLLTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_8_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.ROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_8_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.ROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_8_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.ROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_8_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.ROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_8_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.ROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_8_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.ROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_8_0_2_1_24(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.ROLLTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_8_0_2_1_24(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.ROLLTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_8_0_2_1_25(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.ROLLTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_8_0_2_1_25(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.ROLLTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_9_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_9_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_9_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotROLLTransportDelay"
+%endfunction
+
+%function getOutput_0_9_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotROLLTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_9_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_9_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_9_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_9_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_9_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_9_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_9_0_2_1_30(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotROLLTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_9_0_2_1_30(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotROLLTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_9_0_2_1_31(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotROLLTransportDelay_InitOutpu"
+%endfunction
+
+%function getParam_0_9_0_2_1_31(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotROLLTransportDelay_InitOutpu"
+%endfunction
+
+%function getInputAddr_0_10_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_10_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_10_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.PITCHTransportDelay"
+%endfunction
+
+%function getOutput_0_10_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.PITCHTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_10_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.PITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_10_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.PITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_10_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.PITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_10_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.PITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_10_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.PITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_10_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.PITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_10_0_2_1_36(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.PITCHTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_10_0_2_1_36(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.PITCHTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_10_0_2_1_37(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.PITCHTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_10_0_2_1_37(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.PITCHTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_11_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_11_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_11_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotPITCHTransportDelay"
+%endfunction
+
+%function getOutput_0_11_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotPITCHTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_11_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotPITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_11_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotPITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_11_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotPITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_11_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotPITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_11_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotPITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_11_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotPITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_11_0_2_1_42(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotPITCHTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_11_0_2_1_42(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotPITCHTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_11_0_2_1_43(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotPITCHTransportDelay_InitOutp"
+%endfunction
+
+%function getParam_0_11_0_2_1_43(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotPITCHTransportDelay_InitOutp"
+%endfunction
+
+%function getInputAddr_0_12_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_12_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_12_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.YAWTransportDelay"
+%endfunction
+
+%function getOutput_0_12_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.YAWTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_12_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.YAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_12_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.YAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_12_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.YAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_12_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.YAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_12_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.YAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_12_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.YAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_12_0_2_1_48(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.YAWTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_12_0_2_1_48(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.YAWTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_12_0_2_1_49(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.YAWTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_12_0_2_1_49(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.YAWTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_13_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_13_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_13_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotYAWTransportDelay"
+%endfunction
+
+%function getOutput_0_13_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotYAWTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_13_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotYAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_13_0_2_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotYAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_13_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotYAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_13_0_2_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotYAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_13_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotYAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_13_0_2_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotYAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_13_0_2_1_54(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotYAWTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_13_0_2_1_54(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotYAWTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_13_0_2_1_55(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotYAWTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_13_0_2_1_55(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotYAWTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_0_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.DYNAMICS" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_0_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.DYNAMICS" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_0_0_3_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.rollrad"
+%endfunction
+
+%function getInput_0_0_0_3_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.rollrad"
+%endfunction
+
+%function getInputAddr_0_0_0_3_1_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotrollrads"
+%endfunction
+
+%function getInput_0_0_0_3_1_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotrollrads"
+%endfunction
+
+%function getInputAddr_0_0_0_3_1_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.pitchrad"
+%endfunction
+
+%function getInput_0_0_0_3_1_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.pitchrad"
+%endfunction
+
+%function getInputAddr_0_0_0_3_1_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotpitchrads"
+%endfunction
+
+%function getInput_0_0_0_3_1_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotpitchrads"
+%endfunction
+
+%function getInputAddr_0_0_0_3_1_4(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.yawrad"
+%endfunction
+
+%function getInput_0_0_0_3_1_4(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.yawrad"
+%endfunction
+
+%function getInputAddr_0_0_0_3_1_5(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotyawrads"
+%endfunction
+
+%function getInput_0_0_0_3_1_5(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotyawrads"
+%endfunction
+
+%function getInputAddr_0_0_0_3_1_6(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.zm"
+%endfunction
+
+%function getInput_0_0_0_3_1_6(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.zm"
+%endfunction
+
+%function getInputAddr_0_0_0_3_1_7(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotzms"
+%endfunction
+
+%function getInput_0_0_0_3_1_7(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotzms"
+%endfunction
+
+%function getInputAddr_0_0_0_3_1_8(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.xm"
+%endfunction
+
+%function getInput_0_0_0_3_1_8(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.xm"
+%endfunction
+
+%function getInputAddr_0_0_0_3_1_9(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotxms"
+%endfunction
+
+%function getInput_0_0_0_3_1_9(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotxms"
+%endfunction
+
+%function getInputAddr_0_0_0_3_1_10(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.ym"
+%endfunction
+
+%function getInput_0_0_0_3_1_10(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.ym"
+%endfunction
+
+%function getInputAddr_0_0_0_3_1_11(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotyms"
+%endfunction
+
+%function getInput_0_0_0_3_1_11(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotyms"
+%endfunction
+
+%function getOutputAddr_0_0_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_0_0_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_0_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.Integrator_IWORK"
+%endfunction
+
+%function getDWork_0_0_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.Integrator_IWORK"
+%endfunction
+
+%function getInputAddr_0_20_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_20_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_20_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor1"
+%endfunction
+
+%function getOutput_0_20_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor1"
+%endfunction
+
+%function getParamAddr_0_20_0_3_1_64(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor1_A"
+%endfunction
+
+%function getParam_0_20_0_3_1_64(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor1_A"
+%endfunction
+
+%function getParamAddr_0_20_0_3_1_65(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor1_C"
+%endfunction
+
+%function getParam_0_20_0_3_1_65(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor1_C"
+%endfunction
+
+%function getInputAddr_0_21_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_21_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_21_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor2"
+%endfunction
+
+%function getOutput_0_21_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor2"
+%endfunction
+
+%function getParamAddr_0_21_0_3_1_68(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor2_A"
+%endfunction
+
+%function getParam_0_21_0_3_1_68(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor2_A"
+%endfunction
+
+%function getParamAddr_0_21_0_3_1_69(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor2_C"
+%endfunction
+
+%function getParam_0_21_0_3_1_69(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor2_C"
+%endfunction
+
+%function getInputAddr_0_22_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_22_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_22_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor3"
+%endfunction
+
+%function getOutput_0_22_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor3"
+%endfunction
+
+%function getParamAddr_0_22_0_3_1_72(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor3_A"
+%endfunction
+
+%function getParam_0_22_0_3_1_72(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor3_A"
+%endfunction
+
+%function getParamAddr_0_22_0_3_1_73(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor3_C"
+%endfunction
+
+%function getParam_0_22_0_3_1_73(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor3_C"
+%endfunction
+
+%function getInputAddr_0_23_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_23_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_23_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor4"
+%endfunction
+
+%function getOutput_0_23_0_3_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor4"
+%endfunction
+
+%function getParamAddr_0_23_0_3_1_76(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor4_A"
+%endfunction
+
+%function getParam_0_23_0_3_1_76(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor4_A"
+%endfunction
+
+%function getParamAddr_0_23_0_3_1_77(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor4_C"
+%endfunction
+
+%function getParam_0_23_0_3_1_77(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor4_C"
+%endfunction
+
+%function getInputAddr_0_0_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.DYNAMICS" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_0_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.DYNAMICS" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_0_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.rollrad"
+%endfunction
+
+%function getInput_0_0_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.rollrad"
+%endfunction
+
+%function getInputAddr_0_0_0_4_1_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotrollrads"
+%endfunction
+
+%function getInput_0_0_0_4_1_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotrollrads"
+%endfunction
+
+%function getInputAddr_0_0_0_4_1_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.pitchrad"
+%endfunction
+
+%function getInput_0_0_0_4_1_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.pitchrad"
+%endfunction
+
+%function getInputAddr_0_0_0_4_1_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotpitchrads"
+%endfunction
+
+%function getInput_0_0_0_4_1_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotpitchrads"
+%endfunction
+
+%function getInputAddr_0_0_0_4_1_4(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.yawrad"
+%endfunction
+
+%function getInput_0_0_0_4_1_4(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.yawrad"
+%endfunction
+
+%function getInputAddr_0_0_0_4_1_5(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotyawrads"
+%endfunction
+
+%function getInput_0_0_0_4_1_5(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotyawrads"
+%endfunction
+
+%function getInputAddr_0_0_0_4_1_6(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.zm"
+%endfunction
+
+%function getInput_0_0_0_4_1_6(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.zm"
+%endfunction
+
+%function getInputAddr_0_0_0_4_1_7(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotzms"
+%endfunction
+
+%function getInput_0_0_0_4_1_7(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotzms"
+%endfunction
+
+%function getInputAddr_0_0_0_4_1_8(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.xm"
+%endfunction
+
+%function getInput_0_0_0_4_1_8(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.xm"
+%endfunction
+
+%function getInputAddr_0_0_0_4_1_9(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotxms"
+%endfunction
+
+%function getInput_0_0_0_4_1_9(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotxms"
+%endfunction
+
+%function getInputAddr_0_0_0_4_1_10(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.ym"
+%endfunction
+
+%function getInput_0_0_0_4_1_10(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.ym"
+%endfunction
+
+%function getInputAddr_0_0_0_4_1_11(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotyms"
+%endfunction
+
+%function getInput_0_0_0_4_1_11(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotyms"
+%endfunction
+
+%function getOutputAddr_0_0_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_0_0_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_0_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.Integrator_IWORK"
+%endfunction
+
+%function getDWork_0_0_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.Integrator_IWORK"
+%endfunction
+
+%function getInputAddr_0_1_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor1"
+%endfunction
+
+%function getInput_0_1_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor1"
+%endfunction
+
+%function getOutputAddr_0_1_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay1"
+%endfunction
+
+%function getOutput_0_1_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay1"
+%endfunction
+
+%function getDWorkAddr_0_1_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay1_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_1_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay1_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_1_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay1_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_1_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay1_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_1_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay1_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_1_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay1_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_1_0_4_1_12(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay1_Delay"
+%endfunction
+
+%function getParam_0_1_0_4_1_12(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay1_Delay"
+%endfunction
+
+%function getParamAddr_0_1_0_4_1_13(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay1_InitOutput"
+%endfunction
+
+%function getParam_0_1_0_4_1_13(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay1_InitOutput"
+%endfunction
+
+%function getInputAddr_0_2_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor2"
+%endfunction
+
+%function getInput_0_2_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor2"
+%endfunction
+
+%function getOutputAddr_0_2_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay2"
+%endfunction
+
+%function getOutput_0_2_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay2"
+%endfunction
+
+%function getDWorkAddr_0_2_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay2_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_2_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay2_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_2_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay2_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_2_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay2_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_2_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_2_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_2_0_4_1_14(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay2_Delay"
+%endfunction
+
+%function getParam_0_2_0_4_1_14(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay2_Delay"
+%endfunction
+
+%function getParamAddr_0_2_0_4_1_15(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay2_InitOutput"
+%endfunction
+
+%function getParam_0_2_0_4_1_15(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay2_InitOutput"
+%endfunction
+
+%function getInputAddr_0_3_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor3"
+%endfunction
+
+%function getInput_0_3_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor3"
+%endfunction
+
+%function getOutputAddr_0_3_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay3"
+%endfunction
+
+%function getOutput_0_3_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay3"
+%endfunction
+
+%function getDWorkAddr_0_3_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay3_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_3_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay3_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_3_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay3_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_3_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay3_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_3_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay3_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_3_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay3_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_3_0_4_1_16(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay3_Delay"
+%endfunction
+
+%function getParam_0_3_0_4_1_16(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay3_Delay"
+%endfunction
+
+%function getParamAddr_0_3_0_4_1_17(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay3_InitOutput"
+%endfunction
+
+%function getParam_0_3_0_4_1_17(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay3_InitOutput"
+%endfunction
+
+%function getInputAddr_0_4_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor4"
+%endfunction
+
+%function getInput_0_4_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor4"
+%endfunction
+
+%function getOutputAddr_0_4_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay4"
+%endfunction
+
+%function getOutput_0_4_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay4"
+%endfunction
+
+%function getDWorkAddr_0_4_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_4_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_4_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_4_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_4_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay4_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_4_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay4_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_4_0_4_1_18(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay4_Delay"
+%endfunction
+
+%function getParam_0_4_0_4_1_18(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay4_Delay"
+%endfunction
+
+%function getParamAddr_0_4_0_4_1_19(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay4_InitOutput"
+%endfunction
+
+%function getParam_0_4_0_4_1_19(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay4_InitOutput"
+%endfunction
+
+%function getInputAddr_0_5_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay1"
+%endfunction
+
+%function getInput_0_5_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay1"
+%endfunction
+
+%function getInputAddr_0_5_0_4_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay2"
+%endfunction
+
+%function getInput_0_5_0_4_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay2"
+%endfunction
+
+%function getInputAddr_0_5_0_4_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay3"
+%endfunction
+
+%function getInput_0_5_0_4_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay3"
+%endfunction
+
+%function getInputAddr_0_5_0_4_0_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay4"
+%endfunction
+
+%function getInput_0_5_0_4_0_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay4"
+%endfunction
+
+%function getOutputAddr_0_5_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Bin2Om" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_0_5_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Bin2Om" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_6_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Clock"
+%endfunction
+
+%function getOutput_0_6_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Clock"
+%endfunction
+
+%function getInputAddr_0_7_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_7_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_7_0_4_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Bin2Om" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_7_0_4_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Bin2Om" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_7_0_4_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Clock"
+%endfunction
+
+%function getInput_0_7_0_4_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Clock"
+%endfunction
+
+%function getOutputAddr_0_7_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.AEROAttituderad" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_0_7_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.AEROAttituderad" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_8_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_8_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_8_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.ROLLTransportDelay"
+%endfunction
+
+%function getOutput_0_8_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.ROLLTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_8_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.ROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_8_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.ROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_8_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.ROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_8_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.ROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_8_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.ROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_8_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.ROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_8_0_4_1_24(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.ROLLTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_8_0_4_1_24(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.ROLLTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_8_0_4_1_25(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.ROLLTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_8_0_4_1_25(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.ROLLTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_9_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_9_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_9_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotROLLTransportDelay"
+%endfunction
+
+%function getOutput_0_9_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotROLLTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_9_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_9_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_9_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_9_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_9_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_9_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_9_0_4_1_30(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotROLLTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_9_0_4_1_30(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotROLLTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_9_0_4_1_31(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotROLLTransportDelay_InitOutpu"
+%endfunction
+
+%function getParam_0_9_0_4_1_31(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotROLLTransportDelay_InitOutpu"
+%endfunction
+
+%function getInputAddr_0_10_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_10_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_10_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.PITCHTransportDelay"
+%endfunction
+
+%function getOutput_0_10_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.PITCHTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_10_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.PITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_10_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.PITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_10_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.PITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_10_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.PITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_10_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.PITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_10_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.PITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_10_0_4_1_36(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.PITCHTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_10_0_4_1_36(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.PITCHTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_10_0_4_1_37(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.PITCHTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_10_0_4_1_37(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.PITCHTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_11_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_11_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_11_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotPITCHTransportDelay"
+%endfunction
+
+%function getOutput_0_11_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotPITCHTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_11_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotPITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_11_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotPITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_11_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotPITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_11_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotPITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_11_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotPITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_11_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotPITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_11_0_4_1_42(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotPITCHTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_11_0_4_1_42(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotPITCHTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_11_0_4_1_43(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotPITCHTransportDelay_InitOutp"
+%endfunction
+
+%function getParam_0_11_0_4_1_43(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotPITCHTransportDelay_InitOutp"
+%endfunction
+
+%function getInputAddr_0_12_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_12_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_12_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.YAWTransportDelay"
+%endfunction
+
+%function getOutput_0_12_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.YAWTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_12_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.YAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_12_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.YAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_12_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.YAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_12_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.YAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_12_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.YAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_12_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.YAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_12_0_4_1_48(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.YAWTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_12_0_4_1_48(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.YAWTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_12_0_4_1_49(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.YAWTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_12_0_4_1_49(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.YAWTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_13_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_13_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_13_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotYAWTransportDelay"
+%endfunction
+
+%function getOutput_0_13_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotYAWTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_13_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotYAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_13_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotYAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_13_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotYAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_13_0_4_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotYAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_13_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotYAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_13_0_4_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotYAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_13_0_4_1_54(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotYAWTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_13_0_4_1_54(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotYAWTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_13_0_4_1_55(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotYAWTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_13_0_4_1_55(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotYAWTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_14_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Sum1"
+%endfunction
+
+%function getInput_0_14_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Sum1"
+%endfunction
+
+%function getInputAddr_0_14_0_4_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Sum2"
+%endfunction
+
+%function getInput_0_14_0_4_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Sum2"
+%endfunction
+
+%function getInputAddr_0_14_0_4_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Sum4"
+%endfunction
+
+%function getInput_0_14_0_4_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Sum4"
+%endfunction
+
+%function getInputAddr_0_14_0_4_0_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Sum5"
+%endfunction
+
+%function getInput_0_14_0_4_0_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Sum5"
+%endfunction
+
+%function getInputAddr_0_14_0_4_0_4(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Sum6"
+%endfunction
+
+%function getInput_0_14_0_4_0_4(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Sum6"
+%endfunction
+
+%function getInputAddr_0_14_0_4_0_5(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Sum7"
+%endfunction
+
+%function getInput_0_14_0_4_0_5(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Sum7"
+%endfunction
+
+%function getInputAddr_0_14_0_4_0_6(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Sum8"
+%endfunction
+
+%function getInput_0_14_0_4_0_6(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Sum8"
+%endfunction
+
+%function getInputAddr_0_14_0_4_0_7(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_14_0_4_0_7(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_14_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.LPFILTER" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_0_14_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.LPFILTER" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_15_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Clock"
+%endfunction
+
+%function getInput_0_15_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Clock"
+%endfunction
+
+%function getOutputAddr_0_15_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.InterpretedMATLABFunction"
+%endfunction
+
+%function getOutput_0_15_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.InterpretedMATLABFunction"
+%endfunction
+
+%function getInputAddr_0_17_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.LPFILTER" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_17_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.LPFILTER" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_17_0_4_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotXdms"
+%endfunction
+
+%function getInput_0_17_0_4_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotXdms"
+%endfunction
+
+%function getInputAddr_0_17_0_4_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotYdms"
+%endfunction
+
+%function getInput_0_17_0_4_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotYdms"
+%endfunction
+
+%function getInputAddr_0_17_0_4_0_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.RateTransition1"
+%endfunction
+
+%function getInput_0_17_0_4_0_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.RateTransition1"
+%endfunction
+
+%function getOutputAddr_0_17_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.xySPD_CONTROL" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_0_17_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.xySPD_CONTROL" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_18_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.LPFILTER" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_18_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.LPFILTER" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_18_0_4_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.xySPD_CONTROL" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_18_0_4_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.xySPD_CONTROL" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_18_0_4_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.RateTransition1"
+%endfunction
+
+%function getInput_0_18_0_4_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.RateTransition1"
+%endfunction
+
+%function getInputAddr_0_18_0_4_0_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Yawdrad"
+%endfunction
+
+%function getInput_0_18_0_4_0_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Yawdrad"
+%endfunction
+
+%function getOutputAddr_0_18_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.ROT_CONTROL" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_0_18_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.ROT_CONTROL" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_19_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_19_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_19_0_4_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.AEROAttituderad" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_19_0_4_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.AEROAttituderad" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_19_0_4_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Bin2Om" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_19_0_4_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Bin2Om" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_19_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.DYNAMICS" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_0_19_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.DYNAMICS" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_20_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_20_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_20_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor1"
+%endfunction
+
+%function getOutput_0_20_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor1"
+%endfunction
+
+%function getParamAddr_0_20_0_4_1_64(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor1_A"
+%endfunction
+
+%function getParam_0_20_0_4_1_64(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor1_A"
+%endfunction
+
+%function getParamAddr_0_20_0_4_1_65(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor1_C"
+%endfunction
+
+%function getParam_0_20_0_4_1_65(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor1_C"
+%endfunction
+
+%function getInputAddr_0_21_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_21_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_21_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor2"
+%endfunction
+
+%function getOutput_0_21_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor2"
+%endfunction
+
+%function getParamAddr_0_21_0_4_1_68(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor2_A"
+%endfunction
+
+%function getParam_0_21_0_4_1_68(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor2_A"
+%endfunction
+
+%function getParamAddr_0_21_0_4_1_69(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor2_C"
+%endfunction
+
+%function getParam_0_21_0_4_1_69(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor2_C"
+%endfunction
+
+%function getInputAddr_0_22_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_22_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_22_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor3"
+%endfunction
+
+%function getOutput_0_22_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor3"
+%endfunction
+
+%function getParamAddr_0_22_0_4_1_72(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor3_A"
+%endfunction
+
+%function getParam_0_22_0_4_1_72(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor3_A"
+%endfunction
+
+%function getParamAddr_0_22_0_4_1_73(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor3_C"
+%endfunction
+
+%function getParam_0_22_0_4_1_73(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor3_C"
+%endfunction
+
+%function getInputAddr_0_23_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_23_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_23_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor4"
+%endfunction
+
+%function getOutput_0_23_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor4"
+%endfunction
+
+%function getParamAddr_0_23_0_4_1_76(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor4_A"
+%endfunction
+
+%function getParam_0_23_0_4_1_76(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor4_A"
+%endfunction
+
+%function getParamAddr_0_23_0_4_1_77(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor4_C"
+%endfunction
+
+%function getParam_0_23_0_4_1_77(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor4_C"
+%endfunction
+
+%function getInputAddr_0_24_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.ROT_CONTROL" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_24_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.ROT_CONTROL" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_24_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.U2bin" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_0_24_0_4_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.U2bin" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_16_0_5_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.RollRateTransition"
+%endfunction
+
+%function getInput_0_16_0_5_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.RollRateTransition"
+%endfunction
+
+%function getInputAddr_0_16_0_5_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.PitchRateTransition"
+%endfunction
+
+%function getInput_0_16_0_5_0_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.PitchRateTransition"
+%endfunction
+
+%function getInputAddr_0_16_0_5_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.ZRateTransition"
+%endfunction
+
+%function getInput_0_16_0_5_0_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.ZRateTransition"
+%endfunction
+
+%function getInputAddr_0_16_0_5_0_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.RateTransition"
+%endfunction
+
+%function getInput_0_16_0_5_0_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.RateTransition"
+%endfunction
+
+%function getOutputAddr_0_16_0_5_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.ALT_CONTROL"
+%endfunction
+
+%function getOutput_0_16_0_5_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.ALT_CONTROL"
+%endfunction
+
+%function getInputAddr_0_0_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.DYNAMICS" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_0_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.DYNAMICS" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_0_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.rollrad"
+%endfunction
+
+%function getInput_0_0_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.rollrad"
+%endfunction
+
+%function getInputAddr_0_0_0_6_1_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotrollrads"
+%endfunction
+
+%function getInput_0_0_0_6_1_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotrollrads"
+%endfunction
+
+%function getInputAddr_0_0_0_6_1_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.pitchrad"
+%endfunction
+
+%function getInput_0_0_0_6_1_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.pitchrad"
+%endfunction
+
+%function getInputAddr_0_0_0_6_1_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotpitchrads"
+%endfunction
+
+%function getInput_0_0_0_6_1_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotpitchrads"
+%endfunction
+
+%function getInputAddr_0_0_0_6_1_4(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.yawrad"
+%endfunction
+
+%function getInput_0_0_0_6_1_4(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.yawrad"
+%endfunction
+
+%function getInputAddr_0_0_0_6_1_5(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotyawrads"
+%endfunction
+
+%function getInput_0_0_0_6_1_5(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotyawrads"
+%endfunction
+
+%function getInputAddr_0_0_0_6_1_6(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.zm"
+%endfunction
+
+%function getInput_0_0_0_6_1_6(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.zm"
+%endfunction
+
+%function getInputAddr_0_0_0_6_1_7(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotzms"
+%endfunction
+
+%function getInput_0_0_0_6_1_7(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotzms"
+%endfunction
+
+%function getInputAddr_0_0_0_6_1_8(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.xm"
+%endfunction
+
+%function getInput_0_0_0_6_1_8(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.xm"
+%endfunction
+
+%function getInputAddr_0_0_0_6_1_9(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotxms"
+%endfunction
+
+%function getInput_0_0_0_6_1_9(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotxms"
+%endfunction
+
+%function getInputAddr_0_0_0_6_1_10(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.ym"
+%endfunction
+
+%function getInput_0_0_0_6_1_10(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.ym"
+%endfunction
+
+%function getInputAddr_0_0_0_6_1_11(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotyms"
+%endfunction
+
+%function getInput_0_0_0_6_1_11(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotyms"
+%endfunction
+
+%function getOutputAddr_0_0_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_0_0_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_0_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.Integrator_IWORK"
+%endfunction
+
+%function getDWork_0_0_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.Integrator_IWORK"
+%endfunction
+
+%function getInputAddr_0_1_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor1"
+%endfunction
+
+%function getInput_0_1_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor1"
+%endfunction
+
+%function getOutputAddr_0_1_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay1"
+%endfunction
+
+%function getOutput_0_1_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay1"
+%endfunction
+
+%function getDWorkAddr_0_1_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay1_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_1_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay1_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_1_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay1_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_1_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay1_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_1_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay1_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_1_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay1_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_1_0_6_1_12(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay1_Delay"
+%endfunction
+
+%function getParam_0_1_0_6_1_12(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay1_Delay"
+%endfunction
+
+%function getParamAddr_0_1_0_6_1_13(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay1_InitOutput"
+%endfunction
+
+%function getParam_0_1_0_6_1_13(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay1_InitOutput"
+%endfunction
+
+%function getInputAddr_0_2_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor2"
+%endfunction
+
+%function getInput_0_2_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor2"
+%endfunction
+
+%function getOutputAddr_0_2_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay2"
+%endfunction
+
+%function getOutput_0_2_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay2"
+%endfunction
+
+%function getDWorkAddr_0_2_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay2_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_2_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay2_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_2_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay2_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_2_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay2_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_2_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_2_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_2_0_6_1_14(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay2_Delay"
+%endfunction
+
+%function getParam_0_2_0_6_1_14(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay2_Delay"
+%endfunction
+
+%function getParamAddr_0_2_0_6_1_15(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay2_InitOutput"
+%endfunction
+
+%function getParam_0_2_0_6_1_15(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay2_InitOutput"
+%endfunction
+
+%function getInputAddr_0_3_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor3"
+%endfunction
+
+%function getInput_0_3_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor3"
+%endfunction
+
+%function getOutputAddr_0_3_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay3"
+%endfunction
+
+%function getOutput_0_3_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay3"
+%endfunction
+
+%function getDWorkAddr_0_3_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay3_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_3_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay3_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_3_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay3_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_3_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay3_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_3_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay3_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_3_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay3_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_3_0_6_1_16(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay3_Delay"
+%endfunction
+
+%function getParam_0_3_0_6_1_16(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay3_Delay"
+%endfunction
+
+%function getParamAddr_0_3_0_6_1_17(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay3_InitOutput"
+%endfunction
+
+%function getParam_0_3_0_6_1_17(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay3_InitOutput"
+%endfunction
+
+%function getInputAddr_0_4_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor4"
+%endfunction
+
+%function getInput_0_4_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor4"
+%endfunction
+
+%function getOutputAddr_0_4_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay4"
+%endfunction
+
+%function getOutput_0_4_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay4"
+%endfunction
+
+%function getDWorkAddr_0_4_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_4_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_4_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_4_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_4_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay4_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_4_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay4_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_4_0_6_1_18(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay4_Delay"
+%endfunction
+
+%function getParam_0_4_0_6_1_18(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay4_Delay"
+%endfunction
+
+%function getParamAddr_0_4_0_6_1_19(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay4_InitOutput"
+%endfunction
+
+%function getParam_0_4_0_6_1_19(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay4_InitOutput"
+%endfunction
+
+%function getInputAddr_0_8_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_8_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_8_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.ROLLTransportDelay"
+%endfunction
+
+%function getOutput_0_8_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.ROLLTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_8_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.ROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_8_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.ROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_8_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.ROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_8_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.ROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_8_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.ROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_8_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.ROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_8_0_6_1_24(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.ROLLTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_8_0_6_1_24(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.ROLLTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_8_0_6_1_25(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.ROLLTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_8_0_6_1_25(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.ROLLTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_9_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_9_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_9_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotROLLTransportDelay"
+%endfunction
+
+%function getOutput_0_9_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotROLLTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_9_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_9_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_9_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_9_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_9_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_9_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_9_0_6_1_30(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotROLLTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_9_0_6_1_30(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotROLLTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_9_0_6_1_31(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotROLLTransportDelay_InitOutpu"
+%endfunction
+
+%function getParam_0_9_0_6_1_31(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotROLLTransportDelay_InitOutpu"
+%endfunction
+
+%function getInputAddr_0_10_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_10_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_10_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.PITCHTransportDelay"
+%endfunction
+
+%function getOutput_0_10_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.PITCHTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_10_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.PITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_10_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.PITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_10_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.PITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_10_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.PITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_10_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.PITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_10_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.PITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_10_0_6_1_36(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.PITCHTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_10_0_6_1_36(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.PITCHTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_10_0_6_1_37(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.PITCHTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_10_0_6_1_37(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.PITCHTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_11_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_11_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_11_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotPITCHTransportDelay"
+%endfunction
+
+%function getOutput_0_11_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotPITCHTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_11_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotPITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_11_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotPITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_11_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotPITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_11_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotPITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_11_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotPITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_11_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotPITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_11_0_6_1_42(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotPITCHTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_11_0_6_1_42(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotPITCHTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_11_0_6_1_43(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotPITCHTransportDelay_InitOutp"
+%endfunction
+
+%function getParam_0_11_0_6_1_43(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotPITCHTransportDelay_InitOutp"
+%endfunction
+
+%function getInputAddr_0_12_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_12_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_12_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.YAWTransportDelay"
+%endfunction
+
+%function getOutput_0_12_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.YAWTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_12_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.YAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_12_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.YAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_12_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.YAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_12_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.YAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_12_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.YAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_12_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.YAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_12_0_6_1_48(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.YAWTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_12_0_6_1_48(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.YAWTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_12_0_6_1_49(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.YAWTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_12_0_6_1_49(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.YAWTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_13_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_13_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_13_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotYAWTransportDelay"
+%endfunction
+
+%function getOutput_0_13_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotYAWTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_13_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotYAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_13_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotYAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_13_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotYAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_13_0_6_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotYAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_13_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotYAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_13_0_6_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotYAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_13_0_6_1_54(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotYAWTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_13_0_6_1_54(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotYAWTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_13_0_6_1_55(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotYAWTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_13_0_6_1_55(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotYAWTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_20_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_20_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_20_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor1"
+%endfunction
+
+%function getOutput_0_20_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor1"
+%endfunction
+
+%function getParamAddr_0_20_0_6_1_64(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor1_A"
+%endfunction
+
+%function getParam_0_20_0_6_1_64(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor1_A"
+%endfunction
+
+%function getParamAddr_0_20_0_6_1_65(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor1_C"
+%endfunction
+
+%function getParam_0_20_0_6_1_65(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor1_C"
+%endfunction
+
+%function getInputAddr_0_21_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_21_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_21_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor2"
+%endfunction
+
+%function getOutput_0_21_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor2"
+%endfunction
+
+%function getParamAddr_0_21_0_6_1_68(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor2_A"
+%endfunction
+
+%function getParam_0_21_0_6_1_68(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor2_A"
+%endfunction
+
+%function getParamAddr_0_21_0_6_1_69(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor2_C"
+%endfunction
+
+%function getParam_0_21_0_6_1_69(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor2_C"
+%endfunction
+
+%function getInputAddr_0_22_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_22_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_22_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor3"
+%endfunction
+
+%function getOutput_0_22_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor3"
+%endfunction
+
+%function getParamAddr_0_22_0_6_1_72(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor3_A"
+%endfunction
+
+%function getParam_0_22_0_6_1_72(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor3_A"
+%endfunction
+
+%function getParamAddr_0_22_0_6_1_73(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor3_C"
+%endfunction
+
+%function getParam_0_22_0_6_1_73(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor3_C"
+%endfunction
+
+%function getInputAddr_0_23_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_23_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_23_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor4"
+%endfunction
+
+%function getOutput_0_23_0_6_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor4"
+%endfunction
+
+%function getParamAddr_0_23_0_6_1_76(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor4_A"
+%endfunction
+
+%function getParam_0_23_0_6_1_76(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor4_A"
+%endfunction
+
+%function getParamAddr_0_23_0_6_1_77(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor4_C"
+%endfunction
+
+%function getParam_0_23_0_6_1_77(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor4_C"
+%endfunction
+
+%function getInputAddr_0_0_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.DYNAMICS" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_0_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.DYNAMICS" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_0_0_8_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.rollrad"
+%endfunction
+
+%function getInput_0_0_0_8_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.rollrad"
+%endfunction
+
+%function getInputAddr_0_0_0_8_1_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotrollrads"
+%endfunction
+
+%function getInput_0_0_0_8_1_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotrollrads"
+%endfunction
+
+%function getInputAddr_0_0_0_8_1_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.pitchrad"
+%endfunction
+
+%function getInput_0_0_0_8_1_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.pitchrad"
+%endfunction
+
+%function getInputAddr_0_0_0_8_1_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotpitchrads"
+%endfunction
+
+%function getInput_0_0_0_8_1_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotpitchrads"
+%endfunction
+
+%function getInputAddr_0_0_0_8_1_4(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.yawrad"
+%endfunction
+
+%function getInput_0_0_0_8_1_4(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.yawrad"
+%endfunction
+
+%function getInputAddr_0_0_0_8_1_5(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotyawrads"
+%endfunction
+
+%function getInput_0_0_0_8_1_5(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotyawrads"
+%endfunction
+
+%function getInputAddr_0_0_0_8_1_6(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.zm"
+%endfunction
+
+%function getInput_0_0_0_8_1_6(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.zm"
+%endfunction
+
+%function getInputAddr_0_0_0_8_1_7(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotzms"
+%endfunction
+
+%function getInput_0_0_0_8_1_7(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotzms"
+%endfunction
+
+%function getInputAddr_0_0_0_8_1_8(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.xm"
+%endfunction
+
+%function getInput_0_0_0_8_1_8(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.xm"
+%endfunction
+
+%function getInputAddr_0_0_0_8_1_9(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotxms"
+%endfunction
+
+%function getInput_0_0_0_8_1_9(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotxms"
+%endfunction
+
+%function getInputAddr_0_0_0_8_1_10(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.ym"
+%endfunction
+
+%function getInput_0_0_0_8_1_10(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.ym"
+%endfunction
+
+%function getInputAddr_0_0_0_8_1_11(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotyms"
+%endfunction
+
+%function getInput_0_0_0_8_1_11(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotyms"
+%endfunction
+
+%function getOutputAddr_0_0_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_0_0_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_0_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.Integrator_IWORK"
+%endfunction
+
+%function getDWork_0_0_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.Integrator_IWORK"
+%endfunction
+
+%function getInputAddr_0_20_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_20_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_20_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor1"
+%endfunction
+
+%function getOutput_0_20_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor1"
+%endfunction
+
+%function getParamAddr_0_20_0_8_1_64(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor1_A"
+%endfunction
+
+%function getParam_0_20_0_8_1_64(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor1_A"
+%endfunction
+
+%function getParamAddr_0_20_0_8_1_65(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor1_C"
+%endfunction
+
+%function getParam_0_20_0_8_1_65(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor1_C"
+%endfunction
+
+%function getInputAddr_0_21_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_21_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_21_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor2"
+%endfunction
+
+%function getOutput_0_21_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor2"
+%endfunction
+
+%function getParamAddr_0_21_0_8_1_68(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor2_A"
+%endfunction
+
+%function getParam_0_21_0_8_1_68(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor2_A"
+%endfunction
+
+%function getParamAddr_0_21_0_8_1_69(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor2_C"
+%endfunction
+
+%function getParam_0_21_0_8_1_69(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor2_C"
+%endfunction
+
+%function getInputAddr_0_22_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_22_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_22_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor3"
+%endfunction
+
+%function getOutput_0_22_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor3"
+%endfunction
+
+%function getParamAddr_0_22_0_8_1_72(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor3_A"
+%endfunction
+
+%function getParam_0_22_0_8_1_72(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor3_A"
+%endfunction
+
+%function getParamAddr_0_22_0_8_1_73(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor3_C"
+%endfunction
+
+%function getParam_0_22_0_8_1_73(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor3_C"
+%endfunction
+
+%function getInputAddr_0_23_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_23_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_23_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor4"
+%endfunction
+
+%function getOutput_0_23_0_8_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor4"
+%endfunction
+
+%function getParamAddr_0_23_0_8_1_76(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor4_A"
+%endfunction
+
+%function getParam_0_23_0_8_1_76(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor4_A"
+%endfunction
+
+%function getParamAddr_0_23_0_8_1_77(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor4_C"
+%endfunction
+
+%function getParam_0_23_0_8_1_77(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor4_C"
+%endfunction
+
+%function getInputAddr_0_0_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.DYNAMICS" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_0_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.DYNAMICS" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInputAddr_0_0_0_9_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.rollrad"
+%endfunction
+
+%function getInput_0_0_0_9_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.rollrad"
+%endfunction
+
+%function getInputAddr_0_0_0_9_1_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotrollrads"
+%endfunction
+
+%function getInput_0_0_0_9_1_1(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotrollrads"
+%endfunction
+
+%function getInputAddr_0_0_0_9_1_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.pitchrad"
+%endfunction
+
+%function getInput_0_0_0_9_1_2(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.pitchrad"
+%endfunction
+
+%function getInputAddr_0_0_0_9_1_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotpitchrads"
+%endfunction
+
+%function getInput_0_0_0_9_1_3(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotpitchrads"
+%endfunction
+
+%function getInputAddr_0_0_0_9_1_4(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.yawrad"
+%endfunction
+
+%function getInput_0_0_0_9_1_4(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.yawrad"
+%endfunction
+
+%function getInputAddr_0_0_0_9_1_5(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotyawrads"
+%endfunction
+
+%function getInput_0_0_0_9_1_5(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotyawrads"
+%endfunction
+
+%function getInputAddr_0_0_0_9_1_6(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.zm"
+%endfunction
+
+%function getInput_0_0_0_9_1_6(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.zm"
+%endfunction
+
+%function getInputAddr_0_0_0_9_1_7(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotzms"
+%endfunction
+
+%function getInput_0_0_0_9_1_7(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotzms"
+%endfunction
+
+%function getInputAddr_0_0_0_9_1_8(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.xm"
+%endfunction
+
+%function getInput_0_0_0_9_1_8(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.xm"
+%endfunction
+
+%function getInputAddr_0_0_0_9_1_9(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotxms"
+%endfunction
+
+%function getInput_0_0_0_9_1_9(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotxms"
+%endfunction
+
+%function getInputAddr_0_0_0_9_1_10(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.ym"
+%endfunction
+
+%function getInput_0_0_0_9_1_10(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.ym"
+%endfunction
+
+%function getInputAddr_0_0_0_9_1_11(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotyms"
+%endfunction
+
+%function getInput_0_0_0_9_1_11(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotyms"
+%endfunction
+
+%function getOutputAddr_0_0_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutput_0_0_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_0_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.Integrator_IWORK"
+%endfunction
+
+%function getDWork_0_0_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.Integrator_IWORK"
+%endfunction
+
+%function getInputAddr_0_20_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_20_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_20_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor1"
+%endfunction
+
+%function getOutput_0_20_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor1"
+%endfunction
+
+%function getParamAddr_0_20_0_9_1_64(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor1_A"
+%endfunction
+
+%function getParam_0_20_0_9_1_64(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor1_A"
+%endfunction
+
+%function getParamAddr_0_20_0_9_1_65(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor1_C"
+%endfunction
+
+%function getParam_0_20_0_9_1_65(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor1_C"
+%endfunction
+
+%function getInputAddr_0_21_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_21_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_21_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor2"
+%endfunction
+
+%function getOutput_0_21_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor2"
+%endfunction
+
+%function getParamAddr_0_21_0_9_1_68(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor2_A"
+%endfunction
+
+%function getParam_0_21_0_9_1_68(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor2_A"
+%endfunction
+
+%function getParamAddr_0_21_0_9_1_69(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor2_C"
+%endfunction
+
+%function getParam_0_21_0_9_1_69(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor2_C"
+%endfunction
+
+%function getInputAddr_0_22_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_22_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_22_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor3"
+%endfunction
+
+%function getOutput_0_22_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor3"
+%endfunction
+
+%function getParamAddr_0_22_0_9_1_72(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor3_A"
+%endfunction
+
+%function getParam_0_22_0_9_1_72(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor3_A"
+%endfunction
+
+%function getParamAddr_0_22_0_9_1_73(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor3_C"
+%endfunction
+
+%function getParam_0_22_0_9_1_73(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor3_C"
+%endfunction
+
+%function getInputAddr_0_23_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_23_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Saturation" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_23_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor4"
+%endfunction
+
+%function getOutput_0_23_0_9_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor4"
+%endfunction
+
+%function getParamAddr_0_23_0_9_1_76(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor4_A"
+%endfunction
+
+%function getParam_0_23_0_9_1_76(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor4_A"
+%endfunction
+
+%function getParamAddr_0_23_0_9_1_77(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.Motor4_C"
+%endfunction
+
+%function getParam_0_23_0_9_1_77(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.Motor4_C"
+%endfunction
+
+%function getInputAddr_0_1_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor1"
+%endfunction
+
+%function getInput_0_1_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor1"
+%endfunction
+
+%function getOutputAddr_0_1_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay1"
+%endfunction
+
+%function getOutput_0_1_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay1"
+%endfunction
+
+%function getDWorkAddr_0_1_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay1_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_1_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay1_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_1_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay1_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_1_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay1_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_1_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay1_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_1_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay1_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_1_0_10_1_12(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay1_Delay"
+%endfunction
+
+%function getParam_0_1_0_10_1_12(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay1_Delay"
+%endfunction
+
+%function getParamAddr_0_1_0_10_1_13(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay1_InitOutput"
+%endfunction
+
+%function getParam_0_1_0_10_1_13(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay1_InitOutput"
+%endfunction
+
+%function getInputAddr_0_2_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor2"
+%endfunction
+
+%function getInput_0_2_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor2"
+%endfunction
+
+%function getOutputAddr_0_2_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay2"
+%endfunction
+
+%function getOutput_0_2_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay2"
+%endfunction
+
+%function getDWorkAddr_0_2_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay2_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_2_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay2_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_2_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay2_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_2_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay2_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_2_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_2_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay2_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_2_0_10_1_14(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay2_Delay"
+%endfunction
+
+%function getParam_0_2_0_10_1_14(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay2_Delay"
+%endfunction
+
+%function getParamAddr_0_2_0_10_1_15(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay2_InitOutput"
+%endfunction
+
+%function getParam_0_2_0_10_1_15(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay2_InitOutput"
+%endfunction
+
+%function getInputAddr_0_3_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor3"
+%endfunction
+
+%function getInput_0_3_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor3"
+%endfunction
+
+%function getOutputAddr_0_3_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay3"
+%endfunction
+
+%function getOutput_0_3_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay3"
+%endfunction
+
+%function getDWorkAddr_0_3_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay3_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_3_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay3_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_3_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay3_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_3_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay3_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_3_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay3_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_3_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay3_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_3_0_10_1_16(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay3_Delay"
+%endfunction
+
+%function getParam_0_3_0_10_1_16(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay3_Delay"
+%endfunction
+
+%function getParamAddr_0_3_0_10_1_17(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay3_InitOutput"
+%endfunction
+
+%function getParam_0_3_0_10_1_17(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay3_InitOutput"
+%endfunction
+
+%function getInputAddr_0_4_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Motor4"
+%endfunction
+
+%function getInput_0_4_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Motor4"
+%endfunction
+
+%function getOutputAddr_0_4_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.TransportDelay4"
+%endfunction
+
+%function getOutput_0_4_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.TransportDelay4"
+%endfunction
+
+%function getDWorkAddr_0_4_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_4_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay4_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_4_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_4_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay4_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_4_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.TransportDelay4_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_4_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.TransportDelay4_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_4_0_10_1_18(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay4_Delay"
+%endfunction
+
+%function getParam_0_4_0_10_1_18(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay4_Delay"
+%endfunction
+
+%function getParamAddr_0_4_0_10_1_19(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.TransportDelay4_InitOutput"
+%endfunction
+
+%function getParam_0_4_0_10_1_19(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.TransportDelay4_InitOutput"
+%endfunction
+
+%function getInputAddr_0_8_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_8_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_8_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.ROLLTransportDelay"
+%endfunction
+
+%function getOutput_0_8_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.ROLLTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_8_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.ROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_8_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.ROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_8_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.ROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_8_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.ROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_8_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.ROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_8_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.ROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_8_0_10_1_24(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.ROLLTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_8_0_10_1_24(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.ROLLTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_8_0_10_1_25(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.ROLLTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_8_0_10_1_25(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.ROLLTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_9_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_9_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_9_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotROLLTransportDelay"
+%endfunction
+
+%function getOutput_0_9_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotROLLTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_9_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_9_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotROLLTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_9_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_9_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotROLLTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_9_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_9_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotROLLTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_9_0_10_1_30(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotROLLTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_9_0_10_1_30(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotROLLTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_9_0_10_1_31(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotROLLTransportDelay_InitOutpu"
+%endfunction
+
+%function getParam_0_9_0_10_1_31(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotROLLTransportDelay_InitOutpu"
+%endfunction
+
+%function getInputAddr_0_10_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_10_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_10_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.PITCHTransportDelay"
+%endfunction
+
+%function getOutput_0_10_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.PITCHTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_10_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.PITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_10_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.PITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_10_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.PITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_10_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.PITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_10_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.PITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_10_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.PITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_10_0_10_1_36(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.PITCHTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_10_0_10_1_36(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.PITCHTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_10_0_10_1_37(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.PITCHTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_10_0_10_1_37(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.PITCHTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_11_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_11_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_11_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotPITCHTransportDelay"
+%endfunction
+
+%function getOutput_0_11_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotPITCHTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_11_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotPITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_11_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotPITCHTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_11_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotPITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_11_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotPITCHTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_11_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotPITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_11_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotPITCHTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_11_0_10_1_42(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotPITCHTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_11_0_10_1_42(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotPITCHTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_11_0_10_1_43(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotPITCHTransportDelay_InitOutp"
+%endfunction
+
+%function getParam_0_11_0_10_1_43(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotPITCHTransportDelay_InitOutp"
+%endfunction
+
+%function getInputAddr_0_12_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_12_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_12_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.YAWTransportDelay"
+%endfunction
+
+%function getOutput_0_12_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.YAWTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_12_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.YAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_12_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.YAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_12_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.YAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_12_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.YAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_12_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.YAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_12_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.YAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_12_0_10_1_48(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.YAWTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_12_0_10_1_48(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.YAWTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_12_0_10_1_49(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.YAWTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_12_0_10_1_49(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.YAWTransportDelay_InitOutput"
+%endfunction
+
+%function getInputAddr_0_13_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getInput_0_13_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.Integrator" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getOutputAddr_0_13_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "&systema_B.dotYAWTransportDelay"
+%endfunction
+
+%function getOutput_0_13_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackBlockIO(0)>
+
+%return "systema_B.dotYAWTransportDelay"
+%endfunction
+
+%function getDWorkAddr_0_13_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotYAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_13_0_10_0_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotYAWTransportDelay_RWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_13_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotYAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_13_0_10_1_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotYAWTransportDelay_IWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWorkAddr_0_13_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "&systema_DW.dotYAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getDWork_0_13_0_10_2_0(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackDW(0)>
+
+%return "systema_DW.dotYAWTransportDelay_PWORK" + SLibCG_ArrayIndexer(ucv, lcv, sigIdx)
+%endfunction
+
+%function getParamAddr_0_13_0_10_1_54(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotYAWTransportDelay_Delay"
+%endfunction
+
+%function getParam_0_13_0_10_1_54(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotYAWTransportDelay_Delay"
+%endfunction
+
+%function getParamAddr_0_13_0_10_1_55(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "&systema_P.dotYAWTransportDelay_InitOutput"
+%endfunction
+
+%function getParam_0_13_0_10_1_55(block, lcv, ucv, sigIdx, reim) void
+%<SLibCG_TrackParam(0)>
+
+%return "systema_P.dotYAWTransportDelay_InitOutput"
+%endfunction
+
